@@ -6,6 +6,7 @@ from django.db import models
 from django.utils.functional import cached_property
 from django.utils.translation import gettext_lazy as _
 from django_scopes import ScopedManager
+from i18nfield.fields import I18nCharField
 
 from pretalx.common.mixins import LogMixin
 from pretalx.common.urls import get_base_url
@@ -195,3 +196,135 @@ class TalkSlot(LogMixin, models.Model):
         vevent.add('dtend').value = self.end.astimezone(tz)
         vevent.add('description').value = self.submission.abstract or ""
         vevent.add('url').value = self.submission.urls.public.full()
+
+
+class Intermission(LogMixin, models.Model):
+    """The Intermission object represents a break or other non-talk event.
+
+    Intermissions always belong to one :class:`~pretalx.schedule.models.schedule.Schedule`.
+    """
+    event = models.ForeignKey(
+        to='event.Event', on_delete=models.PROTECT, related_name='intermissions'
+    )
+    room = models.ForeignKey(
+        to='schedule.Room',
+        on_delete=models.PROTECT,
+        related_name='intermissions',
+        null=True,
+        blank=True,
+    )
+    schedule = models.ForeignKey(
+        to='schedule.Schedule', on_delete=models.PROTECT, related_name='intermissions'
+    )
+    title = I18nCharField(max_length=200, verbose_name=_('Name'))
+    start = models.DateTimeField(null=True)
+    end = models.DateTimeField(null=True)
+
+    objects = ScopedManager(event='event')
+
+    def __str__(self):
+        """Help when debugging."""
+        return f'Intermission(event={self.event.slug}, schedule={self.schedule.version})'
+
+    @cached_property
+    def duration(self) -> int:
+        """Returns the actual duration in minutes if the talk is scheduled, and
+        the planned duration in minutes otherwise."""
+        if self.start and self.end:
+            return int((self.end - self.start).total_seconds() / 60)
+
+    @cached_property
+    def as_availability(self):
+        """'Casts' a slot as.
+
+        :class:`~pretalx.schedule.models.availability.Availability`, useful for
+        availability arithmetics.
+        """
+        from pretalx.schedule.models import Availability
+
+        return Availability(
+            start=self.start, end=self.real_end, event=self.event
+        )
+
+    @cached_property
+    def warnings(self) -> list:
+        """A list of warnings that apply to this intermission.
+
+        Warnings are dictionaries with a ``type`` (``room`` or
+        ``speaker``, for now) and a ``message`` fit for public display.
+        This property only shows availability based warnings.
+        """
+        if not self.start:
+            return []
+        warnings = []
+        availability = self.as_availability
+        if self.room:
+            if not any(
+                room_availability.contains(availability)
+                for room_availability in self.room.availabilities.all()
+            ):
+                warnings.append(
+                    {
+                        'type': 'room',
+                        'message': _(
+                            'The room is not available at the scheduled time.'
+                        ),
+                    }
+                )
+        for speaker in self.submission.speakers.all():
+            profile = speaker.event_profile(event=self.submission.event)
+            if profile.availabilities.exists() and not any(
+                speaker_availability.contains(availability)
+                for speaker_availability in profile.availabilities.all()
+            ):
+                warnings.append(
+                    {
+                        'type': 'speaker',
+                        'speaker': {
+                            'name': speaker.get_display_name(),
+                            'id': speaker.pk,
+                        },
+                        'message': _(
+                            'A speaker is not available at the scheduled time.'
+                        ),
+                    }
+                )
+            overlaps = TalkSlot.objects.filter(
+                schedule=self.schedule, submission__speakers__in=[speaker]
+            ).filter(
+                models.Q(start__lt=self.start, end__gt=self.start)
+                | models.Q(start__lt=self.end, end__gt=self.end)
+            ).exists()
+            if overlaps:
+                warnings.append(
+                    {
+                        'type': 'speaker',
+                        'speaker': {
+                            'name': speaker.get_display_name(),
+                            'id': speaker.pk,
+                        },
+                        'message': _(
+                            'A speaker is giving another talk at the scheduled time.'
+                        ),
+                    }
+                )
+
+        return warnings
+
+    def copy_to_schedule(self, new_schedule, save=True):
+        """Create a new intermission for the given
+        :class:`~pretalx.schedule.models.schedule.Schedule` with all other
+        fields identical to this one.
+        """
+        new_intermission = Intermission(schedule=new_schedule)
+
+        for field in [f for f in self._meta.fields if f.name not in ('id', 'schedule')]:
+            setattr(new_slot, field.name, getattr(self, field.name))
+
+        if save:
+            new_intermission.save()
+        return new_slot
+
+    def is_same_slot(self, other_slot) -> bool:
+        """Checks if both slots have the same room and start time."""
+        return self.room == other_slot.room and self.start == other_slot.start
