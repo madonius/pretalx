@@ -1,13 +1,13 @@
 # pretalx translation files
-# Copyright (C) Tobias 'rixx' Kunze 2017
+# Copyright (C) Emmanouil 'madonius' Kampitakis 2019
 # This file is distributed under the same license as the pretalx package.
-# Tobias Kunze <rixx@cutebit.de>, 2017.
+# Emmanouil 'madonius' Kampitakis <info@kampitakis.de>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 14:22+0000\n"
+"POT-Creation-Date: 2018-04-30 09:15-0500\n"
 "PO-Revision-Date: 2019-10-25 14:22+0000\n"
 "Last-Translator: Emmanouil 'madonius' Kampitakis <info@kampitakis.de>\n"
 "Language-Team: \n"
@@ -30,49 +30,52 @@ msgstr "Τίτλος"
 
 #: pretalx/agenda/phrases.py:8
 msgid "Thank you for your feedback!"
-msgstr "Ευχαριστούμε για την γνώμη σου!"
+msgstr "Ευχαριστούμε για τις παρατηρήσεις σας!"
 
 #: pretalx/agenda/phrases.py:9
 msgid "Thanks, we (and our speakers) appreciate your feedback!"
-msgstr "Ευχαριστούμε, εμείς (και οι ομηλητές μας) χαιρόμαστε να ακούσουμε την γνώμη σου!"
+msgstr ""
+"Ευχαριστούμε, τόσο εμείς όσο και οι ομιλητές μας εκτιμούμε τις παρατηρήσεις σας!"
 
 #: pretalx/agenda/phrases.py:12
 msgid ""
 "Nothing has changed, we just wanted to change the version name. It was going "
 "out of style."
 msgstr ""
-"Δεν άλλαξε τίποτα, απλά δέν μας άρεσε το όνομα της εκδοχής"
+"Δεν άλλαξε κάτι, απλά το όνομα της έκδοσης ήταν λίγο ξεπερασμένο και θέλαμε να το "
+"ανανεώσουμε."
 
 #: pretalx/agenda/phrases.py:13
 msgid ""
 "No changes are visible in this version, but be assured we're working on cool "
 "new versions behind the scenes."
 msgstr ""
-"Δεν άλλαξε τίποτα στην επιφάνεια, αλλά πόλλα άλλαξαν από κάτω"
+"Καμιά αλλαγή δεν είναι ορατή σ' αυτή την έκδοση, παρ'όλα αυτά δουλεύουμε στο "
+"παρασκήνιο νέες καλύτερες εκδόσεις."
 
 #: pretalx/agenda/phrases.py:16
 msgid "We released our first schedule!"
-msgstr "Δημοσιέψαμε την πρότη εκδοχή του προγράμματος!"
+msgstr "Ανακοινώθηκε μια πρώτη έκδοση του προγράμματος!"
 
 #: pretalx/agenda/phrases.py:17
 msgid "This is where it all began."
-msgstr "Εδώ άρχησαν όλα."
+msgstr "Εδώ ξεκίνησαν όλα."
 
 #: pretalx/agenda/phrases.py:18
 msgid "The first schedule was released."
-msgstr "Το πρώτο πρόγραμμα δημοσιεύτηκε."
+msgstr "Πρώτη ανακοίνωση προγράμματος."
 
 #: pretalx/agenda/phrases.py:20
 msgid "We have new talks!"
-msgstr "Έχουμε καινούριες ομιλίες!"
+msgstr "Έχουμε νέες ομιλίες!"
 
 #: pretalx/agenda/phrases.py:21
 msgid "We have a new talk: "
-msgstr "Έχουμε μία νέα ομιλία: "
+msgstr "Έχουμε μια νέα ομιλία: "
 
 #: pretalx/agenda/phrases.py:22
 msgid "Sadly, we had to cancel talks:"
-msgstr "Δυστυχώς, πρέπει να ακυρώσουμε ομιλίες:"
+msgstr "Δυστυχώς έπρεπε να ακυρώσουμε ομιλίες:"
 
 #: pretalx/agenda/phrases.py:23
 msgid "We sadly had to cancel a talk: "
@@ -83,12 +86,12 @@ msgid ""
 "We had to move some talks, so if you were planning on seeing them, check "
 "their new dates or locations:"
 msgstr ""
-"Έπρεπε να μεταφέρουμε μερικές ομηλίες – εάν ήθελες να τις δείς, κοίτα εδώ για τις νέες ώρες "
-"και χώρους:"
+"Έπρεπε να μετακινήσουμε κάποιες ομιλίες, οπότε, αν σχεδιάζατε να τις ακούσετε, "
+"ελέγξτε τις νέες τους ημερομηνίες ή τοποθεσίες:"
 
 #: pretalx/agenda/phrases.py:25
 msgid "We have moved a talk around: "
-msgstr "Μεταφέραμε μια ομιλία: "
+msgstr "Έπρεπε να μετακινήσουμε μια ομιλία: "
 
 #: pretalx/agenda/phrases.py:27
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:76
@@ -99,20 +102,21 @@ msgstr "Παρατηρήσεις"
 #: pretalx/agenda/phrases.py:28
 msgid "This review is for you personally, not for all speakers in this talk."
 msgstr ""
-"Αυτή η παρατήρηση είναι για εσένα, όχι για τους υπόλοιπους ομηλητές"
+"Αυτή η ανασκόπηση είναι για εσάς προσωπικά, όχι για όλους τους ομιλητές σε αυτή την "
+"ομιλία."
 
 #: pretalx/agenda/phrases.py:29
 #: pretalx/orga/templates/orga/submission/feedback_list.html:13
 msgid "There has been no feedback for this talk yet."
-msgstr "Δεν υπάρχουν παρατηρήσεις για αυτήν την ομιλία."
+msgstr "Δεν υπάρχουν ακόμη παρατηρήσεις για αυτή την ομιλία."
 
 #: pretalx/agenda/phrases.py:31
 msgid "Send feedback"
-msgstr "Αποστολή παρατήρησης"
+msgstr "Στείλτε παρατηρήσεις"
 
 #: pretalx/agenda/phrases.py:32
 msgid "Send review"
-msgstr "Αποστολή γνώμης"
+msgstr "Στείλτε ανασκόπηση"
 
 #: pretalx/agenda/phrases.py:35
 msgid ""
@@ -121,44 +125,48 @@ msgid ""
 "– but we'd like to ask you to take the time and find a constructive way to "
 "communicate your feedback."
 msgstr ""
-"Η γνώμη σου είναι πολύτημη για τους ομηλιτές. Για να βελτιώσουν τον τρόπο παρουσίασής τους. "
-"Κάθε σύντομο μύνημα μπορεί να είναι πολύτιμο στον ομιλιτή. Σε παρακαλούμε να βρείς τον χρόνο "
-"να κάνεις την κρητική σου εποικοδομητική."
+"Οι ανασκοπήσεις είναι ένα πολύτιμο εργαλείο για τους ομιλητές προκειμένου να "
+"βελτιώσουν το περιεχόμενο και την παρουσίαση της ομιλίας τους. Ακόμη και μια πολύ "
+"μικρή ανασκόπηση μπορεί να αποδειχθεί πολύ χρήσιμη για έναν ομιλητή - θα θέλαμε όμως "
+"να σας ζητήσουμε να αφιερώσετε το χρόνο για να επικοινωνήσετε τις παρατηρήσεις σας με "
+"ένα δομημένο τρόπο."
 
 #: pretalx/agenda/phrases.py:39
 msgid "You can't give feedback for this talk at this time."
-msgstr "Προς το παρών, δεν μπορείς να υποβάλεις την γνώμη σου για αυτήν την ομιλία."
+msgstr "Προς το παρόν, δε μπορείτε να κάνετε κάποια παρατήρηση γι' αυτή την ομιλία."
 
 #: pretalx/agenda/phrases.py:41
 msgid ""
 "You are currently viewing the editable schedule version, which is unreleased "
 "and may change at any time."
 msgstr ""
-"Αυτή είναι μή δημοσιευμένη εκδοχή του προγράμματος. Μπορει να αλλάξει κάθε στιγμή"
+"Για την ώρα βλέπετε μια προσωρινή έκδοση του προγράμματος, που δεν έχει εκδοθεί κι "
+"ενδέχεται ν' αλλάξει."
 
 #: pretalx/agenda/phrases.py:42
 msgid "This talk will not be recorded."
-msgstr "Αυτή η ομιλία δεν θα Βιντεοσκοπηθεί."
+msgstr "Αυτή η ομιλία δε θα καταγραφεί."
 
 #: pretalx/agenda/phrases.py:43
 msgid "Other talks by this speaker:"
-msgstr "Άλλες ομιλίες με αυτόν τον ομιλιτή:"
+msgstr "Άλλες ομιλίες του ίδιου ομιλητή:"
 
 #: pretalx/agenda/phrases.py:44
 msgid "This speaker also holds:"
-msgstr "Αυτός ο ομηλιτής έχει επίσης:"
+msgstr "Του ίδιου ομιλητή:"
 
 #: pretalx/agenda/templates/agenda/base.html:22
 msgid "This schedule-related page is non-public. Only organisers can see it."
 msgstr ""
-"Αυτή η σελίδα δεν έχει δημοσιευθεί. Μόνο οργανωτές μπουν να την δουν."
+"Αυτή η σελίδα αφορά το πρόγραμμα και δεν είναι δημόσια. Μόνο οι διοργανωτές μπορούν "
+"να τη δουν."
 
 #: pretalx/agenda/templates/agenda/changelog.html:10
 #: pretalx/agenda/templates/agenda/schedule.html:60
 #: pretalx/orga/templates/orga/schedule/release.html:71
 #: pretalx/orga/templates/orga/schedule/release.html:81
 msgid "Version"
-msgstr "Εκδωχή"
+msgstr "Έκδοση"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:17
 #: pretalx/agenda/templates/agenda/changelog_block.html:28
@@ -172,7 +180,7 @@ msgstr "από"
 #: pretalx/agenda/templates/agenda/feed/description.html:4
 #, python-format
 msgid "A new %(event_name)s schedule has been released!"
-msgstr "Ένα νέο πρόγραμμα %(event_name) δημοσιεύθηκε!"
+msgstr "Ένα νέο %(event_name)s πρόγραμμα είναι διαθέσιμο!"
 
 #: pretalx/agenda/templates/agenda/feed/description.html:8
 #, python-format
@@ -181,7 +189,7 @@ msgstr "Το πρώτο πρόγραμμα %(event_name) δημοσιεύθηκ�
 
 #: pretalx/agenda/templates/agenda/feedback.html:8
 msgid "Feedback for"
-msgstr "Γνώμη για"
+msgstr "Παρατήρησεις γιά"
 
 #: pretalx/agenda/templates/agenda/header_row.html:5 pretalx/event/stages.py:81
 #: pretalx/orga/templates/orga/base.html:284
@@ -231,11 +239,11 @@ msgstr ""
 
 #: pretalx/agenda/templates/agenda/schedule.html:61
 msgid "Changelog"
-msgstr "Ηστορικό"
+msgstr "Αλλαγές"
 
 #: pretalx/agenda/templates/agenda/schedule.html:62
 msgid "Feed"
-msgstr "Feed"
+msgstr "Ροή"
 
 #: pretalx/agenda/templates/agenda/schedule.html:150
 #, python-format
@@ -252,8 +260,8 @@ msgid ""
 "conference. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 msgstr ""
-"Προετοιμάσαμε μια λίστα καλών παρουσιάσεων ώστε να πάρεις μία ιδέα για το συνέδριό μας. "
-"Αυτό δέν είναι το τελικό μας πρόγραμμα."
+"Προετοιμάσαμε μια λίστα καλών παρουσιάσεων ώστε να πάρεις μία ιδέα για "
+"το συνέδριό μας. Αυτό δέν είναι το τελικό μας πρόγραμμα."
 
 #: pretalx/agenda/templates/agenda/sneakpeek.html:16
 msgid ""
@@ -275,7 +283,7 @@ msgstr "Δεν βρέθηκε ομηλητής για την αναζήτησή 
 
 #: pretalx/agenda/templates/agenda/talk.html:100
 msgid "See also:"
-msgstr "Βλέπε επίσης:"
+msgstr "Δείτε επίσης:"
 
 #: pretalx/agenda/templates/agenda/talk.html:126
 msgid "This talk's header image"
@@ -314,15 +322,15 @@ msgstr "Η προεπισκόπηση απενεργοποίθηκε γιατί 
 #: pretalx/agenda/views/talk.py:143
 #, python-brace-format
 msgid "The talk “{title}” at {event}"
-msgstr "Η ομιλία „{title}“, {event}"
+msgstr "Η ομιλία «{title}», {event}"
 
 #: pretalx/cfp/forms/auth.py:30 pretalx/person/forms.py:232
 msgid "New password"
-msgstr "Καινούριος κωδικός"
+msgstr "Νέος κωδικός"
 
 #: pretalx/cfp/forms/submissions.py:6
 msgid "Speaker E-Mail"
-msgstr "E-Mail του ομιλιτή"
+msgstr "E-Mail Ομιλητή"
 
 #: pretalx/cfp/forms/submissions.py:7 pretalx/mail/models.py:33
 #: pretalx/mail/models.py:179
@@ -330,7 +338,7 @@ msgstr "E-Mail του ομιλιτή"
 #: pretalx/orga/templates/orga/mails/sent_list.html:16
 #: pretalx/person/models/information.py:27
 msgid "Subject"
-msgstr "Υποκέιμενο"
+msgstr "Θέμα"
 
 #: pretalx/cfp/forms/submissions.py:8 pretalx/mail/models.py:36
 #: pretalx/mail/models.py:180 pretalx/person/models/information.py:28
@@ -360,17 +368,15 @@ msgid ""
 "I'm looking forward to it!\n"
 "{speaker}"
 msgstr ""
-"Γειά σου!\n"
+"Γεισ σας!\n"
 "\n"
-"θα ήθελα να σε προσκαλέσω να παρουσιάσεις μαζί μου\n"
-"\n"
-"  „{title}“\n"
-"\n"
-"({event}}. Παρακάλω ακολούθησε το σύνδεσμο:\n"
+"Θα ήθελα να σας προσκαλέσω να γίνετε ομιλητής στην ομιλία μου »{title}«\n"
+"στην εκδήλωση {event}. Παρακαλώ ακολουθήστε αυτό τον σύνδεσμο για να δηλώσετε "
+"συμμετοχή:\n"
 "\n"
 "  {url}\n"
 "\n"
-"Ανηπομονώ!\n"
+"Ανυπομονώ!\n"
 "{speaker}"
 
 #: pretalx/cfp/phrases.py:9
@@ -381,21 +387,22 @@ msgid ""
 "spam inbox!"
 msgstr ""
 "Εάν γνωρίζουμε έναν χρήστη με αυτήν την διεύθηνση (που δέν ζήτησε καινούριο "
-"κωδικό τις περασμένες 24 ώρες), θα σου στείλουμε e-mail με περαιτέρω οδηγίες. "
-"Εάν δεν λάβεις e-mail στα επόμενα λεπτά, κοίταξε στο spam"
+"κωδικό τις περασμένες 24 ώρες), θα σας στείλουμε e-mail με περαιτέρω οδηγίες. "
+"Εάν δεν λάβεις e-mail στα επόμενα λεπτά, ελέγξτε το spam σας"
 
 #: pretalx/cfp/phrases.py:13
 msgid ""
 "This link was not valid. Make sure you copied the complete URL from the "
 "email and that the email is no more than 24 hours old."
 msgstr ""
-"Αυτός ο σύνδεσμος είναι άκυρος. Παρακαλώ έλγξε αν αντέγραψες"
-"Der Link war nicht valide - bitte prüfe, dass du wirklich die vollständige "
-"URL kopiert hast und die E-Mail nicht älter als 24 Stunden ist."
+"Αυτός ο σύνδεσμος δεν ήταν έγκυρος. Σιγουρευτείτε ότι αντιγράψατε "
+"ολόκληρο το URL από το e-mail και ότι το e-mail έχει σταλεί μέσα "
+"στο τελευταίο 24ωρο."
 
 #: pretalx/cfp/phrases.py:16
 msgid "Awesome! You can now log in using your new password."
-msgstr "Jupp, du kannst dich jetzt mit deinem neuen Passwort anmelden."
+msgstr ""
+"Τέλεια! Μπορείτε πλέον να συνδεθείτε χρησιμοποιώντας το νέο σας κωδικό πρόσβασης."
 
 #: pretalx/cfp/phrases.py:19
 msgid ""
@@ -403,21 +410,17 @@ msgid ""
 "excellent support for English in pretalx, but if you encounter issues or "
 "errors, please contact us!"
 msgstr ""
-"Deine Spracheinstellungen wurden gespeichert. Wir bilden uns ein, hier gutes "
-"Deutsch zu schreiben, aber wenn du Probleme oder gar Fehler findest, sag uns "
-"bitte Bescheid!"
-
-#: pretalx/cfp/phrases.py:23
-msgid "Your submission has been withdrawn."
-msgstr "Deine Einreichung wurde zurückgezogen."
+"Οι γλωσσικές σας προτιμήσεις ενημερώθηκαν. Θέλουμε να πιστεύουμε πως έχουμε "
+"εξαιρετική υποστήριξη στα Ελληνικά στο pretalx, αλλά αν αντιμετωπίσετε θέματα ή λάθη, "
+"παρακαλούμε επικοινωνήστε μαζί μας!"
 
 #: pretalx/cfp/phrases.py:24
 msgid ""
 "Your submission can't be withdrawn at this time – please contact us if you "
 "need to withdraw your submission!"
 msgstr ""
-"Deine Einreichung kann gerade nicht zurückgezogen werden – bitte kontaktiere "
-"uns direkt, wenn du das tun willst."
+"Η αίτησή σας δε μπορεί να αποσυρθεί για την ώρα - παρακαλούμε επικοινωνήστε μαζί μας "
+"αν χρειάζεται να αποσύρετε την αίτησή σας!"
 
 #: pretalx/cfp/phrases.py:25
 msgid ""
@@ -428,55 +431,52 @@ msgstr "Deine Einreichung wurde bestätigt – wir freuen uns auf dich!"
 msgid ""
 "This submission has already been confirmed – we're looking forward to seeing "
 "you!"
-msgstr "Deine Einreichung war schon bestätigt – wir freuen uns auf Dich!"
+msgstr "Η αίτησή σας έχει επιβεβαιωθεί – ανυπομονούμε να σας δούμε!"
 
 #: pretalx/cfp/phrases.py:27
 msgid ""
 "This submission cannot be confirmed at this time – please contact us if you "
 "think this is an error."
 msgstr ""
-"Deine Einreichung kann gerade nicht bestätigt werden – bitte wende dich "
-"direkt an uns, wenn das verkehrt ist."
+"Αυτή η αίτηση δε μπορεί να επιβεβαιωθεί για την ώρα – παρακαλούμε επικοινωνήστε μαζί "
+"μας αν πιστεύετε ότι αυτό είναι λάθος."
 
 #: pretalx/cfp/phrases.py:28
 msgid "This submission cannot be edited anymore."
-msgstr "Die Einreichung kann nicht mehr bearbeitet werden."
+msgstr "Δεν μπορείτε πια να επεξεργαστείτε αυτή την αίτηση."
 
 #: pretalx/cfp/phrases.py:30
 msgid "Your account has now been deleted."
-msgstr "Dein Account wurde gelöscht."
+msgstr "Ο λογαριασμός σας έχει πλέον διαγραφεί."
 
 #: pretalx/cfp/phrases.py:31
 msgid "Are you really sure? Please tick the box"
-msgstr "Wirklich? Bitte setze diesen Haken"
+msgstr "Είστε πραγματικά σίγουρος/η; Παρακαλώ τσεκάρετε το κουτάκι"
 
 #: pretalx/cfp/phrases.py:33
 msgid "Please provide a valid email address."
-msgstr "Bitte gib eine gültige Mailadresse an."
+msgstr "Παρακαλώ δώστε μια έγκυρη ηλεκτρονική διεύθυνση."
 
 #: pretalx/cfp/phrases.py:34
 msgid "The invitation was sent!"
-msgstr "Die Einladung wurde verschickt."
+msgstr "Η πρόσκληση έχει σταλεί!"
 
 #: pretalx/cfp/phrases.py:35
 msgid "You are now part of this submission! Please fill in your profile below."
-msgstr "Du bist jetzt Teil dieser Einreichung! Bitte füll dein Profil aus."
-
-#: pretalx/cfp/phrases.py:37
-msgid "This event currently does not accept new submissions, sorry!"
-msgstr "Diese Veranstaltung nimmt gerade keine Einreichungen an."
+msgstr ""
+"Η αίτησή σας έχει σχεδόν ολοκληρωθεί! Παρακαλώ συμπληρώστε το προφίλ σας παρακάτω."
 
 #: pretalx/cfp/phrases.py:38
 msgid "Your talk has been submitted successfully!"
-msgstr "Dein Talk wurde erfolgreich eingereicht!"
+msgstr "Η ομιλία σας έχει υποβληθεί επιτυχώς!"
 
 #: pretalx/cfp/phrases.py:39
 msgid ""
 "We are experiencing difficulties when sending mails, but your talk was "
 "submitted successfully!"
 msgstr ""
-"Wir haben gerade Schwierigkeiten beim Mailversand, aber dein Talk wurde "
-"erfolgreich eingereicht."
+"Αντιμετωπίζουμε δυσκολίες στέλνοντας mails, παρ' όλα αυτά η ομιλία σας έχει υποβληθεί "
+"επιτυχώς!"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:20
 #, python-format
@@ -484,81 +484,79 @@ msgid ""
 "You can enter submissions until %(deadline)s (%(timezone)s), "
 "%(until_string)s from now."
 msgstr ""
-"Du kannst Einreichungen bis %(deadline)s (%(timezone)s) abschicken – noch "
-"%(until_string)s."
+"Μπορείτε να υποβάλετε τις αιτήσεις σας μέχρι τις %(deadline)s "
+"(%(timezone)s)."
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:24
 #, python-format
 msgid "This Call for Papers closed on %(deadline)s (%(timezone)s)."
 msgstr ""
-"Einreichungen konnten bis %(deadline)s (%(timezone)s) abgegeben werden."
+"Μπορούσατε να υποβάλετε αιτήσεισ μέχρι τις %(deadline)s (%(timezone)s)"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:34
 #: pretalx/cfp/templates/cfp/event/index.html:22
 msgid "View conference schedule"
-msgstr "Programm ansehen"
-
-#: pretalx/cfp/templates/cfp/event/cfp.html:38
-#: pretalx/cfp/templates/cfp/event/index.html:26
-msgid "View schedule preview"
-msgstr "Programm-Vorschau ansehen"
+msgstr "Δείτε το πρόγραμμα του συνεδρίου"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:43
 #: pretalx/cfp/templates/cfp/event/index.html:16
 msgid "Edit or view your submissions"
-msgstr "Einreichungen ansehen/bearbeiten"
+msgstr "Επεξεργαστείτε ή δείτε τις αιτήσεις σας"
+
+msgid "Edit or view your submission"
+msgstr "Επεξεργαστείτε ή δείτε την αίτησή σας"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:49
 msgid "Submit a proposal"
-msgstr "Einreichung abschicken"
+msgstr "Υποβολή πρότασης"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:51
 msgid "Submissions are closed"
-msgstr "Der Einreichungszeitraum ist beendet"
+msgstr "Οι αιτήσεις έκλεισαν"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:3
 #: pretalx/submission/models/submission.py:55
 msgid "submitted"
-msgstr "eingereicht"
+msgstr "υπεβλήθη"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:5
 msgid "not accepted"
-msgstr "abgelehnt"
+msgstr "μη αποδεκτή"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:7
 #: pretalx/submission/models/submission.py:56
 msgid "accepted"
-msgstr "angenommen"
+msgstr "αποδεκτή"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:9
 #: pretalx/submission/models/submission.py:57
 msgid "confirmed"
-msgstr "bestätigt"
+msgstr "επιβεβαιώθηκε"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:11
 #: pretalx/submission/models/submission.py:59
 msgid "canceled"
-msgstr "abgesagt"
+msgstr "ακυρώθηκε"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:13
 #: pretalx/submission/models/submission.py:60
 msgid "withdrawn"
-msgstr "zurückgezogen"
+msgstr "αποσύρθηκε"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:15
 #: pretalx/submission/models/submission.py:61
 msgid "deleted"
-msgstr "gelöscht"
+msgstr "διαγράφηκε"
 
 #: pretalx/cfp/templates/cfp/event/index.html:31
 #: pretalx/orga/views/dashboard.py:56
 msgid "Go to CfP"
-msgstr "Zum CfP"
+msgstr "Πηγαίνετε στο CfP"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:5
 #: pretalx/cfp/templates/cfp/event/invitation.html:8
 msgid "Accept invitation?"
-msgstr "Einladung annehmen?"
+msgstr "Αποδοχή πρόσκλησης;"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:9
 #, python-format
@@ -566,32 +564,32 @@ msgid ""
 "You, %(name)s, have been invited to be a speaker for the submission "
 "“%(talk)s”. Do you accept the invitation?"
 msgstr ""
-"Du, %(name)s, wurdest eingeladen, den Vortrag „%(talk)s“ mitzuhalten. Nimmst "
-"du die Einladung an?"
+"Εσείς, %(name)s, έχετε προσκληθεί ως ομιλήτρια/ής για την ομιλία »%(talk)s«. "
+"Αποδέχεστε την πρόσκληση;"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:17
 msgid "Abstract:"
-msgstr "Zusammenfassung:"
+msgstr "Περίληψη:"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:30
 #: pretalx/orga/templates/orga/cfp/question_detail.html:97
 #: pretalx/submission/models/submission.py:596
 msgid "No"
-msgstr "Nein"
+msgstr "Όχι"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:33
 #: pretalx/orga/templates/orga/review/dashboard.html:132
 #: pretalx/orga/templates/orga/review/dashboard.html:151
 msgid "Accept"
-msgstr "Annehmen"
+msgstr "Αποδοχή"
 
 #: pretalx/cfp/templates/cfp/event/login.html:5
 msgid "Login"
-msgstr "Login"
+msgstr "Σύνδεση"
 
 #: pretalx/cfp/templates/cfp/event/login.html:8
 msgid "Welcome back!"
-msgstr "Willkommen zurück!"
+msgstr "Καλωσορίσατε πίσω!"
 
 #: pretalx/cfp/templates/cfp/event/login.html:10
 msgid ""
@@ -599,63 +597,90 @@ msgid ""
 "schedule updates. You'll only need an account if you participate in the "
 "event as speaker or as orga."
 msgstr ""
-"Wenn du nur Veranstaltungen ansehen und bewerten möchtest, brauchst du "
-"keinen Account. Einen Account brauchst du nur, wenn du an der Veranstaltung "
-"als Orga oder Vortragende teilnimmst."
+"Δεν χρειάζεται να έχετε λογαριασμό αν θέλετε να δείτε την εκδήλωση, ή να υποβάλετε "
+"παρατηρήσεις ή να λάβετε ενημερώσεις για το πρόγραμμα. Θα χρειαστείτε λογαριασμό "
+"μόνον αν επιθυμείτε να συμμετάσχετε στην εκδήλωση ως ομιλητής ή ως διοργανωτής."
 
 #: pretalx/cfp/templates/cfp/event/login.html:17
 msgid ""
 "If you already created a submission for a different event on this server, "
 "you can re-use your account to log in for this event."
 msgstr ""
-"Wenn du schon für eine andere Veranstaltung eine Einreichung auf diesem "
-"Server hast, kannst du deinen Account wiederbenutzen."
+"Αν έχετε ήδη υποβάλει μια αίτηση για διαφορετική εκδήλωση σε αυτόν τον server, "
+"μπορείτε να επαναχρησιμοποιήσετε τον υπάρχον λογαριασμό σας για να συνδεθείτε γι' "
+"αυτή την εκδήλωση."
+
+#: pretalx/cfp/templates/cfp/event/login.html:28
+#: pretalx/cfp/templates/cfp/event/submission_user.html:18
+#: pretalx/orga/templates/orga/invitation.html:18
+msgid "I already have an account"
+msgstr "Έχω ήδη λογαριασμό"
+
+#: pretalx/cfp/templates/cfp/event/login.html:32
+#: pretalx/orga/templates/orga/invitation.html:22
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: pretalx/cfp/templates/cfp/event/login.html:35
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#: pretalx/cfp/templates/cfp/event/login.html:39
+#: pretalx/cfp/templates/cfp/event/submission_user.html:23
+#: pretalx/orga/templates/orga/invitation.html:26
+msgid "I need a new account"
+msgstr "Χρειάζομαι νέο λογαριασμό"
+
+#: pretalx/cfp/templates/cfp/event/login.html:45
+#: pretalx/orga/templates/orga/invitation.html:32
+msgid "Register"
+msgstr "Εγγραφή"
 
 #: pretalx/cfp/templates/cfp/event/recover.html:5
 #: pretalx/cfp/templates/cfp/event/reset.html:5
 #: pretalx/orga/templates/orga/auth/recover.html:4
 #: pretalx/orga/templates/orga/auth/reset.html:4
 msgid "Password reset"
-msgstr "Passwort zurücksetzen"
+msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: pretalx/cfp/templates/cfp/event/recover.html:13
 #: pretalx/orga/templates/orga/auth/recover.html:12
 msgid "OK, this looks good!"
-msgstr "Das sieht doch gut aus."
+msgstr "OK, όλα δείχνουν εντάξει!"
 
 #: pretalx/cfp/templates/cfp/event/recover.html:15
 #: pretalx/orga/templates/orga/auth/recover.html:14
 msgid "Now you just need to choose your new password and you are ready to go."
 msgstr ""
-"Jetzt brauchst du nur noch ein neues Passwort und wir sind hier fertig."
+"Τώρα χρειάζεστε απλά να διαλέξετε τον νέο κωδικό πρόσβασης και είστε έτοιμος/η."
 
 #: pretalx/cfp/templates/cfp/event/recover.html:21
 #: pretalx/orga/templates/orga/auth/recover.html:20
 msgid "Save this!"
-msgstr "Speichern!"
+msgstr "Αποθήκευση!"
 
 #: pretalx/cfp/templates/cfp/event/reset.html:8
 #: pretalx/orga/templates/orga/auth/reset.html:7
 msgid "Forgot your password?"
-msgstr "Passwort verlegt?"
+msgstr "Ξεχάσατε τον κωδικό σας;"
 
 #: pretalx/cfp/templates/cfp/event/reset.html:14
 #: pretalx/orga/templates/orga/auth/reset.html:13
 msgid "Let me set a new one!"
-msgstr "Lasst mich ein neues setzen!"
+msgstr "Ας δημιουργήσω ένα νέο!"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:6
 #: pretalx/orga/templates/orga/submission/content.html:19
 msgid "Create submission"
-msgstr "Einreichung erstellen"
+msgstr "Υποβολή αίτησης"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:33
 msgid "Continue"
-msgstr "Weiter"
+msgstr "Συνέχεια"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:35
 msgid "Submit"
-msgstr "Einreichen"
+msgstr "Υποβολή"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:43
 #: pretalx/orga/templates/orga/cfp/question_delete.html:11
@@ -672,48 +697,35 @@ msgstr "Einreichen"
 #: pretalx/orga/templates/orga/speaker/reset_password.html:15
 #: pretalx/orga/templates/orga/submission/state_change.html:18
 msgid "Back"
-msgstr "Zurück"
+msgstr "Πίσω"
 
 #: pretalx/cfp/templates/cfp/event/submission_info.html:9
 msgid "Hey, nice to meet you!"
-msgstr "Hey, schön dich kennenzulernen!"
+msgstr "Χαρήκαμε για τη γνωριμία!"
 
 #: pretalx/cfp/templates/cfp/event/submission_info.html:14
 msgid ""
 "We're glad that you want to contribute to our event with your submission. "
 "Let's get started, this won't take long."
 msgstr ""
-"Wir freuen uns, dass du etwas bei unserer Veranstaltung einreichen möchtest. "
-"Hier geht es los – in ein paar Schritten ist es schon geschafft."
+"Χαιρόμαστε που θέλετε να υποβάλετε κάτι στην εκδήλωσή μας. Θα χρειαστεί να "
+"συμπληρώσετε πρώτα κάποιες λεπτομέρειες."
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:11
 msgid "Tell us something about yourself!"
-msgstr "Erzähl uns etwas über dich!"
+msgstr "Πείτε μας κάτι για τον εαυτό σας!"
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:16
 msgid ""
 "This information will be publicly displayed next to your talk - you can "
 "always edit for as long as submissions are still open."
 msgstr ""
-"Diese Informationen werden öffentlich neben deinem Beitrag gezeigt - du "
-"kannst sie aber auch später noch anpassen, solange wir noch Einreichungen "
-"annehmen."
-
-#: pretalx/cfp/templates/cfp/event/submission_profile.html:26
-#: pretalx/cfp/templates/cfp/event/user_profile.html:25
-#: pretalx/orga/templates/orga/cfp/text.html:104
-#: pretalx/person/models/user.py:106
-msgid "Profile picture"
-msgstr "Profilbild"
-
-#: pretalx/cfp/templates/cfp/event/submission_profile.html:32
-#: pretalx/cfp/templates/cfp/event/user_profile.html:31
-msgid "Your avatar"
-msgstr "Dein Profilbild"
+"Οι πληροφορίες αυτές θα είναι δημόσια αναρτημένες δίπλα στην ομιλία σας - μπορείτε "
+"πάντα να τις επεξεργάζεστε μέχρι την προθεσμία υποβολής αιτήσεων."
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:9
 msgid "Tell us more!"
-msgstr "Erzähl uns mehr!"
+msgstr "Πείτε μας περισσότερα!"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:14
 #, python-format
@@ -722,21 +734,24 @@ msgid ""
 "rest assured, you reached step %(step)s of %(steps)s already, we are nearly "
 "there!"
 msgstr ""
-"Bevor du deine Einreichung abschließen kannst, haben wir noch ein paar "
-"Fragen für dich. Aber du hast schon Schritt %(step)s von %(steps)s erreicht, "
-"gleich ist es geschafft."
+"Προτού αποθηκεύσουμε την αίτησή σας, έχουμε ακόμα κάποιες ερωτήσεις για εσάς. Μην "
+"ανησυχείτε όμως, έχετε ήδη ολοκληρώσει το βήμα %(step)s από τα %(steps)s, έχετε "
+"σχεδόν τελειώσει!"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:20
 msgid "… about your submission:"
-msgstr "… über deine Einreichung:"
+msgstr "… σχετικά με την αίτησή σας:"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:26
 msgid "… about yourself:"
-msgstr "… über dich:"
+msgstr "… σχετικά με εσάς:"
 
 #: pretalx/cfp/templates/cfp/event/submission_user.html:6
 msgid "That's it about your submission! We now just need a way to contact you."
-msgstr "Und das wars! Wir brauchen nur noch einen Weg, dich zu erreichen."
+msgstr ""
+"Η αίτησή σας ολοκληρώθηκε! Τώρα χρειαζόμαστε απλά έναν τρόπο να επικοινωνήσουμε μαζί "
+"σας."
+
 
 #: pretalx/cfp/templates/cfp/event/submission_user.html:8
 msgid ""
@@ -744,14 +759,14 @@ msgid ""
 "gives us a way to contact you, it also gives you the possibility to edit "
 "your submission or to view its current state."
 msgstr ""
-"Um deine Einreichung abzuschicken, brauchst du einen Account auf dieser "
-"Seite - nicht nur, damit wir dich erreichen können, sondern auch, damit du "
-"deine Einreichung editieren und ihren Status einsehen kannst."
+"Για να ολοκληρώσετε την αίτησή σας, χρειάζεστε ένα λογαριασμό στη σελίδα. Με αυτό τον "
+"τρόπο μπορούμε τόσο εμείς να επικοινωνούμε μαζί σας όσο και εσείς να έχετε τη "
+"δυνατότητα να επεξεργάζεστε την αίτηση σας ή να ενημερώνεστε για την πρόοδό της."
 
 #: pretalx/cfp/templates/cfp/event/user_mails.html:4
 #: pretalx/cfp/templates/cfp/event/user_mails.html:7
 msgid "Your E-mails"
-msgstr "Deine Post"
+msgstr "Τα E-Mail σας"
 
 #: pretalx/cfp/templates/cfp/event/user_mails.html:9
 msgid ""
@@ -767,16 +782,15 @@ msgstr ""
 #: pretalx/cfp/templates/cfp/event/user_profile.html:7
 #: pretalx/cfp/templates/cfp/event/user_profile.html:15
 msgid "Your Profile"
-msgstr "Dein Profil"
+msgstr "Το προφίλ σας"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:17
 msgid ""
 "This data will be displayed publicly if your talk is accepted. It is also "
 "visible to reviewers."
 msgstr ""
-"Diese Daten werden öffentlich neben deinem Beitrag im Programm angezeigt, "
-"wenn deine Einreichung angenommen wird. Vorher sind sie nur für Reviewer "
-"zugänglich."
+"Οι πληροφορίες αυτές θα είναι διαθέσιμες δημόσια σε περίπτωση που η αίτησή "
+"σας γίνει αποδεκτή. Επίσης είναι διαθέσιμες στους αξιολογητές."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:62
 #: pretalx/cfp/templates/cfp/event/user_profile.html:76
@@ -796,23 +810,23 @@ msgstr ""
 #: pretalx/orga/templates/orga/submission/review.html:162
 #: pretalx/orga/templates/orga/submit_row.html:11
 msgid "Save"
-msgstr "Speichern"
+msgstr "Αποθήκευση"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:69
 msgid "We have some questions"
-msgstr "Wir haben ein paar Fragen"
+msgstr "Έχουμε μερικές ερωτήσεις"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:83
 msgid "Your Account"
-msgstr "Dein Account"
+msgstr "Ο λογαριασμός σας"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:85
 msgid "You can change your log in data here."
-msgstr "Du kannst deine Login-Daten hier anpassen."
+msgstr "Μπορείτε να αλλάξετε τα στοιχεία σύνδεσής σας εδώ."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:103
 msgid "Account deletion"
-msgstr "Account löschen"
+msgstr "Διαγραφή λογαριασμού"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:107
 msgid ""
@@ -820,49 +834,48 @@ msgid ""
 "information will be overwritten. <strong>This action is irreversible.</"
 "strong>"
 msgstr ""
-"Du kannst deinen Account hier löschen – alle Namen, E-Mails, und sonstige "
-"personenbezogene Daten werden dann überschrieben. <strong>Das kannst du "
-"nicht mehr rückgängig machen.</strong>"
+"Μπορείτε να διαγράψετε τον λογαριασμό σας εδώ – όλα τα ονόματα, emails, και λοιπές "
+"προσωπικές ελευθερίες θα αντικασταθούν. <strong>Αυτή η ενέργεια είναι μη \" "
+"\"αναστρέψιμη.</strong>"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:111
 msgid ""
 "I really do want to delete my account, losing access to my submissions and "
 "talks, and overriding my public and private data."
 msgstr ""
-"Ich möchte wirklich meinen Account löschen, Zugriff auf meine Einreichungen "
-"und Vorträge verlieren, und meine öffentlichen und privaten Daten "
-"überschreiben."
+"Θέλω να διαγράψω τον λογαριασμό μου, χάνοντας την πρόσβαση στις αιτήσεις "
+"και ομιλίες μου."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:115
 msgid "Delete my account"
-msgstr "Account löschen"
+msgstr "Διαγραφή του λογαριασμού μου"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:7
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:9
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:5
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:4
 msgid "Your submission"
-msgstr "Deine Einreichung"
+msgstr "Η αίτησή σας"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:11
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:20
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:10
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:7
 msgid "Your submission:"
-msgstr "Deine Einreichung:"
+msgstr "Η αίτησή σας:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:13
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:29
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:14
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:9
 msgid "Current state of your submission:"
-msgstr "Aktueller Stand deiner Einreichung:"
+msgstr "Τρέχουσα κατάσταση της αίτησής σας:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:16
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:16
 #: pretalx/submission/models/submission.py:132
 msgid "Submission type"
-msgstr "Einreichungsart"
+msgstr "Είδος αίτησης"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:17
 #: pretalx/orga/templates/orga/cfp/text.html:89
@@ -871,7 +884,7 @@ msgstr "Einreichungsart"
 #: pretalx/orga/templates/orga/submission/review.html:55
 #: pretalx/submission/models/submission.py:138
 msgid "Track"
-msgstr "Track"
+msgstr "Σειρά"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:20
 msgid "Congratulations on your acceptance!"
@@ -901,7 +914,7 @@ msgstr ""
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:51
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:27
 msgid "Go back"
-msgstr "Zurück"
+msgstr "Επιστροφή"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:55
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:162
@@ -916,7 +929,7 @@ msgstr "Bestätigen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:33
 msgid "Confirm your attendance"
-msgstr "Bestätige deine Teilnahme"
+msgstr "Επιβεβαίωση παρουσίας"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:38
 msgid "Audience feedback"
@@ -931,44 +944,38 @@ msgstr ""
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:48
 msgid "Speaker:"
 msgid_plural "Speakers:"
-msgstr[0] "Vortragende:"
-msgstr[1] "Vortragende:"
+msgstr[0] "Ομιλητής:"
+msgstr[1] "Ομιλητές:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:74
 #: pretalx/orga/templates/orga/submission/content.html:32
 msgid "Resources"
-msgstr "Ressourcen"
+msgstr "Πόροι"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:78
 msgid ""
 "Resources will be publicly visible. Please try to keep your uploads below "
 "16MB."
 msgstr ""
-"Ressourcen sind öffentlich einsehbar. Bitte versuch, die Uploads kleiner als "
-"16MB zu halten."
-
-#: pretalx/cfp/templates/cfp/event/user_submission_edit.html:127
-#: pretalx/orga/templates/orga/submission/content.html:79
-msgid "Add another resource"
-msgstr "Einen weiteren Upload hinzufügen"
+"Οι πόροι θα είναι δημόσια ορατοί. Παρακαλώ προσπαθήστε να κρατήσετε τα αρχεία σας "
+"κάτω από 16ΜΒ."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:143
 msgid "Share submission"
-msgstr "Einreichung teilen"
+msgstr "Μοιραστείτε την αιτησή σας"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:145
 msgid ""
 "If you need a review from a colleague or a friend here's a link that you can "
 "send out for viewing your submission:"
 msgstr ""
-"Wenn du deine Einreichung Freunden oder Kolleginnen zeigen möchtest, ist "
-"hier ein Link, den du für eine nicht-editierbare Ansicht deiner Einreichung "
-"verschicken kannst:"
+"Εάν θέλετε ένα συνάδελφο ή φίλο να ελέγξει την αίτησή σας, μπόρειτε να του "
+"στείλετε έναν σύνδεσμο για να δει την αίτησή σας."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:151
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:14
 msgid "Withdraw submission"
-msgstr "Einreichung zurückziehen"
+msgstr "Απόσυρση αίτησης"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:153
 msgid ""
@@ -976,14 +983,13 @@ msgid ""
 "undo this - if you are just uncertain if you can or should hold your talk, "
 "please contact the organiser instead."
 msgstr ""
-"Du kannst hier klicken, um deine Einreichung zurückzuziehen. Das kann nicht "
-"rückgängig gemacht werden - wenn du dir nur unsicher bist, ob du deine "
-"Veranstaltung abhalten kannst oder sollst, kontaktiere bitte lieber die "
-"Veranstalter."
+"Μπορείτε να αποσύρετε την αίτησή σας από την διαδικασία επιλογής. Δεν μπορείτε να το "
+"αναιρέσετε - αν δεν είστε σίγουρος αν μπορείτε ή αν θα έπρεπε να πραγματοποιήσετε την "
+"ομιλία, παρακαλώ επικοινωνήστε με τους διοργανωτές."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:167
 msgid "Cancel submission"
-msgstr "Einreichung absagen"
+msgstr "Ακύρωση αίτησης"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:169
 msgid ""
@@ -991,9 +997,8 @@ msgid ""
 "organising team to cancel it. The best way to reach out would be an answer "
 "to your acceptance mail."
 msgstr ""
-"Da deine Einreichung bereits angenommen wurde, nimm bitte Kontakt mit der "
-"Orga auf, wenn du sie absagen möchtest. Du erreichst uns am besten, indem du "
-"auf die Bestätigungsmail antwortest."
+"Εφόσον η αίτησή σας έχει ήδη γίνει αποδεκτή, παρακαλώ επικοινωνήστε με τους "
+"διοργανωτές για να την ακυρώσετε, απαντώντας στο email επιβεβαίωσής της."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:18
 msgid ""
@@ -1001,43 +1006,42 @@ msgid ""
 "an email, (which might get caught by spam filters) you can also give them "
 "this link:"
 msgstr ""
-"Lade hier eine weitere Vortragende ein. Statt uns eine Mail schicken zu "
-"lassen (die vielleicht im Spam-Filter landet), kannst du der betreffenden "
-"Person auch diesen Link geben:"
+"Προσκαλέστε έναν ακόμη ομιλητή για την αίτησή σας εδώ, δίνοντας του τον παρακάτω "
+"σύνδεσμο:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:31
 #: pretalx/common/phrases.py:45
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Ακύρωση"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:34
 #: pretalx/common/phrases.py:43
 #: pretalx/orga/templates/orga/mails/send_form.html:22
 msgid "Send"
-msgstr "Abschicken"
+msgstr "Αποστολή"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:16
 msgid "Do you really want to withdraw your submission?"
-msgstr "Möchtest du deine Einreichung wirklich zurückziehen?"
+msgstr "Θέλετε πραγματικά να αποσύρετε την αίτηση σας;"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:29
 msgid "You will not be able to revert this action."
-msgstr "Das kannst du nicht mehr rückgängig machen."
+msgstr "Δεν θα είστε σε θέση να αναιρέσετε αυτή την ενέργεια."
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:8
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:22
 msgid "Your submissions"
-msgstr "Deine Einreichungen"
+msgstr "Οι αιτήσεις σας"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:12
 msgid "Important Information"
-msgstr "Wichtige Informationen"
+msgstr "Σημαντικές πληροφορίες"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:28
 #: pretalx/orga/templates/orga/review/dashboard.html:90
 #: pretalx/orga/templates/orga/submission/list.html:67
 msgid "State"
-msgstr "Status"
+msgstr "Κατάσταση"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:59
 msgid "Copy code for review"
@@ -1045,30 +1049,29 @@ msgstr "Review-Link kopieren"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:88
 msgid "Create a new submission"
-msgstr "Einreichung erstellen"
+msgstr "Δημιουργία νέας αίτησης"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:94
 msgid "It seems like you haven't submitted anything to this event yet."
 msgstr ""
-"Hm, du hast anscheinend noch nichts bei dieser Veranstaltung eingereicht."
+"Φαίνεται πως δεν έχετε υποβάλει ακόμη κάποια αίτηση σε αυτή την εκδήλωση."
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:97
 msgid "If you did, maybe you used a different account? Check your emails!"
 msgstr ""
-"Wenn doch, dann hast du vielleicht einen anderen Account genutzt? Guck im "
-"Zweifel in deine Mails."
+"Αν έχετε, μήπως χρησιμοποιήσατε διαφορετικό λογαριασμό; Ελέγξτε τα emails "
+"σας!"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:101
 msgid ""
 "If you did not, why not go ahead and create a proposal now? We'd love to "
 "hear from you!"
 msgstr ""
-"Wenn nicht, dann tu das doch jetzt! Die Orga freut sich auf deine "
-"Einreichungen."
+"Αν δεν έχετε, μπορείτε να δημιουργήσετε μια πρόταση τώρα!"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:106
 msgid "Submit something now!"
-msgstr "Reich etwas ein!"
+msgstr "Υποβάλετε κάτι τώρα!"
 
 #: pretalx/cfp/templates/cfp/index.html:4
 #: pretalx/cfp/templates/cfp/index.html:8
@@ -1104,7 +1107,7 @@ msgstr "Allgemein"
 
 #: pretalx/cfp/views/wizard.py:39 pretalx/orga/templates/orga/base.html:217
 msgid "Questions"
-msgstr "Fragen"
+msgstr "Ερωτήσεις"
 
 #: pretalx/cfp/views/wizard.py:40
 msgid "Account"
@@ -1123,11 +1126,8 @@ msgid ""
 "There was an error when logging in. Please contact the organiser for further "
 "help."
 msgstr ""
-"Es gab ein Fehler beim Einloggen. Bitte wende dich an die Veranstalter."
-
-#: pretalx/cfp/views/wizard.py:212
-msgid "New submission!"
-msgstr "Neue Einreichung!"
+"Υπήρξε ένα πρόβλημα με τον λογαριασμό σας. Παρακαλώ επικοινωνήστε με τους "
+"διοργανωτές για επιπλέον βοήθεια."
 
 #: pretalx/common/context_processors.py:34
 msgid "“"
@@ -1140,16 +1140,16 @@ msgstr "“"
 #: pretalx/common/css.py:120
 #, python-brace-format
 msgid "\"{value}\" is not allowed as attribute of \"{key}\""
-msgstr "\"{value}\" ist kein erlaubtes Attribut von \"{key}\""
+msgstr "\"{value}\" δεν επιτρέπεται ως χαρακτηριστικό του\"{key}\""
 
 #: pretalx/common/css.py:126
 #, python-brace-format
 msgid "You are not allowed to include \"{key}\" keys in your CSS."
-msgstr "Du darfst \"{key}\" nicht in deinem CSS verwenden."
+msgstr "Δεν έχετε τη δυνατότητα να συμπεριλάβετε \"{key}\" κλειδιά στο CSS σας."
 
 #: pretalx/common/css.py:152
 msgid "This stylesheet is not valid CSS."
-msgstr "Diese Datei ist kein valides CSS."
+msgstr "Μη έγκυρη CSS μορφοποίηση."
 
 #: pretalx/common/forms/fields.py:63 pretalx/person/forms.py:166
 #: pretalx/submission/forms/submission.py:105
@@ -1164,71 +1164,27 @@ msgstr ""
 #: pretalx/orga/templates/orga/speaker/list.html:20
 #: pretalx/orga/templates/orga/submission/list.html:40
 msgid "Search"
-msgstr "Suche"
+msgstr "Αναζήτηση"
 
 #: pretalx/common/forms/renderers.py:28
 msgctxt "form"
 msgid "Optional"
-msgstr "Optional"
-
-#: pretalx/common/forms/utils.py:15
-#, python-brace-format
-msgid "Please write between {min_length} and {max_length} words."
-msgstr "Bitte schreib zwischen {min_length} und {max_length} Wörtern."
-
-#: pretalx/common/forms/utils.py:16
-#, python-brace-format
-msgid "Please write between {min_length} and {max_length} characters."
-msgstr "Bitte schreib zwischen {min_length} und {max_length} Zeichen."
-
-#: pretalx/common/forms/utils.py:17
-#, python-brace-format
-msgid "Please write at least {min_length} words."
-msgstr "Bitte schreib mindestens {min_length} Wörter."
-
-#: pretalx/common/forms/utils.py:18
-#, python-brace-format
-msgid "Please write at least {min_length} characters."
-msgstr "Bitte schreib mindestens {min_length} Zeichen."
-
-#: pretalx/common/forms/utils.py:19
-#, python-brace-format
-msgid "Please write at most {max_length} words."
-msgstr "Bitte schreib höchstens {max_length} Wörter."
-
-#: pretalx/common/forms/utils.py:20
-#, python-brace-format
-msgid "Please write at most {max_length} characters."
-msgstr "Bitte schreib höchstens {max_length} Zeichen."
-
-#: pretalx/common/forms/utils.py:37
-#, python-brace-format
-msgid "You wrote {count} characters."
-msgstr "Du hast {count} Zeichen geschrieben."
-
-#: pretalx/common/forms/utils.py:38
-#, python-brace-format
-msgid "You wrote {count} words."
-msgstr "Du hast {count} Wörter geschrieben."
-
-#: pretalx/common/forms/widgets.py:16
-msgid "Choose one or more"
-msgstr "Wähle eins oder mehrere"
+msgstr "Προαιρετικό"
 
 #: pretalx/common/forms/widgets.py:47
 msgid ""
 "This password would take <em class=\"password_strength_time\"></em> to crack."
 msgstr ""
-"Dein Passwort ließe sich in <em class=\"password_strength_time\"></em> "
-"erraten."
+"Ο κωδικός χρήστη θα χρειαστεί <em class=\"password_strength_time\"></em> χρόνο για να "
+"σπάσει."
 
 #: pretalx/common/forms/widgets.py:77
 msgid "Warning"
-msgstr "Warnung"
+msgstr "Προειδοποίηση"
 
 #: pretalx/common/forms/widgets.py:77
 msgid "Your passwords don't match."
-msgstr "Die Passwörter stimmen nicht überein."
+msgstr "Οι κωδικοί σας δεν ταιριάζουν."
 
 #: pretalx/common/management/commands/init.py:18
 msgid "This value is required, please enter some value to proceed: "
@@ -1242,15 +1198,15 @@ msgid ""
 "once."
 msgstr ""
 "\n"
-"Willkommen zu pretalx! Ich bin der Initialsierungsbefehl. Bitte führ mich "
-"nur einmal aus."
+"Καλωσορίσατε στο pretalx! Αυτή είναι η εντολή αρχικοποίησης μου, παρακαλώ "
+"χρησιμοποιείστε την μόνο μία φορά."
 
 #: pretalx/common/management/commands/init.py:37
 msgid ""
 "You can abort this command at any time using C-c, and it will save no data."
 msgstr ""
-"Du kannst diesen Befehl jederzeit durch C-c abbrechen, dann werden keine "
-"Daten gespeichert."
+"Μπορείτε να αναιρέσετε την εντολή οποιαδήποτε στιγμή χρησιμοποιώντας C-c, και δεν θα "
+"αποθηκευτούν τα δεδομένα."
 
 #: pretalx/common/management/commands/init.py:43
 msgid ""
@@ -1259,9 +1215,8 @@ msgid ""
 "event on this pretalx instance."
 msgstr ""
 "\n"
-"Zuerst erstellen wir einen User für dich, der das Recht hat, neue "
-"Veranstaltungen anzulegen und alle Veranstaltungen dieser pretalx-Instanz "
-"einzusehen."
+"Ας δημιουργήσουμε έναν χρήστη με δυνατότητα να δημιουργεί νέες εκδηλώσεις και να έχει "
+"πρόσβαση σε κάθε εκδήλωση του pretalx."
 
 #: pretalx/common/management/commands/init.py:52
 msgid ""
@@ -1270,8 +1225,8 @@ msgid ""
 "people and create events."
 msgstr ""
 "\n"
-"Außerdem erstellen wir den ersten Veranstalter: Darüber kannst du dann "
-"andere Menschen einladen und Veranstaltungen erstellen."
+"Ας δημιουργήσουμε επίσης έναν διοργανωτή. Αυτό θα σας δώσει την δυνατότητα να "
+"προσκαλέσετε περισσότερους ανθρώπους και να δημιουργήσετε νέες εκδηλώσεις."
 
 #: pretalx/common/management/commands/init.py:56
 msgid ""
@@ -1279,11 +1234,11 @@ msgid ""
 "Name (e.g. \"The Conference Organiser\"): "
 msgstr ""
 "\n"
-"Name (z.B. \"Der Konferenzveranstalter\"): "
+"Όνομα (π.χ \"Ο διοργανωτής του συνεδρίου\"): "
 
 #: pretalx/common/management/commands/init.py:57
 msgid "Slug (e.g. \"conforg\", used in urls): "
-msgstr "Kurzform (z.B. \"conforga\", zur Verwendung in URLS): "
+msgstr "Συντομογραφία (π.χ. \"ΟργΟμ\"): "
 
 #: pretalx/common/management/commands/init.py:71
 msgid ""
@@ -1291,12 +1246,12 @@ msgid ""
 "Now that this is done, you can:"
 msgstr ""
 "\n"
-"Jetzt wo das erledigt ist, kannst du:"
+"Τώρα που τελειώσαμε, μπορείτε:"
 
 #: pretalx/common/management/commands/init.py:73
 #, python-brace-format
 msgid " - Create your first event at {event_url}"
-msgstr " - Die erste Veranstaltung unter {event_url} erstellen"
+msgstr " - Να δημιουργήσετε την πρώτη σας εκδήλωση στο {event_url}"
 
 #: pretalx/common/management/commands/init.py:77
 #, python-brace-format
@@ -1304,20 +1259,20 @@ msgid ""
 " - Invite somebody to the organiser team at {team_url} and let them create "
 "the event"
 msgstr ""
-" - Jemanden unter {team_url} in das Team einladen und die Veranstaltung "
-"erstellen lassen"
+" - Να προσκαλέσετε κάποιον στην ομάδα διοργάνωσης στο {team_url} και να τους δώσετε "
+"την δυνατότητα να δημιουργήσουν εκδηλώσεις"
 
 #: pretalx/common/management/commands/init.py:82
 msgid ""
 " - Use the command \"import_schedule /path/to/schedule.xml\" if you want to "
 "import an event.\""
 msgstr ""
-" - Den Befehl \"import_schedule /path/to/schedule.xml\" nutzen, wenn du mit "
-"einem importierten Event beginnen möchtest."
+" - Να χρησιμοποιήσουν την εντολή \"import_schedule /path/to/schedule.xml\" για την "
+"εισαγωγή μιας εκδήλωσης.\""
 
 #: pretalx/common/mixins/forms.py:20
 msgid "You are trying to change read only data."
-msgstr "Diese Daten kannst du nicht anpassen."
+msgstr "Προσπαθείτε να αλλάξετε read only δεδομένα."
 
 #: pretalx/common/mixins/views.py:220
 msgid "ManagementForm data is missing or has been tampered."
@@ -1345,175 +1300,175 @@ msgstr "Die Veranstaltung wurde privat geschaltet."
 
 #: pretalx/common/models/log.py:16
 msgid "A plugin was enabled."
-msgstr "Das Plugin wurde aktiviert."
+msgstr "Η επέκταση (plugin) έχει ενεργοποιηθεί."
 
 #: pretalx/common/models/log.py:17
 msgid "A plugin was disabled."
-msgstr "Das Plugin wurde deaktiviert."
+msgstr "Η επέκταση (plugin) έχει απενεργοποιηθεί."
 
 #: pretalx/common/models/log.py:18 pretalx/common/models/log.py:26
 msgid "The invitation to the event orga was accepted."
-msgstr "Die Einladung zum Orga-Team wurde angenommen."
+msgstr "Η πρόσκληση στην οργάνωση της εκδήλωσης έγινε αποδεκτή."
 
 #: pretalx/common/models/log.py:19 pretalx/common/models/log.py:29
 msgid "An invitation to the event orga was retracted."
-msgstr "Eine Einladung zum Orga-Team wurde zurückgezogen."
+msgstr "Η πρόσκληση στην οργάνωση της εκδήλωσης δεν έγινε αποδεκτή."
 
 #: pretalx/common/models/log.py:20 pretalx/common/models/log.py:32
 msgid "An invitation to the event orga was sent."
-msgstr "Eine Einladung zum Orga-Team wurde verschickt."
+msgstr "Η πρόσκληση στην εκδήλωση έχει αποσταλεί."
 
 #: pretalx/common/models/log.py:22 pretalx/common/models/log.py:35
 msgid "The invitation to the review team was retracted."
-msgstr "Eine Einladung zum Review-Team wurde zurückgezogen."
+msgstr "Η πρόσκληση στην ομάδα αξιολόγησης έχει αποσυρθεί."
 
 #: pretalx/common/models/log.py:24 pretalx/common/models/log.py:38
 msgid "The invitation to the review team was sent."
-msgstr "Eine Einladung zum Review-Team wurde verschickt."
+msgstr "Η πρόσκληση στην ομάδα αξιολόγησης έχει αποσταλεί."
 
 #: pretalx/common/models/log.py:40 pretalx/common/models/log.py:44
 msgid "An email was modified."
-msgstr "Eine E-Mail wurde verändert."
+msgstr "Τροποποιήθηκε ένα email."
 
 #: pretalx/common/models/log.py:41
 msgid "A pending email was deleted."
-msgstr "Eine ausstehende E-Mail wurde gelöscht."
+msgstr "Διαγράφηκε ένα email σε εκκρεμότητα."
 
 #: pretalx/common/models/log.py:42
 msgid "All pending emails were deleted."
-msgstr "Alle ausstehenden E-Mails wurden gelöscht."
+msgstr "Διαγράφηκαν όλα τα email σε εκκρεμότητα."
 
 #: pretalx/common/models/log.py:43
 msgid "An email was sent."
-msgstr "Eine E-Mail wurde verschickt."
+msgstr "Στάλθηκε ένα email."
 
 #: pretalx/common/models/log.py:45
 msgid "A mail template was added."
-msgstr "Eine E-Mail-Vorlage wurde hinzugefügt."
+msgstr "Προστέθηκε ένα πρότυπο αλληλογραφίας."
 
 #: pretalx/common/models/log.py:46
 msgid "A mail template was deleted."
-msgstr "Eine E-Mail-Vorlage wurde gelöscht."
+msgstr "Διαγράφηκε ένα πρότυπο αλληλογραφίας."
 
 #: pretalx/common/models/log.py:47
 msgid "A mail template was modified."
-msgstr "Eine E-Mail-Vorlage wurde verändert."
+msgstr "Ένα πρότυπο αλληλογραφίας τροποποιήθηκε."
 
 #: pretalx/common/models/log.py:48
 msgid "A question was added."
-msgstr "Eine Frage wurde hinzugefügt."
+msgstr "Προστέθηκε μια ερώτηση."
 
 #: pretalx/common/models/log.py:49
 msgid "A question was deleted."
-msgstr "Eine Frage wurde gelöscht."
+msgstr "Διαγράφηκε μια ερώτηση."
 
 #: pretalx/common/models/log.py:50
 msgid "A question was modified."
-msgstr "Eine Frage wurde geändert."
+msgstr "Τροποιήθηκε μια ερώτηση."
 
 #: pretalx/common/models/log.py:51
 msgid "A question option was added."
-msgstr "Eine Frage-Option wurde hinzugefügt."
+msgstr "Προστέθηκε μια ερώτηση επιλογής."
 
 #: pretalx/common/models/log.py:52
 msgid "A question option was deleted."
-msgstr "Eine Frage-Option wurde gelöscht."
+msgstr "Διαγράφηκε μια ερώτηση επιλογής."
 
 #: pretalx/common/models/log.py:53
 msgid "A question option was modified."
-msgstr "Eine Frage wurde verändert."
+msgstr "Τροποιήθηκε μια ερώτηση επιλογής."
 
 #: pretalx/common/models/log.py:54
 msgid "A new room was added."
-msgstr "Ein Raum wurde hinzugefügt."
+msgstr "Προστέθηκε μία νεά αίθουσα."
 
 #: pretalx/common/models/log.py:55
 msgid "A new schedule version was released."
-msgstr "Eine neue Programmversion wurde veröffentlicht."
+msgstr "Δημιουργήθηκε μια νέα έκδοση του προγράμματος."
 
 #: pretalx/common/models/log.py:56
 msgid "The submission was accepted."
-msgstr "Die Einreichung wurde angenommen."
+msgstr "Η αίτηση έγινε αποδεκτή."
 
 #: pretalx/common/models/log.py:57
 msgid "The submission was cancelled."
-msgstr "Der Vortrag wurde abgesagt."
+msgstr "Η αίτηση ακυρώθηκε."
 
 #: pretalx/common/models/log.py:58 pretalx/common/models/log.py:59
 msgid "The submission was confirmed."
-msgstr "Die Einreichung wurde bestätigt."
+msgstr "Η αίτηση επιβεβαιώθηκε."
 
 #: pretalx/common/models/log.py:60
 msgid "The submission was added."
-msgstr "Die Einreichung wurde erstellt."
+msgstr "Η αίτηση προστέθηκε."
 
 #: pretalx/common/models/log.py:61
 msgid "The submission was deleted."
-msgstr "Die Einreichung wurde gelöscht."
+msgstr "Η αίτηση διαγράφηκε."
 
 #: pretalx/common/models/log.py:62
 msgid "The submission was rejected."
-msgstr "Die Einreichung wurde abgelehnt."
+msgstr "Η αίτηση απορρίφθηκε."
 
 #: pretalx/common/models/log.py:63
 msgid "A submission resource was added."
-msgstr "Eine Ressource wurde hinzugefügt."
+msgstr "Προστέθηκε ένας πόρος της αίτησης."
 
 #: pretalx/common/models/log.py:64
 msgid "A submission resource was deleted."
-msgstr "Eine Ressource wurde gelöscht."
+msgstr "Διαγράφηκε ένας πόρος της αίτησης."
 
 #: pretalx/common/models/log.py:65
 msgid "A submission resource was modified."
-msgstr "Eine Ressource wurde verändert."
+msgstr "Τροποιήθηκε ένας πόρος της αίτησης."
 
 #: pretalx/common/models/log.py:66
 msgid "A speaker was added to the submission."
-msgstr "Eine weitere Vortragende wurde der Einreichung hinzugefügt."
+msgstr "Ένας ομιλητής προστέθηκε στην αίτηση."
 
 #: pretalx/common/models/log.py:67
 msgid "A speaker was invited to the submission."
-msgstr "Eine weitere Vortragende wurde zur Einreichung eingeladen."
+msgstr "Ένας ομιλητής κλήθηκε στην αίτηση."
 
 #: pretalx/common/models/log.py:69
 msgid "A speaker was removed from the submission."
-msgstr "Eine Vortragende wurde von der Einreichung entfernt."
+msgstr "Ένας ομιλητής αφαιρέθηκε από την αίτηση."
 
 #: pretalx/common/models/log.py:71
 msgid "The submission was unconfirmed."
-msgstr "Die Bestätigung der Einreichung wurde zurückgenommen."
+msgstr "Η αίτηση δεν επιβεβαιώθηκε."
 
 #: pretalx/common/models/log.py:72
 msgid "The submission was modified."
-msgstr "Die Einreichung wurde verändert."
+msgstr "Η αίτηση τροποποιήθηκε."
 
 #: pretalx/common/models/log.py:73
 msgid "The submission was withdrawn."
-msgstr "Die Einreichung wurde zurückgezogen."
+msgstr "Η αίτηση αποσύρθηκε."
 
 #: pretalx/common/models/log.py:74 pretalx/common/models/log.py:75
 msgid "A submission answer was modified."
-msgstr "Eine Antwort wurde verändert."
+msgstr "Τροποιήθηκε μία απάντηση αίτησης."
 
 #: pretalx/common/models/log.py:76 pretalx/common/models/log.py:77
 msgid "A submission answer was added."
-msgstr "Eine Antwort wurde hinzugefügt."
+msgstr "Προστέθηκε μία απάντηση αίτησης."
 
 #: pretalx/common/models/log.py:78
 msgid "A submission type was added."
-msgstr "Ein Einreichungstyp wurde hinzugefügt."
+msgstr "Προστέθηκε ένας τύπος αίτησης."
 
 #: pretalx/common/models/log.py:79
 msgid "A submission type was deleted."
-msgstr "Ein Einreichungstyp wurde gelöscht."
+msgstr "Διαγράφηκε ένας τύπος αίτησης."
 
 #: pretalx/common/models/log.py:80
 msgid "The submission type was made default."
-msgstr "Der Einreichungstyp wurde zum Standard gemacht."
+msgstr "Ο τύπος αίτησης έγινε προεπιλεγμένος."
 
 #: pretalx/common/models/log.py:81
 msgid "A submission type was modified."
-msgstr "Ein Einreichungstyp wurde verändert."
+msgstr "Τροποποιήθηκε ένας τύπος αίτησης."
 
 #: pretalx/common/models/log.py:82
 msgid "A track was added."
@@ -1529,36 +1484,36 @@ msgstr "Ein Track wurde verändert."
 
 #: pretalx/common/models/log.py:85
 msgid "A speaker has been marked as arrived."
-msgstr "Diese(r) Vortragende ist als angekommen markiert."
+msgstr "Ένας ομιλητής έχει επισυμανθεί ώς παρών."
 
 #: pretalx/common/models/log.py:86
 msgid "A speaker has been marked as not arrived."
-msgstr "Diese(r) Vortragende ist als \"nicht angekommen\" markiert."
+msgstr "Ένας ομιλητής έχει επισυμανθεί ώς απών."
 
 #: pretalx/common/models/log.py:87
 msgid "The API token was reset."
-msgstr "Das API-Token wurde zurückgesetzt."
+msgstr "Έγινε επαναφορά του API token."
 
 #: pretalx/common/models/log.py:88
 msgid "The password was reset."
-msgstr "Das Passwort wurde zurückgesetzt."
+msgstr "Πραγματοποιήθηκε επαναφορά κωδικού πρόσβασης."
 
 #: pretalx/common/models/log.py:89
 msgid "The password was modified."
-msgstr "Das Passwort wurde verändert."
+msgstr "Τροποποιήθηκε ο κωδικός πρόσβασης σας."
 
 #: pretalx/common/models/log.py:90
 msgid "The profile was modified."
-msgstr "Das Profil wurde angepasst."
+msgstr "Τροποιήθηκε το προφίλ σας."
 
 #: pretalx/common/models/settings.py:89
 msgid ""
 "Please give a fair review on why you'd like to see this submission at the "
 "conference, or why you think it would not be a good fit."
 msgstr ""
-"Bitte gib eine faire Bewertung ab und erkläre, warum du diese Einreichung "
-"gerne bei der Veranstaltung sehen würdest, oder warum du meinst, dass sie "
-"eher nicht gut hineinpassen würde."
+"Παρακαλώ δώστε μια δίκαιη κριτική για το λόγο που θέλετε να δείτε αυτή την "
+"ομιλία στη διάσκεψη ή γιατί νομίζετε ότι δεν θα ήταν καλή."
+
 
 #: pretalx/common/models/settings.py:112
 #, python-brace-format
@@ -1574,15 +1529,16 @@ msgid ""
 "All the best,\n"
 "your {event_name} CfP system.\n"
 msgstr ""
-"Hi,\n"
+"Γεια,\n"
 "\n"
-"du hast eine neue Einreichung für die Veranstaltung {event_name} erhalten:\n"
-"„{submission_title}“ von {speakers}.\n"
+"έχετε λάβει μια νέα αίτηση για την εκδήλωσή σας {event_name}:\n"
+"»{submission_title}« από {speakers}.\n"
+"Μπορείτε να δείτε λεπτομέρειες στο\n"
 "\n"
 "  {orga_url}\n"
 "\n"
-"Viele Grüße,\n"
-"Das {event_name}-System\n"
+"Τα καλύτερα,\n"
+"Το σύστημα CfP {event_name}.\n"
 
 #: pretalx/common/models/settings.py:135
 #, python-brace-format
@@ -1600,18 +1556,18 @@ msgid ""
 "at https://github.com/pretalx/pretalx/issues/new or via an\n"
 "email to mailto:rixx@cutebit.de!\n"
 msgstr ""
-"Hi,\n"
+"Γεια,\n"
 "\n"
-"wir hoffen, dass dich pretalx als CfP- und Programmsystem zufriedenstellt.\n"
-"Diese Links werden dir in den nächsten Wochen hoffentlich nützen::\n"
+"ελπίζουμε να είστε ικανοποιημένοι με το pretalx ως σύστημα CfP της εκδήλωσής σας.\n"
+"Αυτοί οι σύνδεσμοι μπορεί να είναι χρήσιμοι τις επόμενες ημέρες και εβδομάδες:\n"
 "\n"
-"- Dein Veranstaltungsdashboard: {event_dashboard}\n"
-"- Eine Liste der Einreichungen: {event_submissions}\n"
-"- Der Programmeditor: {event_schedule}\n"
+"- Ο πίνακας ελέγχου της εκδήλωσης σας: {event_dashboard}\n"
+"- Λίστα αιτήσεων: {event_submissions}\n"
+"- Ο επεξεργαστής χρονοδιαγράμματος: {event_schedule}\n"
 "\n"
-"Wenn dir in pretalx noch etwas fehlt, schreib es uns gerne\n"
-"unter https://github.com/pretalx/pretalx/issues/new oder via\n"
-"Mail an mailto:rixx@cutebit.de!\n"
+"Αν υπάρχει κάτι που λείπει, ελάτε να μας πείτε γι 'αυτό\n"
+"στο https://github.com/pretalx/pretalx/issues/new ή μέσω\n"
+"email στο mailto:rixx@cutebit.de!\n"
 
 #: pretalx/common/models/settings.py:156
 #, python-brace-format
@@ -1627,16 +1583,16 @@ msgid ""
 "And create your schedule here, once you have accepted submissions: "
 "{event_schedule}\n"
 msgstr ""
-"Hi,\n"
+"Γεια,\n"
 "\n"
-"der CfP für deine Veranstaltung ist nun geschlossen. Du findest eine Liste\n"
-"aller {submission_count} Einreichungen hier:\n"
+"Σας γράφουμε για να σας ενημερώσουμε πως η πρόσκληση συμμετοχής σας (CfP) είναι τώρα\n"
+"κλειστή. Θα βρείτε μια λίστα με όλες τις υποβολές σας {submission_count} εδώ:\n"
 "{event_submissions}\n"
 "\n"
-"Hier kannst du Reviewer hinzufügen: {event_team}\n"
-"Übersicht über Reviews gibt es hier: {event_review}\n"
-"Und hier kannst du ein Programm erstellen, wenn du die ersten Einreichungen\n"
-"angenommen hast: {event_schedule}\n"
+"Μπορείτε να προσθέσετε κριτικές εδώ: {event_team}\n"
+"Μπορείτε να κάνετε ανασκόπηση των αιτήσεων εδώ: {event_review}\n"
+"και να δημιουργήστε το πρόγραμμά σας εδώ, αφού έχετε αποδεχθεί τις αιτήσεις: "
+"{event_schedule}\n"
 
 #: pretalx/common/models/settings.py:174
 #, python-brace-format
@@ -1656,154 +1612,153 @@ msgid ""
 "at https://github.com/pretalx/pretalx/issues/new or via an\n"
 "email to mailto:rixx@cutebit.de!\n"
 msgstr ""
-"Hi,\n"
+"Γεια,\n"
 "\n"
-"Glückwunsch, deine Veranstaltung ist vorbei! Hoffentlich lief alles glatt. "
-"Hier sind\n"
-"ein paar Fakten, die dich vielleicht interessieren:\n"
+"Συγχαρητήρια, η εκδήλωσή σας έχει τελειώσει! Ας ελπίσουμε ότι πήγε καλά. Εδώ είναι "
+"μερικά\n"
+"στατιστικά που μπορεί να σας ενδιαφέρουν:\n"
 "\n"
-"- Es gab {submission_count} Einreichungen,\n"
-"- von denen {talk_count} Vorträge ausgewählt wurden.\n"
-"- Die Reviewer haben {review_count} Reviews verfasst.\n"
-"- Es wurden {schedule_count} Programmversionen veröffentlicht.\n"
-"- Über dieses Event wurden {mail_count} Mails verschickt.\n"
+"- Έχετε {submission_count} αιτήσεις ομιλίας,\n"
+"- Από τις οποίες επιλέξατε {talk_count} ομιλίες.\n"
+"- {reviewer_count} αξιολογητές γράψαν {review_count} αξιολογήσεις.\n"
+"- Ανακοινώσατε {schedule_count} προγράμματα συνολικά.\n"
+"- Κατά τη διάρκεια της εκδήλωσης, στείλατε {mail_count} μηνύματα .\n"
 "\n"
-"Wenn dir in pretalx noch etwas fehlt, schreib es uns gerne\n"
-"unter https://github.com/pretalx/pretalx/issues/new oder via\n"
-"Mail an mailto:rixx@cutebit.de!\n"
+"Αν υπάρχει κάτι που λείπει, ελάτε να μας πείτε γι 'αυτό\n"
+"στο https://github.com/pretalx/pretalx/issues/new ή μέσω\n"
+"email στο mailto:rixx@cutebit.de!\n"
+"\n"
 
 #: pretalx/common/phrases.py:46
 #: pretalx/orga/templates/orga/cfp/question_view.html:74
 #: pretalx/orga/templates/orga/organiser/detail.html:66
 #: pretalx/orga/templates/orga/submission/speakers.html:52
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Επεξεργασία"
 
 #: pretalx/common/phrases.py:48 pretalx/orga/views/event.py:457
 #: pretalx/orga/views/event.py:461 pretalx/orga/views/plugins.py:56
 msgid "Your changes have been saved."
-msgstr "Deine Änderungen wurden gespeichert."
+msgstr "Οι αλλαγές σας έχουν αποθηκευτεί."
 
 #: pretalx/common/phrases.py:51
 msgid "There was an error sending the mail. Please try again later."
 msgstr ""
-"Es gab ein Fehler beim Senden der E-Mail. Bitte probiere es später noch mal, "
-"wir sind dran."
+"Όχ! Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ "
+"δοκιμάστε ξανά αργότερα."
 
 #: pretalx/common/phrases.py:54
 msgid "Huh. We had trouble saving your input – Please see below for details. 🠯"
 msgstr ""
-"Oh :( Wir konnten deine Änderungen leider nicht speichern - unten mehr. 🠯"
+"Είχαμε προβλήματα κατά την αποθήκευση των δεδομένων σας - Δείτε παρακάτω για "
+"λεπτομέρειες. 🠯"
 
 #: pretalx/common/phrases.py:56
 msgid "You do not have permission to perform this action."
-msgstr "Dir fehlen Zugriffsrechte für diese Aktion."
+msgstr "Δεν έχετε την δυνατότητα να εκτελέσετε αυτήν την ενέργεια."
 
 #: pretalx/common/phrases.py:59 pretalx/common/templates/403.html:4
 msgid "Permission denied."
-msgstr "Keine Berechtigung."
+msgstr "Απαγορέυεται."
 
 #: pretalx/common/phrases.py:60
 msgid "Sorry, you do not have the required permissions to access this page."
-msgstr "Dir fehlen Zugriffsrechte für diese Seite."
+msgstr "Λυπούμαστε, δεν έχετε τα απαιτούμενα δικαιώματα πρόσβασης σε αυτήν τη σελίδα."
 
 #: pretalx/common/phrases.py:61
 msgid "Access denied."
-msgstr "Kein Zugriff möglich."
+msgstr "Δεν επιτρέπεται η πρόσβαση."
 
 #: pretalx/common/phrases.py:64 pretalx/common/templates/404.html:4
 msgid "Page not found."
-msgstr "Seite nicht gefunden."
+msgstr "Η σελίδα δεν βρέθηκε."
 
 #: pretalx/common/phrases.py:65
 msgid "This page does not exist."
-msgstr "Diese Seite gibt es nicht."
+msgstr "Αυτή η σελίδα δεν υπάρχει."
 
 #: pretalx/common/phrases.py:66
 msgid "Huh, I could have sworn there was something here."
-msgstr "Hm, ich dachte auch, hier wäre eine Seite."
+msgstr "Θα μπορούσα να ορκιστώ ότι υπήρχε κάτι εδώ."
 
 #: pretalx/common/phrases.py:68
 msgid "This page is no more."
-msgstr "Diese Seite ist Vergangenheit."
+msgstr "Αυτή η σελίδα δεν περιέχει πιά."
 
 #: pretalx/common/phrases.py:69
 msgid "This page has ceased to be."
-msgstr "Diese Seite gibt es wohl nicht mehr."
+msgstr "Αυτή η σελίδα έχει πάψει να υπάρχει."
 
 #: pretalx/common/phrases.py:70
 msgid "Huh."
-msgstr "Huch."
+msgstr "Χμμ."
 
 #: pretalx/common/phrases.py:73 pretalx/common/templates/500.html:4
 msgid "Internal server error."
-msgstr "Interner Serverfehler."
+msgstr "Εσωτερικό Σφάλμα Διακομιστή."
 
 #: pretalx/common/phrases.py:74
 msgid "Internal error, sorry."
-msgstr "Interner Serverfehler, 'tschuldigung."
+msgstr "Εσωτερικό λάθος, συγγνώμη."
 
 #: pretalx/common/phrases.py:75
 msgid "Internal server error, we've informed the maintenance robot."
 msgstr ""
-"Interner Serverfehler, wir haben dem Hausmeisterroboter Bescheid gesagt."
+"Εσωτερικό σφάλμα διακομιστή, έχουμε ενημερώσει το τμήμα συντήρησης."
 
 #: pretalx/common/phrases.py:77
 msgid "Ouch, this page is broken."
-msgstr "Autsch, diese Seite ist kaputt."
+msgstr "Ouch, αυτή η σελίδα έχει πρόβλημα."
 
 #: pretalx/common/phrases.py:78
 msgid "This shouldn't happen, sorry. We're looking into it."
-msgstr ""
-"Das sollte nicht passieren, entschuldige bitte. Wir nehmen uns der Sache an."
+msgstr "Αυτό δεν θα έπρεπε να συμβεί, λυπάμαι. Εξετάζουμε το θέμα."
 
 #: pretalx/common/phrases.py:79
 msgid "Huh. This seems broken. Please try again later."
-msgstr "Hm, das sieht kaputt aus. Bitte probiere es später noch mal."
+msgstr "Φαίνεται να υπάρχει πρόβλημα. Παρακαλώ δοκιμάστε ξανά αργότερα."
 
 #: pretalx/common/phrases.py:80
 msgid "This seems broken. We're looking into it, please give us a bit."
-msgstr ""
-"Hm, das sieht kaputt aus. Bitte probiere es später noch mal, wir sind dran."
+msgstr "Φαίνεται να υπάρχει πρόβλημα. Χρειαζόμαστε λίγο χρόνο, δοκιμάστε αργότερα."
 
 #: pretalx/common/phrases.py:81
 msgid "It's a bug, not a feature. We're looking into it."
-msgstr ""
-"Das ist ein Fehler, kein Feature – wir gucken es uns schnellstmöglich an."
+msgstr "Είναι ένα bug και όχι ένα χαρακτηριστικό. Εξετάζουμε το θέμα."
 
 #: pretalx/common/phrases.py:84 pretalx/person/forms.py:30
 #: pretalx/person/forms.py:38
 msgid "Email address"
-msgstr "E-Mail-Adresse"
+msgstr "Διεύθυνση E-Mail"
 
 #: pretalx/common/phrases.py:85
 msgid "New password (again)"
-msgstr "Neues Passwort (noch mal)"
+msgstr "Καινούριος κωδικός πρόσβασης (ξανά)"
 
 #: pretalx/common/phrases.py:87
 msgid "You entered two different passwords. Please input the same one twice!"
-msgstr ""
-"Du hast zwei unterschiedliche Passwörter eingegeben. Bitte probier es noch "
-"einmal."
+msgstr "Εισαγάγατε δύο διαφορετικούς κωδικούς πρόσβασης. Εισαγάγετε το ίδιο δύο φορές!"
 
 #: pretalx/common/phrases.py:90
 msgid "Your password is too weak or too common, please choose another one."
 msgstr ""
-"Dein Passwort ist zu schwach oder zu üblich, bitte such ein anderes aus."
+"Ο κωδικός πρόσβασής σας είναι πολύ αδύναμος ή πολύ συνηθισμένος, "
+"επιλέξτε άλλο."
 
 #: pretalx/common/phrases.py:91
 msgid ""
 "Sorry, this password is too weak or too common, please choose another one."
 msgstr ""
-"Dieses Passwort ist leider zu schwach oder zu üblich, bitte nimm ein anderes."
+"Λυπούμαστε, αυτός ο κωδικός πρόσβασης είναι πολύ αδύναμος ή πολύ συνηθισμένος, "
+"επιλέξτε ένα άλλο."
 
 #: pretalx/common/phrases.py:93
 msgid ""
 "Your password is the only thing protecting your account, so please choose a "
 "strong one."
 msgstr ""
-"Dein Passwort ist die beste Sicherung für deinen Account, bitte such dir ein "
-"hinreichend starkes."
+"Ο κωδικός πρόσβασής σας είναι το μόνο πράγμα που προστατεύει το λογαριασμό σας, οπότε "
+"επιλέξτε ένα ισχυρό."
 
 #: pretalx/common/phrases.py:96
 #, python-brace-format
@@ -1839,8 +1794,8 @@ msgstr "Registrieren"
 #: pretalx/common/templates/common/base.html:61
 msgid "This event is currently non-public. Only organisers can see it."
 msgstr ""
-"Die Veranstaltung ist derzeit nicht öffentlich. Nur die Veranstalter können "
-"sie sehen."
+"Αυτή η εκδήλωση είναι επί του παρόντος μη δημόσια. Μόνο η οργανωτική επιτροπή μπορεί "
+"να τη δει."
 
 #: pretalx/common/templates/common/base.html:71
 #: pretalx/orga/templates/orga/auth/base.html:26
@@ -1862,16 +1817,16 @@ msgstr "Mein Profil"
 
 #: pretalx/common/templates/common/base.html:107
 msgid "Orga area"
-msgstr "Orga-Bereich"
+msgstr "Περιοχή της οργανωτικής επιτροπής"
 
 #: pretalx/common/templates/common/base.html:112
 msgid "Logout"
-msgstr "Abmelden"
+msgstr "Αποσυνδέση"
 
 #: pretalx/common/templates/common/base.html:139
 #, python-format
 msgid "This is a static export generated at %(timestamp)s"
-msgstr "Dieser Export wurde um %(timestamp)s generiert"
+msgstr "Αυτό είναι ένα στατικό απόσπασμα που δημιουργήθηκε στις %(timestamp)s"
 
 #: pretalx/common/templates/common/base.html:145
 #: pretalx/orga/templates/orga/auth/base.html:24
@@ -1883,19 +1838,19 @@ msgstr "pretalx-Logo"
 
 #: pretalx/common/templates/common/base.html:149
 msgid "Contact us"
-msgstr "Kontakt"
+msgstr "Επικοινωνήστε μαζί μας"
 
 #: pretalx/common/templates/common/logs.html:6
 msgid "History"
-msgstr "Verlauf"
+msgstr "Ιστορικό"
 
 #: pretalx/common/templates/common/logs.html:22
 msgid "This change was performed by a member of the event orga."
-msgstr "Diese Aktion wurde von einem Orga-Mitglied durchgeführt."
+msgstr "Αυτή η αλλαγή πραγματοποιήθηκε από ένα μέλος της οργανωτικής επιτροπής."
 
 #: pretalx/common/templates/common/logs.html:28
 msgid "An orga member"
-msgstr "Ein Orga-Mitglied"
+msgstr "Ένα μέλος της οργανωτικής επιτροπής"
 
 #: pretalx/common/templatetags/copyable.py:13
 msgid "Copy"
@@ -1903,16 +1858,16 @@ msgstr "Kopieren"
 
 #: pretalx/common/templatetags/times.py:14
 msgid "once"
-msgstr "einmal"
+msgstr "μια φορά"
 
 #: pretalx/common/templatetags/times.py:16
 msgid "twice"
-msgstr "zweimal"
+msgstr "δυο φορές"
 
 #: pretalx/common/templatetags/times.py:17
 #, python-brace-format
 msgid "{number} times"
-msgstr "{number} mal"
+msgstr "{number} φορές"
 
 #: pretalx/common/utils.py:73
 #, python-brace-format
@@ -1929,15 +1884,15 @@ msgstr "Auf bestimmte Tracks beschränken?"
 
 #: pretalx/event/forms.py:99
 msgid "Use languages"
-msgstr "Genutzte Sprachen"
+msgstr "Χρήση γλωσσών"
 
 #: pretalx/event/forms.py:100
 msgid "Choose all languages that your event should be available in."
-msgstr "Wähle alle Sprachen, in denen die Website angeboten werden soll."
+msgstr "Επιλέξτε όλες τις γλώσσες στις οποίες πρέπει να είναι διαθέσιμη η εκδήλωση σας."
 
 #: pretalx/event/forms.py:107
 msgid "Organiser"
-msgstr "Veranstalter"
+msgstr "Διοργανωτής"
 
 #: pretalx/event/forms.py:119
 msgid ""
@@ -1978,9 +1933,9 @@ msgid ""
 "deadlines to individual submission types, which will take precedence over "
 "this deadline."
 msgstr ""
-"Die Standard-Einreichungsfrist des CfP. Du kannst einzelnen "
-"Einreichungstypen abweichende Einreichungsfristen zuweisen, die dann Vorrang "
-"haben."
+"Η προεπιλεγμένη προθεσμία για την πρόσκληση υποβολής προτάσεων (call for papers)."
+"Μπορείτε να θέσετε ξεχωριστές προθεσμίες για διαφορετικούς τύπους προτάσεων "
+"οι οποίες έχουν προταιρεότητα"
 
 #: pretalx/event/forms.py:180 pretalx/orga/forms/event.py:143
 msgid "Show on dashboard"
@@ -2006,7 +1961,7 @@ msgstr ""
 
 #: pretalx/event/forms.py:194 pretalx/event/models/event.py:153
 msgid "Logo"
-msgstr "Logo"
+msgstr "Λογότυπο"
 
 #: pretalx/event/forms.py:196 pretalx/orga/forms/event.py:43
 msgid ""
@@ -2014,53 +1969,54 @@ msgid ""
 "and date in the page header. We will show your logo in its full size if "
 "possible, scaled down to the full header width otherwise."
 msgstr ""
-"Wenn ein Logo zur Verfügung steht, werden wir nicht den Namen der "
-"Veranstaltung im Header zeigen. Das Logo wird in voller Größe gezeigt, wenn "
-"möglich, und andernfalls auf die volle Breite des Headers geschrumpft."
+"Εάν έχετε κάποιο λογότυπο, από προεπιλογή δεν θα εμφανιστεί το όνομα και "
+"η ημερομηνία των συμβάντων στην κεφαλίδα της σελίδας. Θα εμφανιστεί το "
+"λογότυπό σας με μέγιστο ύψος 120 pixel."
 
 #: pretalx/event/forms.py:201 pretalx/orga/forms/event.py:179
 msgid "Frontpage header pattern"
-msgstr "Muster des Startseiten-Streifen"
+msgstr "Πρότυπο κεφαλίδας αρχικής σελίδας"
 
 #: pretalx/event/forms.py:203 pretalx/orga/forms/event.py:181
 msgid ""
 "Choose how the frontpage header banner will be styled. Pattern source: <a "
 "href=\"http://www.heropatterns.com/\">heropatterns.com</a>, CC BY 4.0."
 msgstr ""
-"Wähle ein Muster für den farbigen Streifen für die Startseite. Quelle: <a "
-"href=\"http://www.heropatterns.com/\">heropatterns.com</a>, CC BY 4.0."
+"Επιλέξτε τον τρόπο με τον οποίο θα μορφοποιηθεί το banner της αρχικής "
+"σελίδας. Πηγή μοτίβου:<a href=\"http://www.heropatterns.com/\">heropat"
+"terns.com</a>, CC BY 4.0."
 
 #: pretalx/event/forms.py:206 pretalx/orga/forms/event.py:184
 msgid "Plain"
-msgstr "Kein Muster"
+msgstr "Πεδίο"
 
 #: pretalx/event/forms.py:207 pretalx/orga/forms/event.py:185
 msgid "Circuits"
-msgstr "Platine"
+msgstr "Κυκλώματα"
 
 #: pretalx/event/forms.py:208 pretalx/orga/forms/event.py:186
 msgid "Circles"
-msgstr "Kreise"
+msgstr "Κύκλοι"
 
 #: pretalx/event/forms.py:209 pretalx/orga/forms/event.py:187
 msgid "Signal"
-msgstr "Signale"
+msgstr "Σήμα"
 
 #: pretalx/event/forms.py:210 pretalx/orga/forms/event.py:188
 msgid "Topography"
-msgstr "Höhenlinien"
+msgstr "Τοπογραφία"
 
 #: pretalx/event/forms.py:211 pretalx/orga/forms/event.py:189
 msgid "Graph Paper"
-msgstr "Millimeterpapier"
+msgstr "Χαρτί μιλιμετρέ"
 
 #: pretalx/event/forms.py:241
 msgid "Copy configuration from"
-msgstr "Konfiguration kopieren"
+msgstr "Αντιγραφή διαμόρφωσης από"
 
 #: pretalx/event/forms.py:244
 msgid "Do not copy"
-msgstr "Nicht kopieren"
+msgstr "Να μη γίνει αντιγραφή"
 
 #: pretalx/event/forms.py:257
 msgid "The end of a phase has to be after its start."
@@ -2069,7 +2025,7 @@ msgstr "Das Ende dieser Phase muss nach ihrem Beginn liegen."
 #: pretalx/event/models/event.py:44
 #, python-brace-format
 msgid "Invalid event slug – this slug is reserved: {value}."
-msgstr "Kurzform nicht zulässig – diese Kurzform ist reserviert: {value}"
+msgstr "Μη έγκυρη συντομογραφία -αυτή η συντομογραφία δεν είναι διαθέσιμη: {value}."
 
 #: pretalx/event/models/event.py:94 pretalx/event/models/organiser.py:24
 #: pretalx/orga/templates/orga/admin.html:41
@@ -2084,29 +2040,30 @@ msgstr "Kurzform nicht zulässig – diese Kurzform ist reserviert: {value}"
 #: pretalx/schedule/models/room.py:19 pretalx/submission/models/review.py:116
 #: pretalx/submission/models/track.py:21
 msgid "Name"
-msgstr "Name"
+msgstr "Όνομα"
 
 #: pretalx/event/models/event.py:103 pretalx/event/models/event.py:109
 #: pretalx/event/models/organiser.py:33
 msgid "The slug may only contain letters, numbers, dots and dashes."
 msgstr ""
-"Die Kurzform darf nur Buchstaben, Zahlen, Punkte und Bindestriche enthalten."
+"Η συντομογραφία μπορεί να περιέχει μόνο γράμματα, αριθμούς, τελείες "
+"και παύλες."
 
 #: pretalx/event/models/event.py:108 pretalx/event/models/organiser.py:37
 msgid "Short form"
-msgstr "Kurzform"
+msgstr "Σύντομη μορφή"
 
 #: pretalx/event/models/event.py:117
 msgid "Event is public"
-msgstr "Veranstaltung ist öffentlich"
+msgstr "Η εκδήλωση είναι δημόσια"
 
 #: pretalx/event/models/event.py:118
 msgid "Event start date"
-msgstr "Veranstaltungsbeginn"
+msgstr "Ημερομηνία έναρξης της εκδήλωσης"
 
 #: pretalx/event/models/event.py:119
 msgid "Event end date"
-msgstr "Veranstaltungsende"
+msgstr "Ημερομηνία ολοκλήρωσης της εκδήλωσης"
 
 #: pretalx/event/models/event.py:122
 msgid ""
@@ -2115,11 +2072,11 @@ msgstr "Alle Veranstaltungsdaten werden in dieser Zeitzone angezeigt."
 
 #: pretalx/event/models/event.py:125
 msgid "Organiser email address"
-msgstr "Orga-Adresse"
+msgstr "Email οργανωτικής επιτροπής"
 
 #: pretalx/event/models/event.py:126
 msgid "Will be used as Reply-To in emails."
-msgstr "Wird als Reply-To verwendet"
+msgstr "Θα χρησιμοποιηθεί ως διευθυνση απάντησης σε emails"
 
 #: pretalx/event/models/event.py:144
 msgid "Custom Event CSS"
@@ -2162,25 +2119,25 @@ msgstr ""
 
 #: pretalx/event/models/event.py:176
 msgid "Default language"
-msgstr "Standardsprache"
+msgstr "Προεπιλεγμένη γλώσσα"
 
 #: pretalx/event/models/event.py:214
 msgid "Landing page text"
-msgstr "Starteseitentext"
+msgstr "Κείμενο αρχικής σελίδας"
 
 #: pretalx/event/models/event.py:216
 msgid ""
 "This text will be shown on the landing page, alongside with links to the CfP "
 "and schedule, if appropriate."
 msgstr ""
-"Dieser Text wird auf der Startseite gezeigt, zusammen mit Links zum CfP und "
-"zum Fahrplan (sofern verfügbar)."
+"Αυτό το πρόσθετο θα εμφανίζεται στην αρχική σελίδα, παράλληλα με συνδέσεις στο "
+"κάλεσμα και στο πρόγραμμα, εάν χρειάζεται." 
 
 #: pretalx/event/models/event.py:223 pretalx/orga/templates/orga/admin.html:63
 #: pretalx/orga/templates/orga/plugins.html:4
 #: pretalx/orga/templates/orga/plugins.html:6
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Πρόσθετα"
 
 #: pretalx/event/models/event.py:464 pretalx/event/models/event.py:622
 #: pretalx/event/stages.py:68 pretalx/orga/templates/orga/base.html:184
@@ -2203,16 +2160,16 @@ msgid ""
 "Should be short, only contain lowercase letters and numbers, and must be "
 "unique, as it is used in URLs."
 msgstr ""
-"Sollte kurz sein, nur Kleinbuchstaben und Zahlen enthalten, und muss "
-"einmalig sein, weil sie in URLs verwendet wird."
+"Πρέπει να είναι σύντομο, να περιέχει μόνο πεζά γράμματα και αριθμούς και "
+"πρέπει να είναι μοναδική, όπως χρησιμοποιείται στις διευθύνσεις URL."
 
 #: pretalx/event/models/organiser.py:77
 msgid "Team name"
-msgstr "Team-Name"
+msgstr "Όνομα ομάδας"
 
 #: pretalx/event/models/organiser.py:79
 msgid "Team members"
-msgstr "Team-Mitglieder"
+msgstr "Μέλη ομάδας"
 
 #: pretalx/event/models/organiser.py:83
 msgid ""
@@ -2232,31 +2189,31 @@ msgstr "Auf bestimmte Tracks beschränken"
 
 #: pretalx/event/models/organiser.py:92
 msgid "Can create events"
-msgstr "Darf Veranstaltung erstellen"
+msgstr "Μπορεί να δημιουργήσει εκδηλώσεις"
 
 #: pretalx/event/models/organiser.py:95
 msgid "Can change teams and permissions"
-msgstr "Darf Teams und Berechtigungen ändern"
+msgstr "Μπορεί να αλλάξει ομάδες και δικαιώματα"
 
 #: pretalx/event/models/organiser.py:98
 msgid "Can change organiser settings"
-msgstr "Darf Veranstalter-Einstellungen ändern"
+msgstr "Μπορεί να αλλάξει τις ρυθμίσεις διοργανωτή"
 
 #: pretalx/event/models/organiser.py:101
 msgid "Can change event settings"
-msgstr "Darf Veranstaltungseinstellungen ändern"
+msgstr "Μπορεί να αλλάξει τις ρυθμίσεις εκδήλωσης"
 
 #: pretalx/event/models/organiser.py:104
 msgid "Can work with and change submissions"
-msgstr "Darf Einreichungen bearbeiten"
+msgstr "Μπορεί να επεξεργαστεί και να αλλάξει τις αιτήσεις"
 
 #: pretalx/event/models/organiser.py:106
 msgid "Is a reviewer"
-msgstr "Ist ein Reviewer"
+msgstr "Είνας ένας αξιολογητής"
 
 #: pretalx/event/models/organiser.py:109
 msgid "Override votes"
-msgstr "Override-Stimmen"
+msgstr "Υπέρβαση ψήφων"
 
 #: pretalx/event/models/organiser.py:111
 msgid ""
@@ -2270,17 +2227,17 @@ msgstr ""
 #: pretalx/event/models/organiser.py:117
 #, python-brace-format
 msgid "{name} on {orga}"
-msgstr "{name} in {orga}"
+msgstr "{name} στο {orga}"
 
 #: pretalx/event/models/organiser.py:148
 #: pretalx/orga/templates/orga/settings/team_detail.html:17
 msgid "Email"
-msgstr "E-Mail"
+msgstr "Email"
 
 #: pretalx/event/models/organiser.py:155
 #, python-brace-format
 msgid "Invite to team {team} for {email}"
-msgstr "Einladung zum Team {team} an {email}"
+msgstr "Πρόσκληση στην ομάδα {team} για {email}"
 
 #: pretalx/event/models/organiser.py:169
 #, python-brace-format
@@ -2294,23 +2251,22 @@ msgid ""
 "See you there,\n"
 "The {event} team"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
+"Έχετε προσκληθεί στην οργανωτική επιτροπή της {name} εκδήλωσης - Πατήστε στον "
+"ακόλουθο σύνδεσμο για αποδοχή:\n"
 "\n"
-"Du wurdest zum Team von {name} eingeladen - Bitte klicke hier, um die "
-"Einladung anzunehmen:\n"
+"{invitation_link}\n"
 "\n"
-"    {invitation_link}\n"
-"\n"
-"Wir freuen uns auf dich\n"
-"Das {event}-Team"
+"Τα λέμε εκεί,\n"
+"Η οργανωτική επιτροπή του {event}"
 
 #: pretalx/event/models/organiser.py:181
 msgid "You have been invited to an organiser team"
-msgstr "Du wurdest zu einem Team eingeladen"
+msgstr "Έχετε προσκληθεί στην οργανωτική επιτροπή"
 
 #: pretalx/event/stages.py:41
 msgid "Preparation"
-msgstr "Vorbereitung"
+msgstr "Προετοιμασία"
 
 #: pretalx/event/stages.py:45
 msgid "Configure the event"
@@ -2330,7 +2286,7 @@ msgstr "Pass die E-Mail-Vorlagen an"
 
 #: pretalx/event/stages.py:55
 msgid "CfP is open"
-msgstr "CfP läuft"
+msgstr "Το κάλεσμα είναι ανοικτό"
 
 #: pretalx/event/stages.py:59
 msgid "Monitor submissions"
@@ -2366,7 +2322,7 @@ msgstr "Schreib den Vortragenden, was sie erwartet"
 
 #: pretalx/event/stages.py:96
 msgid "Event"
-msgstr "Veranstaltung"
+msgstr "Εκδήλωση"
 
 #: pretalx/event/stages.py:100
 msgid "Provide a point of contact for the speakers"
@@ -2378,7 +2334,7 @@ msgstr "Genieß die Veranstaltung!"
 
 #: pretalx/event/stages.py:105
 msgid "Wrapup"
-msgstr "Abschluss"
+msgstr "Συμάζεμα"
 
 #: pretalx/event/stages.py:109
 msgid "Monitor incoming feedback"
@@ -2394,25 +2350,27 @@ msgstr "Veröffentliche den nächsten Veranstaltungstermin?"
 
 #: pretalx/mail/context.py:8
 msgid "Link to confirm a submission after it has been accepted."
-msgstr "Link, um eine angenommene Einreichung zu bestätigen."
+msgstr "Σύνδεσμος επιβεβαίωσης υποβολής πρότασης μετά την αποδοχή της."
 
 #: pretalx/mail/context.py:12
 msgid "The event's full name."
-msgstr "Der volle Name der Veranstaltung."
+msgstr "Το πλήρες όνομα της εκδήλωσης."
 
 #: pretalx/mail/context.py:16
 msgid ""
 "The title of the submission in question. Only usable in default templates."
 msgstr ""
-"Der Titel der Einreichung. Kann nur in Standardvorlagen genutzt werden."
+"Τίτλος της εν λόγω υποβολής πρότασης. Μόνο για χρήση σε προεπιλεγμένο πρότυπο "
+"(template)"
 
 #: pretalx/mail/context.py:20
 msgid "The link to a submission. Only usable in default templates."
-msgstr "Link zur Einreichung. Kann nur in Standardvorlagen genutzt werden."
+msgstr ""
+"Σύνδεσμος σε υποβολή πρότασης. Μόνο για χρήση σε προεπιλεγμένο πρότυπο(template)"
 
 #: pretalx/mail/context.py:24
 msgid "The name(s) of all speakers in this submission."
-msgstr "Die Namen aller Vortragenden dieser Einreichung."
+msgstr "Το/Τα όνομα/ονόματα των ομιλητών σε αυτή την πρόταση."
 
 #: pretalx/mail/context.py:28
 msgid "The track the submission falls under"
@@ -2421,7 +2379,7 @@ msgstr "Der Track, zu dem die Einreichung gehört"
 #: pretalx/mail/default_templates.py:4
 #, python-brace-format
 msgid "Your submission: {submission_title}"
-msgstr "Deine Einreichung: {submission_title}"
+msgstr "Η πρότασή σας: {submission_title}"
 
 #: pretalx/mail/default_templates.py:6
 #, python-brace-format
@@ -2437,20 +2395,17 @@ msgid ""
 "\n"
 "The {event_name} organisers"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"Deine Einreichung \"{submission_title}\" für\n"
-"{event_name} ist bei uns angekommen. Wir melden uns bei dir, sobald wir "
-"Zeit\n"
-"hatten alle Einreichungen anzusehen. In der Zwischenzeit kannst du deine "
-"Einreichung\n"
-"unter folgendem Link ansehen und bearbeiten:\n"
-"{submission_url}\n"
+"Έχουμε λάβει την πρότασή σας \"{submission_title}\" για το \n"
+"{event_name}.\n"
+"Θα ενημερωθείτε για αυτήν μετά το πέρας της αξιολόγησης όλων των προτάσεων.\n"
+"Μέχρι τότε μπορείτε να προβάλλετε και να επεξεργαστείτε την πρότασή σας στο\n"
+"{submission_url}.\n"
 "\n"
-"Bitte zögere nicht, dich bei uns zu melden, wenn du irgendwelche Fragen "
-"hast.\n"
+"Είμαστε στη διάθεσή σας για οποιαδήποτε απορία!\n"
 "\n"
-"Das {event_name}-Team"
+"Η οργανωτική ομάδα του {event_name}"
 
 #: pretalx/mail/default_templates.py:17
 #, python-brace-format
@@ -2473,24 +2428,22 @@ msgid ""
 "See you there!\n"
 "The {event_name} organisers"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"wir freuen uns dir mitzuteilen, dass wir deine Einreichung "
-"\"{submission_title}\" für\n"
-"{event_name} akzeptiert haben. Bitte klicke auf den folgenden Link um zu "
-"bestätigen, dass\n"
-"du kommst und deinen Programmpunkt beisteuerst:\n"
+"Είμαστε στην ευχάριστη θέση να σας ανακοινώσουμε πως η πρότασή σας\n"
+"με τίτλο \"{submission_title}\" στο {event_name}, έχει γίνει αποδεκτή.\n"
+"Παρακαλούμε ακολουθήστε τον παρακάτω σύνδεσμο για την επιβεβαίωση\n"
+"της παρουσίας σας στην εκδήλωση:\n"
 "\n"
 "    {confirmation_link}\n"
 "\n"
-"Wir freuen uns dich zu sehen. Bitte melde dich bei uns, wenn du irgendwelche "
-"Fragen hast.\n"
-"Wir werden uns vor der Veranstaltung nochmal bei dir melden und dir Details "
-"zur Programmplanung\n"
-"und zu technischen und räumlichen Gegebenheiten mitteilen.\n"
+"Ανυπομονούμε να σας συναντήσουμε στο {event_name}. Παρακαλούμε\n"
+"επικοινωνήστε μαζί μας για οποιαδήποτε απορία. Θα επικοινωνήσουμε \n"
+"και πάλι μαζί σας πριν την εκδήλωση για να σας παρέχουμε πληροφορίες\n"
+"σχετικά με το χρονοδιάγραμμα των παρουσιάσεων, καθώς και για τεχνικές\n"
+"λεπτομέρειες που αφορούν την αίθουσα σας και τον εξοπλισμό που θα χρειαστείτε.\n"
 "\n"
-"Bis dann!\n"
-"Das {event_name}-Team"
+"Τα λέμε κι από κοντά!Η οργανωτική ομάδα του {event_name}"
 
 #: pretalx/mail/default_templates.py:32
 #, python-brace-format
@@ -2504,17 +2457,14 @@ msgid ""
 "\n"
 "The {event_name} organisers"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"leider können wir deine Einreichtung \"{submission_title}\" für\n"
-"{event_name} nicht akzeptieren. Es gab schlicht zu viele tolle "
-"Einreichungen,\n"
-"sodass wir nicht alle berücksichtigen konnten. Wir hoffen, dich als "
-"Teilnehmer trotzdem\n"
-"zu {event_name} begrüßen zu dürfen!\n"
+"Είμαστε στη δυσάρεστη θέση να σας ανακοινώσουμε πως η πρότασή σας \n"
+"\"{submission_title}\" στο {event_name} δεν έγινε αποδεκτή. Παραλάβαμε πολλές\n"
+"προτάσεις, υψηλού επιπέδου και δεν ήταν δυνατό να επιλεχθούν όλες.\n"
+"Ελπίζουμε να σας δούμε στο {event_name} ως θεατή!\n"
 "\n"
-"Viele Grüße,\n"
-"Das {event_name}-Team"
+"Η οργανωτική ομάδα του {event_name}"
 
 #: pretalx/mail/default_templates.py:41
 msgid "New schedule!"
@@ -2534,22 +2484,18 @@ msgid ""
 "\n"
 "The {event_name} organisers"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"Wir haben eine neue Programmversion veröffentlicht und wollten Dir "
-"mitteilen:\n"
+"Κοινοποιήσαμε μία ανανεωμένη έκδοση του προγράμματος, και η ομιλία σας\n"
+"έχει μεταφερθεί: Από {old_datetime} ({old_room}) σε {new_datetime} ({new_room}).\n"
 "\n"
-"{notifications}\n"
+"Εαν αυτό αποτελεί πρόβλημα, μη διστάσετε να επικοινωνήσετε μαζί μας!\n"
 "\n"
-"Wir freuen uns schon darauf, Dich zu sehen. Bitte melde Dich jederzeit bei "
-"uns, wenn es ein Problem mit Deinem Vortrag oder Deinem Vortragstermin "
-"gibt.\n"
-"\n"
-"Die {event_name} Veranstalter"
+"Η οργανωτική ομάδα του {event_name}"
 
 #: pretalx/mail/default_templates.py:52
 msgid "We have some questions about your submission"
-msgstr "Wir haben ein paar Fragen zu deiner Einreichung"
+msgstr "Έχουμε ορισμένες ερωτήσεις για την πρότασή σας"
 
 #: pretalx/mail/default_templates.py:53
 #, python-brace-format
@@ -2567,21 +2513,23 @@ msgid ""
 "\n"
 "The {event_name} orga"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"Wir haben ein paar offene Fragen zu dir und deiner Einreichung – könntest "
-"du\n"
-"dir die kurz angucken und beantworten?\n"
+"Έχουμε μερικές ερωτήσεις για εσάς και την πρότασή σας τις οποίες θα θέλαμε \n"
+"να απαντήσετε:\n"
 "\n"
 "{questions}\n"
 "\n"
-"Die Antworten kannst du unter {url} eingeben.\n"
+"Μπορείτε να τις απαντήσετε στον παρακάτω σύνδεσμο:\n"
+"{url}\n"
 "\n"
-"Die {event_name}-Orga"
+"Μη διστάσετε να επικοινωνήσετε μαζί μας εάν έχετε και εσείς ερωτήσεις!\n"
+"\n"
+"Η οργανωτική ομάδα του {event_name}"
 
 #: pretalx/mail/models.py:41 pretalx/mail/models.py:162
 msgid "Reply-To"
-msgstr "Reply-To"
+msgstr "Απάντηση σε"
 
 #: pretalx/mail/models.py:42
 msgid ""
@@ -2591,16 +2539,15 @@ msgstr "Trag hier etwas ein, wenn nicht die Orga-Adresse genutzt werden soll"
 
 #: pretalx/mail/models.py:47 pretalx/mail/models.py:176
 msgid "BCC"
-msgstr "BCC"
+msgstr "Κρυφή κοινοποίηση"
 
 #: pretalx/mail/models.py:48
 msgid ""
 "Enter comma separated addresses. Will receive a blind copy of every mail "
 "sent from this template. This may be a LOT!"
 msgstr ""
-"E-Mail-Adressen durch Kommas getrennt. Diese Adressen werden eine Blindkopie "
-"jeder Mail erhalten, die von diesem Template erstellt werden. Das kann eine "
-"RIESEN-Menge sein!"
+"Εισάγετε διευθύνσεις χωρισμένες με κόμμα. Θα λάβετε ένα αντίγραφο για κάθε mail που "
+"θα αποσταλεί από αυτό το πρότυπο(template). Αυτό μπορεί να σημαίνει ΠΟΛΛΑ αντίγραφα!"
 
 #: pretalx/mail/models.py:108
 msgid ""
@@ -2614,12 +2561,12 @@ msgstr ""
 #: pretalx/orga/templates/orga/mails/outbox_list.html:38
 #: pretalx/orga/templates/orga/mails/sent_list.html:21
 msgid "To"
-msgstr "An"
+msgstr "Προς"
 
 #: pretalx/mail/models.py:151 pretalx/mail/models.py:170
 #: pretalx/mail/models.py:177 pretalx/orga/forms/mails.py:106
 msgid "One email address or several addresses separated by commas."
-msgstr "Eine E-Mail-Adresse, oder mehrere durch Kommas getrennt."
+msgstr "Μία ή περισσότερες διευθύνσεις αλληλογραφίας χωρισμένες με κόμμα."
 
 #: pretalx/mail/models.py:163
 msgid "By default, the organiser address is used as Reply-To."
@@ -2627,11 +2574,11 @@ msgstr "Normalerweise wird die Orga-Adresse als Reply-To verwendet."
 
 #: pretalx/mail/models.py:169
 msgid "CC"
-msgstr "CC"
+msgstr "Κοινοποίηση"
 
 #: pretalx/mail/models.py:181
 msgid "Sent at"
-msgstr "Verschickt"
+msgstr "Αποστολή σε"
 
 #: pretalx/mail/models.py:236
 msgid "This mail has been sent already. It cannot be sent again."
@@ -2657,7 +2604,7 @@ msgstr "Können Vorträge mehrfach gehalten werden?"
 
 #: pretalx/orga/forms/cfp.py:23
 msgid "Display deadline publicly"
-msgstr "Einreichungsschluss öffentlich anzeigen"
+msgstr "Προβάλλετε τη διορία δημόσια"
 
 #: pretalx/orga/forms/cfp.py:25
 msgid "Show the time and date the CfP ends to potential speakers."
@@ -2671,7 +2618,7 @@ msgstr "Maximallänge"
 #: pretalx/orga/forms/cfp.py:58 pretalx/orga/forms/cfp.py:61
 #: pretalx/orga/forms/cfp.py:64 pretalx/orga/templates/orga/cfp/text.html:62
 msgid "Maximum length"
-msgstr "Maximallänge"
+msgstr "Μέγιστη διάρκεια"
 
 #: pretalx/orga/forms/cfp.py:67
 msgid "Count text length in"
@@ -2687,15 +2634,15 @@ msgstr "Wörtern"
 
 #: pretalx/orga/forms/cfp.py:71
 msgid "Send mail on new submission"
-msgstr "E-Mail für neue Einreichungen verschicken"
+msgstr "Αποστολή μέιλ με κάθε νέα υποβολή πρότασης"
 
 #: pretalx/orga/forms/cfp.py:73
 msgid ""
 "If this setting is checked, you will receive an email to the organiser "
 "address for every received submission."
 msgstr ""
-"Wenn diese Einstellung aktiviert wird, erhält die Veranstalter-Mailadresse "
-"eine Benachrichtigung über jede neue Einreichung."
+"Με τη συγκεκριμένη επιλογή, θα λαμβάνετε ένα mail στη διεύθυνση αλληλογραφίας των "
+"διοργανωτών για κάθε νέα υποβολή πρότασης."
 
 #: pretalx/orga/forms/event.py:24
 msgid "Active languages"
@@ -2735,7 +2682,7 @@ msgstr "Deine Standardsprache muss aktiviert sein."
 
 #: pretalx/orga/forms/event.py:138
 msgid "Custom domain"
-msgstr "Eigene Domain"
+msgstr "Προσαρμοσμένη διεύθυνση διαδικτύου"
 
 #: pretalx/orga/forms/event.py:139
 msgid "Enter a custom domain, such as https://my.event.example.org"
@@ -2752,7 +2699,7 @@ msgstr ""
 
 #: pretalx/orga/forms/event.py:150
 msgid "Show schedule publicly"
-msgstr "Programm öffentlich zeigen"
+msgstr "Εμφάνιση του προγράμματος δημόσια"
 
 #: pretalx/orga/forms/event.py:152
 msgid ""
@@ -2876,36 +2823,36 @@ msgstr "Hostname"
 
 #: pretalx/orga/forms/event.py:266 pretalx/orga/templates/orga/admin.html:54
 msgid "Port"
-msgstr "Port"
+msgstr "Θύρα"
 
 #: pretalx/orga/forms/event.py:267
 msgid "Username"
-msgstr "Benutzername"
+msgstr "Όνομα χρήστη"
 
 #: pretalx/orga/forms/event.py:269 pretalx/orga/templates/orga/admin.html:56
 #: pretalx/person/forms.py:27 pretalx/person/forms.py:31
 msgid "Password"
-msgstr "Passwort"
+msgstr "Κωδικός πρόσβασης"
 
 #: pretalx/orga/forms/event.py:278
 msgid "Use STARTTLS"
-msgstr "STARTTLS verwenden"
+msgstr "Χρησιμοποιήστε STARTTLS"
 
 #: pretalx/orga/forms/event.py:279
 msgid "Commonly enabled on port 587."
-msgstr "Meistens auf Port 587 verfügbar."
+msgstr "Συνήθως ενεργοποιημένη στη θύρα 587."
 
 #: pretalx/orga/forms/event.py:283
 msgid "Use SSL"
-msgstr "SSL verwenden"
+msgstr "Χρησιμοποιήστε SSL"
 
 #: pretalx/orga/forms/event.py:283
 msgid "Commonly enabled on port 465."
-msgstr "Meistens auf Port 465 verfügbar."
+msgstr "Συνήθως ενεργοποιημένη στη θύρα 465."
 
 #: pretalx/orga/forms/event.py:291
 msgid "Leave empty to use the default address: {}"
-msgstr "Leer lassen, um die Standardadresse zu verwenden: {}"
+msgstr "Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλεγμένη διεύθυνση: {}"
 
 #: pretalx/orga/forms/event.py:305
 msgid ""
@@ -3013,21 +2960,19 @@ msgstr "Empfängergruppen"
 
 #: pretalx/orga/forms/mails.py:86
 msgid "Everyone with submission(s) that have not been accepted/rejected yet"
-msgstr "Jeder mit Einreichungen, die noch nicht akzeptiert/abgelehnt wurden"
+msgstr "Όλοι με υποβολές που δεν έχουν γίνει αποδεκτές / απορριφθείσες ακόμη"
 
 #: pretalx/orga/forms/mails.py:91
 msgid "All accepted speakers (who have not confirmed their talk yet)"
-msgstr ""
-"Alle angenommenen Vortragenden (die ihre Teilnahme noch nicht bestätigt "
-"haben)"
+msgstr "Όλοι οι ομιλητές (που δεν έχουν επιβεβαιώσει ακόμα την ομιλία τους)"
 
 #: pretalx/orga/forms/mails.py:93
 msgid "All confirmed speakers"
-msgstr "Alle zugesagten Vortragenden"
+msgstr "Όλοι οι επιβεβαιωμένοι ομιλητές"
 
 #: pretalx/orga/forms/mails.py:94
 msgid "All rejected speakers"
-msgstr "Alle abgelehnten Vortragenden"
+msgstr "Όλοι οι ομιλητές που απορρίφθηκαν"
 
 #: pretalx/orga/forms/mails.py:95
 msgid "All reviewers in your team"
@@ -3055,15 +3000,15 @@ msgstr ""
 
 #: pretalx/orga/forms/review.py:28
 msgid "No score"
-msgstr "Keine Punkte"
+msgstr "Δεν υπάρχει βαθμολογία"
 
 #: pretalx/orga/forms/review.py:36 pretalx/submission/models/review.py:91
 msgid "Negative override (Veto)"
-msgstr "Negativer Override (Veto)"
+msgstr "Αρνητική παράκαμψη (Veto)"
 
 #: pretalx/orga/forms/review.py:37 pretalx/submission/models/review.py:89
 msgid "Positive override"
-msgstr "Positiver Override"
+msgstr "Θετική παράκαμψη"
 
 #: pretalx/orga/forms/review.py:45
 #, python-brace-format
@@ -3075,7 +3020,7 @@ msgstr[1] "Du hast noch {count} Override-Stimmen übrig."
 #: pretalx/orga/forms/review.py:66
 #, python-brace-format
 msgid "Please assign a score between {self.min_value} and {self.max_value}!"
-msgstr "Bitte vergib Punkte zwischen {self.min_value} und {self.max_value}!"
+msgstr "Παρακαλώ εισάγετε βαθμολογία μεταξύ {self.min_value} και {self.max_value}!"
 
 #: pretalx/orga/forms/schedule.py:9
 msgid "Notify speakers of changes"
@@ -3094,8 +3039,8 @@ msgid ""
 "The email address of the speaker holding the talk. They will be invited to "
 "create an account."
 msgstr ""
-"Füge die E-Mail-Adresse des Vortragenden ein Der oder die Betreffende wird "
-"dann zur Account-Einrichtung eingeladen."
+"Προσθέστε το email ή το ψευδώνυμο του ομιλητή που είναι υπεύθυνος για την ομιλία. Θα "
+"κληθούν να δημιουργήσουν έναν λογαριασμό."
 
 #: pretalx/orga/forms/submission.py:25
 msgid "Speaker name"
@@ -3107,15 +3052,15 @@ msgstr "Bitte gib den Namen ein, der öffentlich erscheinen soll."
 
 #: pretalx/orga/phrases.py:9
 msgid "Hi, nice to see you!"
-msgstr "Hey, schön dich kennenzulernen!"
+msgstr "Γεια σας, χαιρόμαστε που σας βλέπουμε!"
 
 #: pretalx/orga/phrases.py:10
 msgid "Welcome!"
-msgstr "Willkommen!"
+msgstr "Καλώς ήρθατε!"
 
 #: pretalx/orga/phrases.py:11
 msgid "I hope you are having a good day :)"
-msgstr "Ich hoffe, du hast einen schönen Tag :)"
+msgstr "Ελπίζω να έχετε μια καλή μέρα :)"
 
 #: pretalx/orga/phrases.py:12
 msgid "Remember: organising events is lots of work, but it pays off."
@@ -3149,15 +3094,15 @@ msgstr ""
 
 #: pretalx/orga/phrases.py:21
 msgid "Pudding"
-msgstr "Pudding"
+msgstr "Πουτίγκα"
 
 #: pretalx/orga/phrases.py:21
 msgid "Panna cotta"
-msgstr "Panna cotta"
+msgstr "Πανακότα"
 
 #: pretalx/orga/phrases.py:21
 msgid "Chocolate chip cookies"
-msgstr "Schokokekse"
+msgstr "Μπισκότα με κομμάτια σοκολάτας"
 
 #: pretalx/orga/phrases.py:24
 msgid "I think this talk is well-suited to this conference, because ..."
@@ -3166,7 +3111,7 @@ msgstr ""
 
 #: pretalx/orga/phrases.py:25
 msgid "I think this talk might fit the conference better, if ..."
-msgstr "Ich denke dieser Vortrag könnte besser sein, wenn …"
+msgstr "Νομίζω ότι αυτή η ομιλία θα μπορούσε να ταιριάζει καλύτερα στη διάσκεψη, αν ..."
 
 #: pretalx/orga/phrases.py:26
 msgid "I think this talk sounds like a perfect fit for Day 2, since ..."
@@ -3217,7 +3162,7 @@ msgstr ""
 
 #: pretalx/orga/phrases.py:38
 msgid "Remember to take a break between reviews, occasionally."
-msgstr "Mach gelegentlich eine Pause zwischen zwei Reviews."
+msgstr "Θυμηθείτε να κάνετε διάλειμμα μεταξύ των ανασκοπήσεων, τακτικά."
 
 #: pretalx/orga/templates/orga/admin.html:15
 msgid "Administrator information"
@@ -3373,7 +3318,7 @@ msgstr "pretalx-Blog (Update-Benachrichtigungen, neue Features)"
 #: pretalx/orga/templates/orga/auth/login.html:4
 #: pretalx/orga/templates/orga/invitation.html:5
 msgid "Sign in"
-msgstr "Einloggen"
+msgstr "Συνδεθείτε"
 
 #: pretalx/orga/templates/orga/base.html:75
 msgid "Search for events"
@@ -3385,18 +3330,17 @@ msgstr "Navigieren"
 
 #: pretalx/orga/templates/orga/base.html:139
 msgid "You're using pretalx as a superuser. This is not recommended."
-msgstr "Du verwendest pretalx als Superuser, davon raten wir ab."
+msgstr "Χρησιμοποιείτε το pretalx ως διαχειριστής. Κάτι τέτοιο δεν προτείνεται."
 
 #: pretalx/orga/templates/orga/base.html:143
 msgid "Please click here to switch to an administrator account."
-msgstr ""
-"Bitte klick hier, um deinen Account zu einem Administratoraccount zu machen."
+msgstr "Παρακαλώ πατήστε εδώ για να αλλάξετε σε λογαριασμό διαχειριστή."
 
 #: pretalx/orga/templates/orga/base.html:159
 #: pretalx/orga/templates/orga/event_list.html:5
 #: pretalx/orga/views/dashboard.py:192
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Ταμπλό"
 
 #: pretalx/orga/templates/orga/base.html:180
 #: pretalx/orga/templates/orga/organiser/detail.html:34
@@ -3415,12 +3359,12 @@ msgstr "Plugin auswählen"
 #: pretalx/orga/templates/orga/base.html:206
 #: pretalx/orga/views/dashboard.py:203
 msgid "CfP"
-msgstr "CfP"
+msgstr "Κάλεσμα για Υποβολή Προτάσεων"
 
 #: pretalx/orga/templates/orga/base.html:214
 #: pretalx/orga/templates/orga/submission/base.html:30
 msgid "Content"
-msgstr "Inhalt"
+msgstr "Περιεχόμενο"
 
 #: pretalx/orga/templates/orga/base.html:221
 #: pretalx/orga/templates/orga/cfp/track_view.html:5
@@ -3433,7 +3377,7 @@ msgstr "Tracks"
 #: pretalx/orga/templates/orga/base.html:225
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:5
 msgid "Submission Types"
-msgstr "Einreichungsarten"
+msgstr "Τύπος υποβολής"
 
 #: pretalx/orga/templates/orga/base.html:235
 #: pretalx/orga/templates/orga/base.html:243
@@ -3441,7 +3385,7 @@ msgstr "Einreichungsarten"
 #: pretalx/orga/templates/orga/submission/stats.html:22
 #: pretalx/orga/views/dashboard.py:193
 msgid "Submissions"
-msgstr "Einreichungen"
+msgstr "Υποβολή(ές)"
 
 #: pretalx/orga/templates/orga/base.html:246
 msgid "Statistics"
@@ -3449,27 +3393,27 @@ msgstr "Statistiken"
 
 #: pretalx/orga/templates/orga/base.html:271 pretalx/schedule/models/room.py:31
 msgid "Speaker Information"
-msgstr "Informationen für Vortragende"
+msgstr "Πληροφορίες για τον Ομιλητή"
 
 #: pretalx/orga/templates/orga/base.html:292
 msgid "Editor"
-msgstr "Editor"
+msgstr "Εκδότης"
 
 #: pretalx/orga/templates/orga/base.html:295
 msgid "Rooms"
-msgstr "Räume"
+msgstr "Δωμάτια"
 
 #: pretalx/orga/templates/orga/base.html:298
 msgid "Export"
-msgstr "Export"
+msgstr "Εξαγωγή"
 
 #: pretalx/orga/templates/orga/base.html:318
 msgid "Outbox"
-msgstr "Postausgang"
+msgstr "Εξερχόμενα"
 
 #: pretalx/orga/templates/orga/base.html:321
 msgid "Templates"
-msgstr "Vorlagen"
+msgstr "Πρότυπο"
 
 #: pretalx/orga/templates/orga/base.html:324
 msgid "Compose E-mails"
@@ -3477,7 +3421,7 @@ msgstr "E-Mails schreiben"
 
 #: pretalx/orga/templates/orga/base.html:327
 msgid "Sent E-mails"
-msgstr "Verschickte E-Mails"
+msgstr "Απεσταλμένη Αλληλογραφία"
 
 #: pretalx/orga/templates/orga/base.html:350
 msgid "Organisers"
@@ -3494,7 +3438,7 @@ msgstr "powered by <a %(a_attr)s>pretalx</a>"
 
 #: pretalx/orga/templates/orga/base.html:391
 msgid "running in development mode"
-msgstr "im Entwicklermodus"
+msgstr "εκτέλεση σε περιβάλλον ανάπτυξης"
 
 #: pretalx/orga/templates/orga/cfp/question_delete.html:5
 msgid "Do you really want to delete this question?"
@@ -3520,12 +3464,12 @@ msgstr "Ja"
 #: pretalx/orga/templates/orga/cfp/question_form.html:33
 msgid "This question is currently active, it will be asked during submission."
 msgstr ""
-"Diese Frage ist aktiviert und wird bei neuen Einreichungen gestellt werden."
+"Η συγκεκριμένη ερώτηση είναι για την ώρα ενεργή, θα είναι ορατή κατά την αίτηση."
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:33
 #: pretalx/orga/templates/orga/cfp/question_form.html:34
 msgid "Hide question"
-msgstr "Frage deaktivieren"
+msgstr "Απόκρυψη ερώτησης"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:39
 #: pretalx/orga/templates/orga/cfp/question_form.html:40
@@ -3536,15 +3480,15 @@ msgstr "Diese Frage ist inaktiv und wird nicht gestellt werden."
 #: pretalx/orga/templates/orga/cfp/question_detail.html:40
 #: pretalx/orga/templates/orga/cfp/question_form.html:41
 msgid "Activate question"
-msgstr "Frage aktivieren"
+msgstr "Ενεργή ερώτηση"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:48
 msgid "Filter"
-msgstr "Filtern"
+msgstr "Φίλτρο"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:53
 msgid "Nobody has answered this question at the moment."
-msgstr "Niemand hat diese Frage beantwortet."
+msgstr "Κανείς δεν έχει απαντήσει για την ώρα αυτή την ερώτηση."
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:56
 #, python-format
@@ -3578,7 +3522,7 @@ msgstr "Betrag"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:89
 msgid "lost file"
-msgstr "verlorene Datei"
+msgstr "χαμένο αρχείο"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:105
 msgid "Empty answer"
@@ -3615,7 +3559,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/question_form.html:71
 msgid "Answer options"
-msgstr "Antwortoptionen"
+msgstr "Επιλογές απάντησης"
 
 #: pretalx/orga/templates/orga/cfp/question_form.html:119
 msgid "Add a new option"
@@ -3623,7 +3567,7 @@ msgstr "Option hinzufügen"
 
 #: pretalx/orga/templates/orga/cfp/question_remind.html:7
 msgid "Send out reminders"
-msgstr "Erinnerungen abschicken"
+msgstr "Αποστολή υπενθυμίσεων"
 
 #: pretalx/orga/templates/orga/cfp/question_remind.html:10
 msgid ""
@@ -3638,7 +3582,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/question_remind.html:19
 msgid "Send to "
-msgstr "Abschicken an "
+msgstr "Αποστολή σε "
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:6
 msgid ""
@@ -3654,11 +3598,11 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:17
 msgid "Send out reminders for unanswered questions"
-msgstr "Erinnerungen wegen unbeantworteter Fragen verschicken"
+msgstr "Στείλτε υπενθυμίσεις για αναπάντητες ερωτήσεις"
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:21
 msgid "Add a new question"
-msgstr "Neue Frage erstellen"
+msgstr "Προσθέστε μια νέα ερώτηση"
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:30
 msgid "Target"
@@ -3734,7 +3678,7 @@ msgstr "Zu vorausgefülltem CfP-Formular gehen"
 
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:60
 msgid "New type"
-msgstr "Einreichungsart erstellen"
+msgstr "Νέος τύπος"
 
 #: pretalx/orga/templates/orga/cfp/text.html:20
 msgid ""
@@ -3746,19 +3690,19 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/text.html:22
 msgid "The formats (talks, workshops, panels) and their durations"
-msgstr "Die Einreichungsarten (Vorträge, Workshops, Panels, …) und ihre Dauer"
+msgstr "Τα είδη των εκδηλώσεων (ομιλίες, εργαστήρια , συζητήσεις) και η διάρκειά τους"
 
 #: pretalx/orga/templates/orga/cfp/text.html:23
 msgid "Topics you are looking for"
-msgstr "Themen, nach denen ihr Ausschau haltet"
+msgstr "Θέματα που αναζητείτε"
 
 #: pretalx/orga/templates/orga/cfp/text.html:24
 msgid "How open you are to alternative topics"
-msgstr "Wie interessiert ihr an anderen Themengebieten seid"
+msgstr "Πόσο ανοιχτοί είστε σε εναλλακτικά θέματα"
 
 #: pretalx/orga/templates/orga/cfp/text.html:25
 msgid "The people coming to your conference: interests, experience level …"
-msgstr "Die Zielgruppe, ihre Interessen, Erfahrungen, Vorkenntnisse …"
+msgstr "Οι άνθρωποι που έρχονται στο συνέδριό σας: ενδιαφέροντα, εμπειρία ..."
 
 #: pretalx/orga/templates/orga/cfp/text.html:26
 msgid "Link your Code of Conduct and Data Protection statements."
@@ -3776,11 +3720,11 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/text.html:28
 msgid "Dates and location"
-msgstr "Datum und Ort"
+msgstr "Ημερομηνίες και τοποθεσία"
 
 #: pretalx/orga/templates/orga/cfp/text.html:39
 msgid "Text and deadline"
-msgstr "Text und Einsendeschluss"
+msgstr "Κείμενο και προθεσμία"
 
 #: pretalx/orga/templates/orga/cfp/text.html:50
 msgid "Submission information"
@@ -3847,7 +3791,7 @@ msgstr "Bild"
 #: pretalx/orga/templates/orga/cfp/text.html:139
 #: pretalx/submission/models/submission.py:173
 msgid "Duration"
-msgstr "Dauer"
+msgstr "Διάρκεια"
 
 #: pretalx/orga/templates/orga/cfp/track_delete.html:5
 msgid "Do you really want to delete this track?"
@@ -3967,7 +3911,7 @@ msgstr "Neue Veranstaltung erstellen"
 #: pretalx/orga/templates/orga/event/wizard/basics.html:16
 #, python-format
 msgid "Step %(current)s of %(total)s"
-msgstr "Schritt %(current)s von %(total)s"
+msgstr "Βήμα %(current)s από %(total)s"
 
 #: pretalx/orga/templates/orga/event/wizard/base.html:21
 #: pretalx/orga/templates/orga/event/wizard/basics.html:32
@@ -3977,7 +3921,7 @@ msgstr "Weiter"
 #: pretalx/orga/templates/orga/event/wizard/base.html:23
 #: pretalx/orga/templates/orga/event/wizard/basics.html:34
 msgid "Previous step"
-msgstr "Zurück"
+msgstr "Προηγούμενο βήμα"
 
 #: pretalx/orga/templates/orga/event/wizard/copy.html:6
 msgid ""
@@ -4021,11 +3965,11 @@ msgstr "URL"
 #: pretalx/orga/templates/orga/event_list.html:22
 #: pretalx/orga/templates/orga/event_list.html:43
 msgid "Date"
-msgstr "Datum"
+msgstr "Ήμερομινία"
 
 #: pretalx/orga/templates/orga/invitation.html:5
 msgid "Invitation"
-msgstr "Einladung"
+msgstr "Πρόσκληση"
 
 #: pretalx/orga/templates/orga/invitation.html:8
 #, python-format
@@ -4034,21 +3978,21 @@ msgstr "Einladung zum %(organiser)s-Team \"%(name)s\""
 
 #: pretalx/orga/templates/orga/invitation.html:19
 msgid "Join the team!"
-msgstr "Dem Team beitreten"
+msgstr "Γείνε μένος της ομάδας"
 
 #: pretalx/orga/templates/orga/mails/confirm.html:5
 msgid "Please confirm:"
-msgstr "Bitte bestätige:"
+msgstr "Παρακαλώ επιβεβαιώστε:"
 
 #: pretalx/orga/templates/orga/mails/outbox_form.html:8
 #, python-format
 msgid "This email was sent on %(timestamp)s."
-msgstr "Diese E-Mail wurde am %(timestamp)s verschickt."
+msgstr "Αυτό το mail στάλθηκε στις %(timestamp)s."
 
 #: pretalx/orga/templates/orga/mails/outbox_form.html:15
 #: pretalx/orga/templates/orga/mails/send_form.html:8
 msgid "Mail Editor"
-msgstr "E-Mail-Editor"
+msgstr "Κειμενογράφος αλληλογραφίας"
 
 #: pretalx/orga/templates/orga/mails/outbox_form.html:29
 msgid "Save and send"
@@ -4056,25 +4000,25 @@ msgstr "Speichern und verschicken"
 
 #: pretalx/orga/templates/orga/mails/outbox_form.html:30
 msgid "Discard"
-msgstr "Verwerfen"
+msgstr "Διαγραφή"
 
 #: pretalx/orga/templates/orga/mails/outbox_form.html:33
 msgid "Copy to draft"
-msgstr "In einen Entwurf kopieren"
+msgstr "Αντιγραφή στα προσχέδια"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:9
 msgid "pending mail"
 msgid_plural "pending mails"
-msgstr[0] "Ausgehende E-Mail"
-msgstr[1] "Ausgehende E-Mails"
+msgstr[0] "αλληλογραφία που εκκρεμεί"
+msgstr[1] "μήνυμα που εκκρεμεί"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:22
 msgid "Send all"
-msgstr "Alle abschicken"
+msgstr "Αποστολή όλων"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:25
 msgid "Discard all"
-msgstr "Alle verwerfen"
+msgstr "Διαγραφή όλων"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:34
 #: pretalx/orga/templates/orga/mails/sent_list.html:17
@@ -4098,25 +4042,25 @@ msgstr "Nach Empfänger sortieren (z-a)"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:66
 msgid "send"
-msgstr "Abschicken"
+msgstr "αποστολή"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:71
 #: pretalx/orga/templates/orga/submission/list.html:127
 msgid "edit"
-msgstr "bearbeiten"
+msgstr "επεξεργασία"
 
 #: pretalx/orga/templates/orga/mails/outbox_list.html:76
 #: pretalx/orga/templates/orga/submission/list.html:132
 msgid "delete"
-msgstr "Löschen"
+msgstr "διαγραφή"
 
 #: pretalx/orga/templates/orga/mails/sent_list.html:9
 msgid "Sent Mails"
-msgstr "Verschickte E-Mails"
+msgstr "Απεσταλμένη Αλληλογραφία"
 
 #: pretalx/orga/templates/orga/mails/sent_list.html:26
 msgid "Sent"
-msgstr "Verschickt"
+msgstr "Απεσταλμένα"
 
 #: pretalx/orga/templates/orga/mails/sent_list.html:27
 msgid "Sort by sending time (most recent first)"
@@ -4136,7 +4080,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/mails/template_form.html:21
 msgid "Mail Template Editor"
-msgstr "E-Mail-Vorlagen-Editor"
+msgstr "Κειμενογάφος πρότυπου E-Mail"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:7
 msgid ""
@@ -4152,11 +4096,11 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/mails/template_list.html:17
 msgid "New custom template"
-msgstr "Neue eigene Vorlage"
+msgstr "Νέο κατά-παραγγελία πρότυπο"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:24
 msgid "Acknowledge Mail"
-msgstr "Bestätigungsmail"
+msgstr "Mail Αναγνώρισης"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:27
 #: pretalx/orga/templates/orga/mails/template_list.html:36
@@ -4164,7 +4108,7 @@ msgstr "Bestätigungsmail"
 #: pretalx/orga/templates/orga/mails/template_list.html:54
 #: pretalx/orga/templates/orga/mails/template_list.html:68
 msgid "Edit template"
-msgstr "Vorlage editieren"
+msgstr "Επεξεργαστείτε το πρότυπο"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:28
 #: pretalx/orga/templates/orga/mails/template_list.html:37
@@ -4176,23 +4120,23 @@ msgstr "E-Mails verschicken"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:33
 msgid "Accept Mail"
-msgstr "Annahmemail"
+msgstr "Mail Αποδοχής"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:42
 msgid "Rejection Mail"
-msgstr "Ablehnungsmail"
+msgstr "Mail Απόρριψης"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:51
 msgid "Update Mail"
-msgstr "E-Mail aktualisieren"
+msgstr "Ενημερωμένα Mail"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:62
 msgid "Custom Mail"
-msgstr "Eigene E-Mail"
+msgstr "Custom Mail"
 
 #: pretalx/orga/templates/orga/mails/template_list.html:65
 msgid "Delete template"
-msgstr "Vorlage löschen"
+msgstr "Διαγραφή προτύπου"
 
 #: pretalx/orga/templates/orga/organiser/delete.html:5
 msgid "Do you really want to delete this organiser?"
@@ -4239,45 +4183,45 @@ msgstr "Du bist ein Mitglied dieses Teams"
 #: pretalx/orga/templates/orga/organiser/detail.html:84
 #: pretalx/orga/templates/orga/settings/team_detail.html:77
 msgid "New team"
-msgstr "Team anlegen"
+msgstr "Νέα ομάδα"
 
 #: pretalx/orga/templates/orga/organiser/list.html:13
 msgid "New organiser"
-msgstr "Neuer Veranstalter"
+msgstr "Νέος Οργανωτής"
 
 #: pretalx/orga/templates/orga/organiser/list.html:34
 msgid "There are no organisers you can edit."
-msgstr "Du kannst gerade keine Veranstalter bearbeiten."
+msgstr "Δεν μπορείται να επεξεργαστήτε διοργανωτές."
 
 #: pretalx/orga/templates/orga/pagination.html:14
 #, python-format
 msgid "Page %(page)s of %(of)s (%(count)s elements)"
-msgstr "Seite %(page)s von %(of)s (%(count)s Elemente)"
+msgstr "Σελίδα %(page)s από %(of)s (%(count)s elements)"
 
 #: pretalx/orga/templates/orga/pagination.html:28
 #, python-format
 msgid "%(count)s element"
 msgid_plural "%(count)s elements"
-msgstr[0] "%(count)s Element"
-msgstr[1] "%(count)s Elemente"
+msgstr[0] "%(count)s στοιχείο"
+msgstr[1] "%(count)s στοιχεία"
 
 #: pretalx/orga/templates/orga/plugins.html:15
 msgid "Disable"
-msgstr "Deaktivieren"
+msgstr "Απενεργοποίηση"
 
 #: pretalx/orga/templates/orga/plugins.html:17
 msgid "Enable"
-msgstr "Aktivieren"
+msgstr "Ενεργοποίηση"
 
 #: pretalx/orga/templates/orga/plugins.html:23
 #, python-format
 msgid "Version %(v)s by <em>%(a)s</em>"
-msgstr "Version %(v)s von <em>%(a)s</em>"
+msgstr "Έκδοση %(v)s από <em>%(a)s</em>"
 
 #: pretalx/orga/templates/orga/plugins.html:27
 #, python-format
 msgid "Version %(v)s"
-msgstr "Version %(v)s"
+msgstr "Έκδοση %(v)s"
 
 #: pretalx/orga/templates/orga/plugins.html:39
 msgid "This instance does currently not have any plugins installed."
@@ -4366,7 +4310,7 @@ msgstr "Du hast diese Einreichung schon bewertet"
 #: pretalx/orga/templates/orga/review/dashboard.html:136
 #: pretalx/orga/templates/orga/review/dashboard.html:152
 msgid "Reject"
-msgstr "Ablehnen"
+msgstr "Απορρίπτω"
 
 #: pretalx/orga/templates/orga/review/dashboard.html:138
 msgid "Unset accept/reject vote"
@@ -4378,7 +4322,7 @@ msgstr "Ihr habt noch keine Einreichungen."
 
 #: pretalx/orga/templates/orga/review/dashboard.html:154
 msgid "Go!"
-msgstr "Los!"
+msgstr "Εμπρός!"
 
 #: pretalx/orga/templates/orga/review/regenerate_decision_mails.html:5
 msgid "Regenerate notification emails"
@@ -4421,15 +4365,15 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/schedule/export.html:28
 msgid "Download ZIP"
-msgstr "ZIP herunterladen"
+msgstr "Λήψη ZIP"
 
 #: pretalx/orga/templates/orga/schedule/export.html:34
 msgid "Regenerate Export"
-msgstr "Export neu erstellen"
+msgstr "Αναδημιουργία Εξαγώμενου"
 
 #: pretalx/orga/templates/orga/schedule/export.html:40
 msgid "Data Export"
-msgstr "Daten-Export"
+msgstr "Εξαγωγή Δεδομένων"
 
 #: pretalx/orga/templates/orga/schedule/export.html:43
 msgid ""
@@ -4455,7 +4399,7 @@ msgstr "Dokumentation"
 
 #: pretalx/orga/templates/orga/schedule/export.html:82
 msgid "Go to API"
-msgstr "Zur API"
+msgstr "Προσ το API"
 
 #: pretalx/orga/templates/orga/schedule/import.html:6
 msgid "Import XML"
@@ -4473,7 +4417,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/schedule/import.html:20
 msgid "Upload"
-msgstr "Upload"
+msgstr "Μεταφόρτωση"
 
 #: pretalx/orga/templates/orga/schedule/index.html:24
 msgid ""
@@ -4505,7 +4449,7 @@ msgstr "Im Frontend ansehen"
 
 #: pretalx/orga/templates/orga/schedule/index.html:64
 msgid "Hide schedule"
-msgstr "Programm verstecken"
+msgstr "Κρύψτε το πρόγραμμα"
 
 #: pretalx/orga/templates/orga/schedule/index.html:68
 msgid "Make schedule public"
@@ -4619,13 +4563,13 @@ msgstr "Veröffentlichen"
 #: pretalx/orga/templates/orga/schedule/room_list.html:8
 msgid "Room"
 msgid_plural "Rooms"
-msgstr[0] "Raum"
-msgstr[1] "Räume"
+msgstr[0] "Αίθουσα"
+msgstr[1] "Αίθουσες"
 
 #: pretalx/orga/templates/orga/schedule/room_list.html:19
 #: pretalx/schedule/models/room.py:39
 msgid "Capacity"
-msgstr "Kapazität"
+msgstr "Χωρητικότητα"
 
 #: pretalx/orga/templates/orga/schedule/room_list.html:36
 msgid "Move room down"
@@ -4642,19 +4586,19 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/schedule/room_list.html:66
 msgid "New room"
-msgstr "Neuer Raum"
+msgstr "Νέα αίθουσα"
 
 #: pretalx/orga/templates/orga/settings/form.html:30
 msgid "General information"
-msgstr "Allgemeine Informationen"
+msgstr "Γενικές πληροφορίες"
 
 #: pretalx/orga/templates/orga/settings/form.html:54
 msgid "Display settings"
-msgstr "Anzeige-Einstellungen"
+msgstr "Ρυθμίσεις απεικόνισης"
 
 #: pretalx/orga/templates/orga/settings/form.html:68
 msgid "Event logo"
-msgstr "Veranstaltungslogo"
+msgstr "Λογότυπο εκδήλωσης"
 
 #: pretalx/orga/templates/orga/settings/form.html:83
 msgid "Event header image"
@@ -4670,7 +4614,7 @@ msgstr "Veranstaltung löschen"
 
 #: pretalx/orga/templates/orga/settings/mail.html:8
 msgid "E-mail settings"
-msgstr "E-Mail-Einstellungen"
+msgstr "Ρυθμίσεις email"
 
 #: pretalx/orga/templates/orga/settings/mail.html:10
 msgid ""
@@ -4684,7 +4628,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/settings/mail.html:23
 msgid "Save and test custom SMTP connection"
-msgstr "Speichern und SMTP-Einstellung testen"
+msgstr "Αποθηκεύστε και τεστάρετε την custom SMTP σύνδεση"
 
 #: pretalx/orga/templates/orga/settings/review.html:20
 msgid "Review settings"
@@ -4749,7 +4693,7 @@ msgstr "Eine weitere Phase hinzufügen"
 
 #: pretalx/orga/templates/orga/settings/team_delete.html:10
 msgid "Do you really want to go through with this deletion?"
-msgstr "Möchtest du mit dieser Löschung wirklich fortfahren?"
+msgstr "Θέλετε όντως να προχωρήσετε με αυτή τη διαγραφή;"
 
 #: pretalx/orga/templates/orga/settings/team_detail.html:35
 msgid "Remove team member"
@@ -4761,7 +4705,7 @@ msgstr "ausstehende Einladung"
 
 #: pretalx/orga/templates/orga/settings/team_detail.html:64
 msgid "Add member"
-msgstr "Mitglied hinzufügen"
+msgstr "Πρόσθεση μέλους"
 
 #: pretalx/orga/templates/orga/settings/team_detail.html:74
 msgid "Permissions"
@@ -4805,14 +4749,14 @@ msgstr "Keine der Veranstaltungen dieses Teams hat derzeit Tracks angelegt."
 #: pretalx/orga/views/dashboard.py:133
 msgid "submission"
 msgid_plural "submissions"
-msgstr[0] "Einreichung"
-msgstr[1] "Einreichungen"
+msgstr[0] "πρόταση"
+msgstr[1] "προτάσεις"
 
 #: pretalx/orga/templates/orga/speaker/form.html:30
 msgid "Submission"
 msgid_plural "Submissions"
-msgstr[0] "Einreichung"
-msgstr[1] "Einreichungen"
+msgstr[0] "Πρόταση"
+msgstr[1] "Προτάσεις"
 
 #: pretalx/orga/templates/orga/speaker/form.html:99
 #: pretalx/orga/views/dashboard.py:208
@@ -4821,7 +4765,7 @@ msgstr "E-Mails schreiben"
 
 #: pretalx/orga/templates/orga/speaker/form.html:112
 msgid "Emails"
-msgstr "E-Mails"
+msgstr "E-Mail"
 
 #: pretalx/orga/templates/orga/speaker/form.html:116
 msgid "No mails were sent to this speaker yet."
@@ -4835,8 +4779,8 @@ msgstr "Möchtest du diese Information wirklich löschen?"
 #: pretalx/orga/templates/orga/speaker/information_list.html:7
 msgid "Speaker Information Note"
 msgid_plural "Speaker Information Notes"
-msgstr[0] "Information für Vortragende"
-msgstr[1] "Informationen für Vortragende"
+msgstr[0] "Σημείωση για Πληροφορίες Ομιλητή"
+msgstr[1] "Σημειώσεις για Πληροφορίες Ομιλητή"
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:14
 msgid ""
@@ -4851,15 +4795,15 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:23
 msgid "Includes submitted"
-msgstr "Für alle Einreichenden"
+msgstr "Περιλαμβάνει τα υποβεβλημένα"
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:24
 msgid "Only confirmed"
-msgstr "Nur für bestätigte Vortragende"
+msgstr "Μόνο ό,τι έχει επιβεβαιωθεί"
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:50
 msgid "Add a new note"
-msgstr "Neue Information hinzufügen"
+msgstr "Προσθέστε μια νέα σημείωση"
 
 #: pretalx/orga/templates/orga/speaker/list.html:9
 #: pretalx/orga/views/dashboard.py:141
@@ -4878,11 +4822,11 @@ msgstr "Angenommene Einreichungen"
 
 #: pretalx/orga/templates/orga/speaker/list.html:47
 msgid "Mark speaker as not arrived"
-msgstr "Vortragende ist nicht angekommen"
+msgstr "Σημειώστε πως ο ομιλητής δεν έφτασε"
 
 #: pretalx/orga/templates/orga/speaker/list.html:49
 msgid "Mark speaker as arrived"
-msgstr "Vortragende ist angekommen"
+msgstr "Σημειώστε πως ομιλητής έφτασε"
 
 #: pretalx/orga/templates/orga/speaker/list.html:54
 msgid "Arrived"
@@ -4894,7 +4838,7 @@ msgstr "Nicht angekommen"
 
 #: pretalx/orga/templates/orga/submission/answer_list.html:18
 msgid "No questions have been answered at the moment."
-msgstr "Bislang scheint keine Frage beantwortet worden zu sein."
+msgstr "Καμία ερώτηση δεν έχει απντηθεί προς το παρόν."
 
 #: pretalx/orga/templates/orga/submission/content.html:91
 msgid "reviews"
@@ -4911,7 +4855,7 @@ msgstr "Einreichungsfeed"
 
 #: pretalx/orga/templates/orga/submission/list.html:45
 msgid "Add new submission"
-msgstr "Einreichung hinzufügen"
+msgstr "Προσθέστε νέα πρόταση"
 
 #: pretalx/orga/templates/orga/submission/list.html:59
 msgid "Sort by title (a-z)"
@@ -4998,7 +4942,7 @@ msgstr "Enthalten"
 
 #: pretalx/orga/templates/orga/submission/review.html:171
 msgid "Save and next"
-msgstr "Speichern und zur nächsten"
+msgstr "Αποθήκευση κι επόμενο"
 
 #: pretalx/orga/templates/orga/submission/speakers.html:13
 msgid ""
@@ -5018,19 +4962,19 @@ msgstr "Vortragende hinzufügen"
 
 #: pretalx/orga/templates/orga/submission/speakers.html:39
 msgid "Other submissions by this speaker:"
-msgstr "Andere Einreichungen mit dieser Vortragenden:"
+msgstr "Άλλες προτάσεις του ίδιου ομιλιτή:"
 
 #: pretalx/orga/templates/orga/submission/speakers.html:56
 msgid "Remove"
-msgstr "Entfernen"
+msgstr "Διαγραφή"
 
 #: pretalx/orga/templates/orga/submission/state_change.html:5
 msgid "Do you really want to change the state of this submission?"
-msgstr "Möchtest du den Status dieser Einreichung wirklich ändern?"
+msgstr "Θέλετε όντως να αλλάξετε την κατάσταση της αίτησής σας;"
 
 #: pretalx/orga/templates/orga/submission/state_change.html:21
 msgid "Do it"
-msgstr "Los!"
+msgstr "Κάντε το"
 
 #: pretalx/orga/templates/orga/submission/stats.html:21
 msgid "Submission Statistics"
@@ -5071,11 +5015,11 @@ msgstr "Vorträge nach Track"
 #: pretalx/orga/templates/orga/user.html:7
 #: pretalx/orga/templates/orga/user.html:12
 msgid "User settings"
-msgstr "Nutzereinstellungen"
+msgstr "Ρυθμίσεις χρήστη"
 
 #: pretalx/orga/templates/orga/user.html:20
 msgid "Login settings"
-msgstr "Login-Einstellungen"
+msgstr "Ρυθμίσεις σύνδεσης"
 
 #: pretalx/orga/templates/orga/user.html:29
 msgid "API Access"
@@ -5088,9 +5032,10 @@ msgid ""
 "generate a new token, which will invalidate the old one. To find out more, "
 "please have a look at the <a %(docurl)s> API documentation</a>."
 msgstr ""
-"Dieses Token kannst du zum Zugang zur <a %(apiurl)s>pretalx-API</a> nutzen. "
-"Du kannst hier ein neues Token erstellen, das das alte invalidieren wird. "
-"Für Details sieh dir bitte die <a %(docurl)s>API-Dokumentation</a> an."
+"Αυτό το token μπορεί να χρησιμοποιηθεί για πρόσβαση στο <a %(apiurl)s> "
+"pretalx API</a>. Μπορείτε να δημιουργήσετε ένα νέο token, που θα ακυρώσει "
+"το παλιό. Για να δείτε περισσότερα, παρακαλώ ρίξτε μια ματιά στο "
+"<a %(docurl)s> API documentation</a>."
 
 #: pretalx/orga/templates/orga/user.html:39
 msgid "API Token"
@@ -5098,7 +5043,7 @@ msgstr "API-Token"
 
 #: pretalx/orga/templates/orga/user.html:43
 msgid "Use for authentication when accessing the API."
-msgstr "Verwende dieses Token, wenn du die API nutzen möchtest."
+msgstr "Χρήση για ταυτοποίηση κατά την πρόσβαση API."
 
 #: pretalx/orga/templates/orga/user.html:49
 msgid "Generate a new token. The current token will not be usable any longer."
@@ -5108,7 +5053,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/user.html:50
 msgid "Invalidate and regenerate"
-msgstr "Zurücksetzen"
+msgstr "Ακύρωση κι αναδημιουργία"
 
 #: pretalx/orga/templates/orga/widgets/multi_languages_widget.html:4
 msgid ""
@@ -5128,19 +5073,19 @@ msgstr "Inoffizielle Übersetzung"
 
 #: pretalx/orga/views/cards.py:78
 msgid "{} minutes, #{}, {}, {}"
-msgstr "{} Minuten, #{}, {}, {}"
+msgstr "{} λεπτά, #{}, {}, {}"
 
 #: pretalx/orga/views/cards.py:121
 msgid "You don't have any submissions yet."
-msgstr "Ihr habt noch keine Einreichungen."
+msgstr "Δεν έχετε ακόμη προτάσεις."
 
 #: pretalx/orga/views/cfp.py:53
 msgid "We had trouble saving your input."
-msgstr "Oh :( Wir konnten deine Änderungen leider nicht speichern."
+msgstr "Αντιμετωπίσαμε πρόβλημα με την αποθήκευση της εισόδου σας."
 
 #: pretalx/orga/views/cfp.py:258
 msgid "The question has been deleted."
-msgstr "Die Frage wurde gelöscht."
+msgstr "Η ερώτηση έχει διαγραφεί."
 
 #: pretalx/orga/views/cfp.py:265
 msgid ""
@@ -5164,11 +5109,11 @@ msgstr "Die Abfolge der Fragen wurde gespeichert."
 
 #: pretalx/orga/views/cfp.py:353
 msgid "Could not send mails, error in configuration."
-msgstr "E-Mails konnten nicht verschickt werden."
+msgstr "Δεν καταφέραμε να στείλουμε τα mails, λάθος κατά τη σύνθεση."
 
 #: pretalx/orga/views/cfp.py:443
 msgid "The Submission Type has been made default."
-msgstr "Der Einreichungstyp wurde zum Standard gemacht."
+msgstr "Ο Τύπος Αίτησης έχει οριστεί ως προκαθορισμένος."
 
 #: pretalx/orga/views/cfp.py:463
 msgid ""
@@ -5187,7 +5132,7 @@ msgstr ""
 
 #: pretalx/orga/views/cfp.py:481
 msgid "The Submission Type has been deleted."
-msgstr "Der Einreichungstyp wurde gelöscht."
+msgstr "Διαγράφηκε ο Τύπος Αίτησης."
 
 #: pretalx/orga/views/cfp.py:486
 msgid "This Submission Type is in use in a submission and cannot be deleted."
@@ -5215,7 +5160,7 @@ msgstr "bis zum CfP-Ende"
 
 #: pretalx/orga/views/dashboard.py:75
 msgid "Active reviewers"
-msgstr "Aktive Reviewer"
+msgstr "Ενεργές γλώσσες"
 
 #: pretalx/orga/views/dashboard.py:98
 msgid "day until event start"
@@ -5232,16 +5177,16 @@ msgstr[1] "Tage seit Veranstaltungsende"
 #: pretalx/orga/views/dashboard.py:113
 #, python-brace-format
 msgid "Day {number}"
-msgstr "Tag {number}"
+msgstr "Ημέρα {number}"
 
 #: pretalx/orga/views/dashboard.py:114
 #, python-brace-format
 msgid "of {total_days} days"
-msgstr "von {total_days} Tagen"
+msgstr "{total_days} ημερών"
 
 #: pretalx/orga/views/dashboard.py:124
 msgid "current schedule"
-msgstr "Aktuelles Programm"
+msgstr "τρέχον πρόγραμμα"
 
 #: pretalx/orga/views/dashboard.py:150
 msgid "talk"
@@ -5380,7 +5325,7 @@ msgstr ""
 
 #: pretalx/orga/views/event.py:377
 msgid "Yay! We saved your changes."
-msgstr "Jupp, alle Änderungen wurden gespeichert."
+msgstr "Ναιιι! Αποθηκεύσαμε τις αλλαγές σας."
 
 #: pretalx/orga/views/event.py:404
 msgid ""
@@ -5390,7 +5335,7 @@ msgstr "Es gab ein Problem beim Log-In. Bitte wende dich an den Veranstalter."
 
 #: pretalx/orga/views/event.py:421
 msgid "You are now part of the team!"
-msgstr "Du bist jetzt Teil des Teams – Willkommen!"
+msgstr "Είστε πλέον μέλος της ομάδας!"
 
 #: pretalx/orga/views/event.py:468
 msgid ""
@@ -5421,12 +5366,12 @@ msgstr "Soll die Veranstaltung wirklich in der Vergangenheit stattfinden?"
 #: pretalx/orga/views/event.py:583
 #, python-brace-format
 msgid "Team {event.name}"
-msgstr "Team {event.name}"
+msgstr "Ομάδα {event.name}"
 
 #: pretalx/orga/views/mails.py:60
 #, python-brace-format
 msgid "Do you really want to send {count} mails?"
-msgstr "Möchtest du wirklich {count} E-Mails verschicken?"
+msgstr "Θέλετε πραγματικά να στείλετε {count} mails;"
 
 #: pretalx/orga/views/mails.py:72 pretalx/orga/views/mails.py:129
 msgid ""
@@ -5438,34 +5383,34 @@ msgstr ""
 
 #: pretalx/orga/views/mails.py:77 pretalx/orga/views/mails.py:134
 msgid "This mail had been sent already."
-msgstr "Diese Mail wurde bereits verschickt."
+msgstr "Το mail έχει ήδη σταλεί."
 
 #: pretalx/orga/views/mails.py:80
 msgid "The mail has been sent."
-msgstr "Diese E-Mail wurde verschickt."
+msgstr "Το mail έχει σταλεί."
 
 #: pretalx/orga/views/mails.py:97
 #, python-brace-format
 msgid "{count} mails have been sent."
-msgstr "{count} Mails wurden verschickt."
+msgstr "{count} mails έχουν σταλεί."
 
 #: pretalx/orga/views/mails.py:115
 #, python-brace-format
 msgid "Do you really want to purge {count} mails?"
-msgstr "Möchtest du wirklich {count} E-Mails verwerfen?"
+msgstr "Θέλετε όντως να εκκαθαρίσετε {count} mails;"
 
 #: pretalx/orga/views/mails.py:140
 msgid "The mail has been deleted."
-msgstr "Die Mail wurde gelöscht."
+msgstr "Το mail έχει διαγραφεί."
 
 #: pretalx/orga/views/mails.py:156
 #, python-brace-format
 msgid "{count} mails have been purged."
-msgstr "{count} E-Mails wurden verworfen."
+msgstr "{count} mails έχουν εκκαθαριστεί."
 
 #: pretalx/orga/views/mails.py:179
 msgid "The email has already been sent, you cannot edit it anymore."
-msgstr "Diese Mail wurde schon verschickt, du kannst sie nicht mehr editieren."
+msgstr "Το email έχει ήδη σταλεί, δε μπορείτε πια να το επεξεργαστείτε."
 
 #: pretalx/orga/views/mails.py:192
 msgid ""
@@ -5480,7 +5425,7 @@ msgstr "Die E-Mail wurde verschickt."
 
 #: pretalx/orga/views/mails.py:212
 msgid "The mail has been copied, you can edit it now."
-msgstr "Die E-Mail wurde kopiert, du kannst sie jetzt editieren."
+msgstr "Το mail έχει αντιγραφεί, μπορείτε να το επεξεργαστείτε."
 
 #: pretalx/orga/views/mails.py:318 pretalx/orga/views/schedule.py:185
 #, python-brace-format
@@ -5501,19 +5446,19 @@ msgstr "Die Einladung wurde verschickt."
 
 #: pretalx/orga/views/organiser.py:65 pretalx/orga/views/organiser.py:88
 msgid "The settings have been saved."
-msgstr "Deine Änderungen wurden gespeichert."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
 
 #: pretalx/orga/views/organiser.py:117
 msgid "The member was removed from the team."
-msgstr "Jemand wurde aus dem Team entfernt."
+msgstr "Το άτομο αφαιρέθηκε από την ομάδα."
 
 #: pretalx/orga/views/organiser.py:120
 msgid "The team was removed."
-msgstr "Das Team wurde entfernt."
+msgstr "Η ομάδα αφαιρέθηκε."
 
 #: pretalx/orga/views/organiser.py:138
 msgid "The team invitation was retracted."
-msgstr "Die Einladung wurde verschickt."
+msgstr "Η ομαδική πρόσκληση ανακλήθηκε."
 
 #: pretalx/orga/views/organiser.py:164 pretalx/orga/views/speaker.py:159
 msgid "The password was reset and the user was notified."
@@ -5530,7 +5475,7 @@ msgstr ""
 
 #: pretalx/orga/views/organiser.py:186 pretalx/orga/views/schedule.py:383
 msgid "Saved!"
-msgstr "Gespeichert!"
+msgstr "Αποθηκεύτηκε!"
 
 #: pretalx/orga/views/person.py:47
 msgid "You are now an administrator instead of a superuser."
@@ -5562,15 +5507,15 @@ msgstr ""
 
 #: pretalx/orga/views/review.py:268
 msgid "There have been errors with your input."
-msgstr "Oh :( Wir konnten deine Änderungen leider nicht speichern."
+msgstr "Παρουσιάστηκαν προβλήματα με την εισαγωγή σας."
 
 #: pretalx/orga/views/review.py:277 pretalx/orga/views/review.py:284
 msgid "You cannot review this submission at this time."
-msgstr "Derzeit kann für diese Veranstaltung kein Feedback gegeben werden."
+msgstr "Προς το παρόν δε μπορείτε να ανασκοπήσετε αυτή την πρόταση."
 
 #: pretalx/orga/views/review.py:301
 msgid "Nice, you have no submissions left to review!"
-msgstr "Yay, du hast keine Einreichungen mehr zu bewerten!"
+msgstr "Ωραία, δεν έχετε άλλες αιτήσεις να ανασκοπήσετε!"
 
 #: pretalx/orga/views/review.py:330
 #, python-brace-format
@@ -5579,7 +5524,7 @@ msgstr "{count} E-Mails wurden erstellt und liegen jetzt im Postausgang."
 
 #: pretalx/orga/views/schedule.py:70
 msgid "A new export is being generated and will be available soon."
-msgstr "Ein neuer Export wird generiert und steht bald zur Verfügung."
+msgstr "Μια νέα εξαγωγή δημιουργείται και θα είναι σύντομα διαθέσιμη."
 
 #: pretalx/orga/views/schedule.py:76
 msgid ""
@@ -5602,7 +5547,7 @@ msgstr "Du musst eine neue, noch nicht verwendete Version eingeben."
 
 #: pretalx/orga/views/schedule.py:139
 msgid "Nice, your schedule has been released!"
-msgstr "Ui, das Programm wurde veröffentlicht!"
+msgstr "Ωραία, το πρόγραμμα έχει εκδοθεί!"
 
 #: pretalx/orga/views/schedule.py:155
 msgid ""
@@ -5613,7 +5558,7 @@ msgstr ""
 
 #: pretalx/orga/views/schedule.py:160
 msgid "Error retrieving the schedule version to reset to."
-msgstr "Die Programmversion konnte nicht gefunden werden."
+msgstr "Πρόβλημα κατά την ανάκτηση του προγράμματος επαναφοράς."
 
 #: pretalx/orga/views/schedule.py:190
 msgid "You can only regenerate mails after the first schedule was released."
@@ -5627,7 +5572,7 @@ msgstr "Der Vortrag wurde festgelegt."
 
 #: pretalx/orga/views/schedule.py:342
 msgid "Room deleted. Hopefully nobody was still in there …"
-msgstr "Raum gelöscht … hoffentlich war da niemand mehr drin."
+msgstr "Η αίθουσα διαγράφηκε. Ευχόμαστε να μην είχε μείνει κανείς εκεί ..."
 
 #: pretalx/orga/views/schedule.py:348
 msgid "There is or was a talk scheduled in this room. It cannot be deleted."
@@ -5669,24 +5614,24 @@ msgid ""
 "\n"
 "The {event} orga crew"
 msgstr ""
-"Hi!\n"
+"Γεια σας!\n"
 "\n"
-"Du wurdest als Vortragende(r) einer Einreichung zum CfP von {event} "
-"genannt,\n"
-"unter dem Titel „{title}“. Es wurde ein Account für dich erstellt – bitte "
-"folge diesem\n"
-"Link, um ein Passwort zu setzen.\n"
+"Έχετε οριστεί ως ο ομιλητής μιας πρότασης στο Κάλεσμα για Συμμετοχή\n"
+"της εκδήλωσης {event}, με τίτλο »{title}«. Έχει δημιουργηθεί για σας ένας λογαριασμός "
+"-παρακαλούμε ακολουθήστε αυτό τον σύνδεσμο για να ορίσετε έναν κωδικό πρόσβασης \n"
+"για το λογαριασμό σας\n"
 "\n"
-"    {invitation_link}\n"
+"{invitation_link}\n"
 "\n"
-"Danach kannst du dein Profil editieren und deine Einreichungen ansehen.\n"
+"Έπειτα, μπορείτε να επεξεργαστείτε το προφίλ σας και να δείτε την κατάσταση της "
+"αίτησής σας.\n"
 "\n"
-"Die {event} Orga"
+"Η οργανωτική ομάδα του {event}"
 
 #: pretalx/orga/views/submission.py:76
 #, python-brace-format
 msgid "You have been added to a submission for {event}"
-msgstr "Du wurdest zu einer Einreichung für {event} eingeladen"
+msgstr "Έχετε προστεθεί σε μια αίτηση για {event}"
 
 #: pretalx/orga/views/submission.py:142
 msgid ""
@@ -5702,19 +5647,19 @@ msgstr "Bitte gib eine gültige Mailadresse an!"
 
 #: pretalx/orga/views/submission.py:183
 msgid "The speaker has been added to the submission."
-msgstr "Der Vortragende wurde der Einreichung hinzugefügt."
+msgstr "Ο ομιλητής έχει προστεθεί σε αυτή την αίτηση."
 
 #: pretalx/orga/views/submission.py:187
 msgid "The speaker was already part of the submission."
-msgstr "Der Vortragende war bereits Teil der Einreichung."
+msgstr "Ο ομιλητής συμμετείχε ήδη στην υποβολή πρότασης."
 
 #: pretalx/orga/views/submission.py:209
 msgid "The speaker has been removed from the submission."
-msgstr "Der Vortragende wurde von der Einreichung entfernt."
+msgstr "Ο ομιλητής έχει διαγραφεί από την υποβολή πρότασης."
 
 #: pretalx/orga/views/submission.py:212
 msgid "The speaker was not part of this submission."
-msgstr "Der Vortragende war nicht Teil der Einreichung."
+msgstr "Ο ομιλητής δεν ήταν μέρος αυτή της υποβολής πρότασης."
 
 #: pretalx/orga/views/submission.py:372
 msgid ""
@@ -5734,7 +5679,7 @@ msgstr ""
 
 #: pretalx/orga/views/submission.py:393
 msgid "The submission has been updated!"
-msgstr "Die Einreichung wurde gespeichert."
+msgstr "Η αίτηση πρότασης έχει ενημερωθεί!"
 
 #: pretalx/orga/views/submission.py:466
 #, python-brace-format
@@ -5757,7 +5702,7 @@ msgstr "Vortragenden-CSV"
 
 #: pretalx/person/forms.py:33
 msgid "Password (again)"
-msgstr "Passwort, noch mal"
+msgstr "Κωδικός πρόσβασης (ξανά)"
 
 #: pretalx/person/forms.py:51
 msgid ""
@@ -5769,7 +5714,7 @@ msgstr ""
 
 #: pretalx/person/forms.py:57
 msgid "Sorry, your account is currently disabled."
-msgstr "Dein Account ist nicht aktiviert."
+msgstr "Λυπούμαστε, ο λογαριασμός σας είναι απενεργοποιημένος προς το παρόν."
 
 #: pretalx/person/forms.py:68
 msgid ""
@@ -5808,7 +5753,7 @@ msgstr "Das eingegebene aktuelle Passwort war nicht korrekt."
 
 #: pretalx/person/forms.py:230
 msgid "Password (current)"
-msgstr "Aktuelles Passwort"
+msgstr "Κωδικός πρόσβασης (τρέχων)"
 
 #: pretalx/person/forms.py:248
 msgid "Please choose a different email address."
@@ -5824,15 +5769,15 @@ msgstr ""
 
 #: pretalx/person/forms.py:302
 msgid "all"
-msgstr "alle"
+msgstr "όλα"
 
 #: pretalx/person/forms.py:304
 msgid "Non-accepted submitters"
-msgstr "Nicht angenommene Einreichende"
+msgstr "Μη-αποδεκτοί αιτούντες"
 
 #: pretalx/person/models/information.py:18
 msgid "Include all submitters"
-msgstr "Schließe alle Einreichenden ein"
+msgstr "Συμπεριλάβετε όλους όσους έχουν υποβάλει μια πρόταση"
 
 #: pretalx/person/models/information.py:19
 msgid "Show to every submitter regardless of their submissions' status"
@@ -5842,22 +5787,21 @@ msgstr ""
 
 #: pretalx/person/models/information.py:23
 msgid "Exclude unconfirmed speakers"
-msgstr "Nur für zugesagte Vortragende"
+msgstr "Εξαιρέστε τους μη-επιβεβαιωμένους ομιλητές"
 
 #: pretalx/person/models/information.py:24
 msgid "Show to speakers only once they have confirmed attendance"
-msgstr ""
-"Soll nur Vortragenden gezeigt werden, die ihre Teilnahme bestätigt haben"
+msgstr "Δείξτε στους ομιλητές μόνο μια φορά ότι έχουν επιβεβαιώσει παρουσία"
 
 #: pretalx/person/models/information.py:30
 #: pretalx/submission/models/resource.py:17
 msgid "file"
-msgstr "Datei"
+msgstr "αρχείο"
 
 #: pretalx/person/models/information.py:33
 #: pretalx/submission/models/resource.py:18
 msgid "Please try to keep your upload small, preferably below 16 MB."
-msgstr "Bitte versuch den Upload klein zu halten, am besten unter 16 MB."
+msgstr "Παρακαλώ κρατήστε τις μεταφορτώσεις σας μικρές, κατά προτίμηση κάτω των 16 MB."
 
 #: pretalx/person/models/profile.py:37
 msgid "The speaker has arrived"
@@ -5975,7 +5919,7 @@ msgstr ""
 
 #: pretalx/schedule/models/room.py:25
 msgid "A description for attendees, for example directions."
-msgstr "Eine Beschreibung, z.B. eine Wegbeschreibung."
+msgstr "Μια περιγραφή για το ακροατήριο, π.χ. οδηγίες."
 
 #: pretalx/schedule/models/room.py:33
 msgid ""
@@ -5987,11 +5931,11 @@ msgstr ""
 
 #: pretalx/schedule/models/room.py:40
 msgid "How many people can fit in the room?"
-msgstr "Wie viele Leute passen in den Raum?"
+msgstr "Πόσα άτομα μπορούν να χωρέσουν σ' αυτή την αίθουσα;"
 
 #: pretalx/schedule/models/room.py:45
 msgid "Position"
-msgstr "Position"
+msgstr "Θέση"
 
 #: pretalx/schedule/models/room.py:47
 msgid ""
@@ -6001,7 +5945,7 @@ msgstr ""
 
 #: pretalx/schedule/models/schedule.py:34
 msgid "version"
-msgstr "Version"
+msgstr "έκδοση"
 
 #: pretalx/schedule/models/slot.py:114
 msgid "The room is not available at the scheduled time."
@@ -6035,19 +5979,24 @@ msgstr ""
 
 #: pretalx/settings.py:313
 msgid "English"
-msgstr "Englisch"
+msgstr "Αγγλικά"
 
 #: pretalx/settings.py:313
 msgid "German"
-msgstr "Deutsch"
+msgstr "Γερμανικά"
 
 #: pretalx/settings.py:313
 msgid "French"
-msgstr "Französisch"
+msgstr "Γαλλικά"
+
+#: pretalx/settings.py:292
+msgid "Greek"
+msgstr "Ελληνικά"
+
 
 #: pretalx/submission/forms/feedback.py:14
 msgid "All speakers"
-msgstr "Alle Vortragenden"
+msgstr "Όλοι οι ομιλητές"
 
 #: pretalx/submission/forms/submission.py:18
 msgid "Additional Speaker"
@@ -6082,84 +6031,83 @@ msgstr "Einreichungsarten"
 
 #: pretalx/submission/forms/submission.py:199
 msgid "Submission states"
-msgstr "Einreichungsstatus"
-
-#: pretalx/submission/models/cfp.py:23
+msgstr "Κατάσταση αίτησης"
 msgid "headline"
-msgstr "Überschrift"
+msgstr "επικεφαλίδα"
 
 #: pretalx/submission/models/cfp.py:28
 msgid "text"
-msgstr "Text"
+msgstr "κείμενο"
 
 #: pretalx/submission/models/cfp.py:35
 msgid "Default submission type"
-msgstr "Standardeinreichungsart"
+msgstr "Προεπιλεγμένο είδος αίτησης"
 
 #: pretalx/submission/models/cfp.py:40 pretalx/submission/models/type.py:38
 msgid "deadline"
-msgstr "Einreichungsschluss"
+msgstr "προθεσμία"
 
 #: pretalx/submission/models/cfp.py:42
 msgid "Please put in the last date you want to accept submissions from users."
-msgstr "Bitte gib den Zeitpunkt an, bis zu dem du Einreichungen annimmst."
+msgstr ""
+"Παρακαλώ προτείνετε την τελευταία ημερομηνία που θέλετε να δεχτείτε αιτήσεις "
+"από τους χρήστες."
 
 #: pretalx/submission/models/feedback.py:22
 msgid "Talk"
-msgstr "Vortrag"
+msgstr "Ομιλία"
 
 #: pretalx/submission/models/feedback.py:32
 msgid "Rating"
-msgstr "Bewertung"
+msgstr "Διατίμηση"
 
 #: pretalx/submission/models/question.py:44
 msgid "Number"
-msgstr "Zahl"
+msgstr "Αριθμός"
 
 #: pretalx/submission/models/question.py:45
 msgid "Text (one-line)"
-msgstr "Text (einzeilig)"
+msgstr "Κείμενο (μια γραμμή)"
 
 #: pretalx/submission/models/question.py:46
 msgid "Multi-line text"
-msgstr "Text (mehrzeilig)"
+msgstr "Κείμενο πολλαπλών γραμμών"
 
 #: pretalx/submission/models/question.py:47
 msgid "Yes/No"
-msgstr "Ja/Nein"
+msgstr "Ναι/ Όχι"
 
 #: pretalx/submission/models/question.py:48
 msgid "File upload"
-msgstr "Datei-Upload"
+msgstr "Μεταφόρτωση αρχείου"
 
 #: pretalx/submission/models/question.py:49
 msgid "Choose one from a list"
-msgstr "Eine Antwort aus einer Liste"
+msgstr "Επιλέξτε ένα από μια λίστα"
 
 #: pretalx/submission/models/question.py:50
 msgid "Choose multiple from a list"
-msgstr "Mehrere Antworten aus einer Liste"
+msgstr "Επιλέξτε πολλαπλά σε μια λίστα"
 
 #: pretalx/submission/models/question.py:60
 msgid "per submission"
-msgstr "pro Einreichung"
+msgstr "ανά αίτηση"
 
 #: pretalx/submission/models/question.py:61
 msgid "per speaker"
-msgstr "pro Vortragender"
+msgstr "ανά ομιλητή"
 
 #: pretalx/submission/models/question.py:62
 msgid "for reviewers"
-msgstr "für Reviewerinnen"
+msgstr "για διατύπωση παρατήρησης"
 
 #: pretalx/submission/models/question.py:96
 msgid "question type"
-msgstr "Frageart"
+msgstr "είδος ερώτησης"
 
 #: pretalx/submission/models/question.py:97
 msgid "Do you require an answer from every speaker or for every talk?"
-msgstr ""
-"Brauchst du eine Antwort von jeder Vortragenden oder für jeden Vortrag?"
+msgstr "Απαιτείτε μια απάντηση από κάθε ομιλητή ή από κάθε ομιλία?"
 
 #: pretalx/submission/models/question.py:102
 msgid ""
@@ -6171,61 +6119,35 @@ msgstr ""
 
 #: pretalx/submission/models/question.py:106
 msgid "question"
-msgstr "Frage"
+msgstr "ερώτηση"
 
 #: pretalx/submission/models/question.py:111
 msgid "help text"
-msgstr "Erklärung"
+msgstr "κείμενο για βοήθεια"
 
 #: pretalx/submission/models/question.py:112
 msgid "Will appear just like this text below the question input field."
-msgstr ""
-"Wird in einer Zeile wie dieser unter der Antwortmöglichkeit erscheinen."
+msgstr "Θα εμφανίζεται ακριβώς όπως αυτό το κείμενο κάτω από το πεδίο εισόδου ερώτησης."
 
 #: pretalx/submission/models/question.py:117
 msgid "default answer"
-msgstr "Standardantwort"
+msgstr "προκαθορισμένη απάντηση"
 
 #: pretalx/submission/models/question.py:120
 msgid "position"
-msgstr "Position"
+msgstr "θέση"
+
+#: pretalx/submission/models/question.py:103
+msgid "active"
+msgstr "ενεργό"
 
 #: pretalx/submission/models/question.py:124
 msgid "Inactive questions will no longer be asked."
-msgstr "Inaktive Fragen werden nicht mehr gestellt."
+msgstr "Δε θα τίθενται πλέον ανενεργές ερωτήσεις."
 
 #: pretalx/submission/models/question.py:128
 msgid "Answers contain personal data"
-msgstr "Antwort enthält persönliche Daten"
-
-#: pretalx/submission/models/question.py:130
-msgid ""
-"If a user deletes their account, answers of questions for personal data will "
-"be removed, too."
-msgstr ""
-"Wenn jemand seinen/ihren Account löscht, werden Antworten mit persönlichen "
-"Daten auch gelöscht."
-
-#: pretalx/submission/models/question.py:136
-msgid "Minimum text length"
-msgstr "Minimallänge"
-
-#: pretalx/submission/models/question.py:137
-msgid "Minimum allowed text in characters or words (set in CfP settings)."
-msgstr ""
-"Minimale Länge des Texts in Zeichen oder Wörtern (wie in den CfP-"
-"Einstellungen festgelegt)."
-
-#: pretalx/submission/models/question.py:142
-msgid "Maximum text length"
-msgstr "Maximallänge"
-
-#: pretalx/submission/models/question.py:143
-msgid ""
-"Maximum allowed text lenght in characters or words (set in CfP settings)."
-msgstr ""
-"Maximale Länge des Texts in Zeichen oder Wörtern (wie in den CfP-"
-"Einstellungen festgelegt)."
+msgstr "Οι απαντήσεις περιέχουν προσωπικά δεδομένα"
 
 #: pretalx/submission/models/question.py:147
 msgid "Publish answers"
@@ -6244,39 +6166,11 @@ msgstr ""
 
 #: pretalx/submission/models/resource.py:21
 msgid "description"
-msgstr "Beschreibung"
+msgstr "περιγραφή"
 
 #: pretalx/submission/models/review.py:29
 msgid "What do you think?"
-msgstr "Was denkst du?"
-
-#: pretalx/submission/models/review.py:117
-msgid "Phase start"
-msgstr "Beginn"
-
-#: pretalx/submission/models/review.py:118
-msgid "Phase end"
-msgstr "Ende"
-
-#: pretalx/submission/models/review.py:123
-msgid "Reviewers can write and edit reviews"
-msgstr "Reviewer können Reviews verfassen und editieren"
-
-#: pretalx/submission/models/review.py:127
-msgid "Reviewers can see other reviews"
-msgstr "Reviewer können andere Reviews sehen"
-
-#: pretalx/submission/models/review.py:129
-msgid "Always"
-msgstr "Immer"
-
-#: pretalx/submission/models/review.py:129
-msgid "Never"
-msgstr "Nie"
-
-#: pretalx/submission/models/review.py:129
-msgid "After reviewing the submission"
-msgstr "Nach Bewertung der Einreichung"
+msgstr "Ποιά η γνώμη σας?"
 
 #: pretalx/submission/models/review.py:133
 msgid "Reviewers can see speaker names"
@@ -6303,7 +6197,7 @@ msgstr ""
 
 #: pretalx/submission/models/submission.py:58
 msgid "rejected"
-msgstr "abgelehnt"
+msgstr "απορρίφθηκε"
 
 #: pretalx/submission/models/submission.py:146
 msgid "Submission state"
@@ -6349,7 +6243,7 @@ msgstr ""
 
 #: pretalx/submission/models/submission.py:198
 msgid "Don't record this talk."
-msgstr "Zeichnet meine Veranstaltung nicht auf."
+msgstr "Μην καταγράψετε αυτή την ομιλία."
 
 #: pretalx/submission/models/submission.py:205
 msgid "Use this if you want an illustration to go with your submission."
@@ -6361,49 +6255,47 @@ msgctxt ""
 "used in talk confirm/accept/reject/...-errors, like \"... must be accepted "
 "OR foo OR bar ...\""
 msgid " or "
-msgstr " oder "
+msgstr " ή "
 
 #: pretalx/submission/models/submission.py:337
 #, python-brace-format
 msgid "Submission must be {src_states} not {state} to be {new_state}."
-msgstr ""
-"Eine Einreichung muss {src_states} sein, nicht {state}, um {new_state} zu "
-"werden."
+msgstr "Η αίτησή σας πρέπει να είναι {src_states} όχι {state} προς {new_state}."
 
 #: pretalx/submission/models/type.py:29
 msgid "name"
-msgstr "Name"
+msgstr "όνομα"
 
 #: pretalx/submission/models/type.py:32
 msgid "default duration"
-msgstr "Standarddauer"
+msgstr "προκαθορισμένη διάρκεια"
 
 #: pretalx/submission/models/type.py:33
 msgid "Default duration in minutes"
-msgstr "Standarddauer in Minuten"
+msgstr "Προκαθορισμένη διάρκεια σε λεπτά"
 
 #: pretalx/submission/models/type.py:39
 msgid ""
 "If you want a different deadline than the global deadline for this "
 "submission type, enter it here."
 msgstr ""
-"Wenn du für diesen Einreichungstyp eine abweichende Deadline möchtest, gib "
-"sie hier ein."
+"Αν επιθυμείτε μια διαφορετική προθεσμία από τη δεδομένη προθεσμία γενικής ισχύος γι' "
+"αυτό το είδος αίτησης, εισάγετέ την εδώ."
 
 #: pretalx/submission/models/type.py:53
 #, python-brace-format
 msgid "{name} ({duration} days)"
-msgstr "{name} ({duration} Tage)"
+msgstr "{name} ({duration} ημέρες)"
 
 #: pretalx/submission/models/type.py:58
 #, python-brace-format
 msgid "{name} ({duration} hours)"
-msgstr "{name} ({duration} Stunden)"
+msgstr "{name} ({duration} ώρες)"
 
 #: pretalx/submission/models/type.py:62
 #, python-brace-format
 msgid "{name} ({duration} minutes)"
-msgstr "{name} ({duration} Minuten)"
+msgstr "{name} ({duration} λεπτά)"
 
 #~ msgid "The default deadline for your Call for Papers."
 #~ msgstr "Einreichungsschluss."
