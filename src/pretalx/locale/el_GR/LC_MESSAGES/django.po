@@ -305,26 +305,24 @@ msgstr "Κανένας ομηλιτής"
 msgid "Our schedule is not live yet, but we have this sneak peek available!"
 msgstr ""
 "Το πρόγραμμα δεν έχει τελειωποιηθεί ακόμα. Έδω όμως μπορείς να ρίξεις μία "
-"πρώτη ματιά"
+"πρώτη ματιά."
 
 #: pretalx/agenda/views/sneakpeek.py:27
 msgid "Our sneak peek has been disabled because we have published a schedule!"
-msgstr ""
-"Die Programmvorschau ist jetzt abgeschaltet, weil wir einen Ablaufplan "
-"veröffentlicht haben."
+msgstr "Η προεπισκόπηση απενεργοποίθηκε γιατί δημοσιεύσαμε το πρόγραμμα"
 
 #: pretalx/agenda/views/talk.py:143
 #, python-brace-format
 msgid "The talk “{title}” at {event}"
-msgstr "Der Vortrag „{title}“, {event}"
+msgstr "Η ομιλία „{title}“, {event}"
 
 #: pretalx/cfp/forms/auth.py:30 pretalx/person/forms.py:232
 msgid "New password"
-msgstr "Neues Passwort"
+msgstr "Καινούριος κωδικός"
 
 #: pretalx/cfp/forms/submissions.py:6
 msgid "Speaker E-Mail"
-msgstr "E-Mail der Vortragenden"
+msgstr "E-Mail του ομιλιτή"
 
 #: pretalx/cfp/forms/submissions.py:7 pretalx/mail/models.py:33
 #: pretalx/mail/models.py:179
@@ -332,18 +330,18 @@ msgstr "E-Mail der Vortragenden"
 #: pretalx/orga/templates/orga/mails/sent_list.html:16
 #: pretalx/person/models/information.py:27
 msgid "Subject"
-msgstr "Betreff"
+msgstr "Υποκέιμενο"
 
 #: pretalx/cfp/forms/submissions.py:8 pretalx/mail/models.py:36
 #: pretalx/mail/models.py:180 pretalx/person/models/information.py:28
 msgid "Text"
-msgstr "Text"
+msgstr "Κείμενο"
 
 #: pretalx/cfp/forms/submissions.py:13
 #: pretalx/submission/models/submission.py:606
 #, python-brace-format
 msgid "{speaker} invites you to join their talk!"
-msgstr "{speaker} lädt dich zu einem Talk ein"
+msgstr "{speaker} σε πρωσκάλεσε να συμμετέχεις στην ομηλία"
 
 #: pretalx/cfp/forms/submissions.py:18
 #: pretalx/submission/models/submission.py:611
@@ -362,17 +360,17 @@ msgid ""
 "I'm looking forward to it!\n"
 "{speaker}"
 msgstr ""
-"Hi!\n"
+"Γειά σου!\n"
 "\n"
-"Ich möchte dich einladen, mit mir den Talk\n"
+"θα ήθελα να σε προσκαλέσω να παρουσιάσεις μαζί μου\n"
 "\n"
 "  „{title}“\n"
 "\n"
-"({event}) zu halten. Bitte klick dazu diesen Link:\n"
+"({event}}. Παρακάλω ακολούθησε το σύνδεσμο:\n"
 "\n"
 "  {url}\n"
 "\n"
-"Ich freu mich schon drauf!\n"
+"Ανηπομονώ!\n"
 "{speaker}"
 
 #: pretalx/cfp/phrases.py:9
@@ -382,16 +380,16 @@ msgid ""
 "instructions. If you don't see the email within the next minutes, check your "
 "spam inbox!"
 msgstr ""
-"Wenn wir jemanden unter dieser Adresse kennen (und in den letzten 24 Stunden "
-"noch keinen Link zum Zurücksetzen des Passworts dahin verschickt haben), "
-"schicken wir dir eine Mail mit weiteren Anweisungen. Wenn du in den nächsten "
-"paar Minuten keine Mail bekommst, guck im Spam nach!"
+"Εάν γνωρίζουμε έναν χρήστη με αυτήν την διεύθηνση (που δέν ζήτησε καινούριο "
+"κωδικό τις περασμένες 24 ώρες), θα σου στείλουμε e-mail με περαιτέρω οδηγίες. "
+"Εάν δεν λάβεις e-mail στα επόμενα λεπτά, κοίταξε στο spam"
 
 #: pretalx/cfp/phrases.py:13
 msgid ""
 "This link was not valid. Make sure you copied the complete URL from the "
 "email and that the email is no more than 24 hours old."
 msgstr ""
+"Αυτός ο σύνδεσμος είναι άκυρος. Παρακαλώ έλγξε αν αντέγραψες"
 "Der Link war nicht valide - bitte prüfe, dass du wirklich die vollständige "
 "URL kopiert hast und die E-Mail nicht älter als 24 Stunden ist."
 
