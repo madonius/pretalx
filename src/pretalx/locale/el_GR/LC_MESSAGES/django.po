@@ -2852,7 +2852,7 @@ msgstr "Αφήστε το κενό για να χρησιμοποιήσετε τ
 msgid ""
 "You can activate either SSL or STARTTLS security, but not both at the same "
 "time."
-msgstr "Du kannst nur SSL oder STARTTLS aktivieren, nicht beides."
+msgstr "Μπορείτε να ενεργοποιείσετε είτε SSL, είτε STARTTLS. Όχι και τα δύο."
 
 #: pretalx/orga/forms/event.py:319
 msgid ""
@@ -2861,10 +2861,10 @@ msgid ""
 "instance-wide bypass. If you use this bypass, please also adjust your "
 "Privacy Policy."
 msgstr ""
-"Bitte wähl entweder SSL oder STARTTLS aus, wenn ein nicht-lokaler Mailserver "
-"verwendet wird, um Datensicherheit zu gewährleisten. Die Administration "
-"dieser Instanz kann eine Ausnahme dazu durchsetzen – in diesem Fall sollte "
-"aber auch die Datenschutzerklärung angepasst werden."
+"Παρακαλώ επιλέξτε έιτε SSL είτε STARTTLS, εάν δεν υπράρχει τοπικός διακοσμητής "
+"E-Mail για να εξασφαλίσετε την ασφάλεια τών δεδομένων. Οι διαχειριστές μπορούν "
+"να ρυθμίσουν μία εξαίρεση, αλλά πρέπει να προσαρμοστει η "
+"δήλωση προστασίας δεδωμένων."
 
 #: pretalx/orga/forms/event.py:327
 msgid "Require a review score"
@@ -2946,11 +2946,11 @@ msgstr "Unbekannter Template-Platzhalter \"{key}\" (in Sprache \"{locale}\")"
 
 #: pretalx/orga/forms/mails.py:56
 msgid "An email needs to have at least one recipient."
-msgstr "Eine E-Mail braucht mindestens einen Adressaten."
+msgstr "Ένα E-Mail χρειάζεται τουλάχιστον ένα παραλήπτη."
 
 #: pretalx/orga/forms/mails.py:81
 msgid "Recipient groups"
-msgstr "Empfängergruppen"
+msgstr "Ομάδες παραλήπτων"
 
 #: pretalx/orga/forms/mails.py:86
 msgid "Everyone with submission(s) that have not been accepted/rejected yet"
@@ -2970,27 +2970,26 @@ msgstr "Όλοι οι ομιλητές που απορρίφθηκαν"
 
 #: pretalx/orga/forms/mails.py:95
 msgid "All reviewers in your team"
-msgstr "Alle Reviewer"
+msgstr "Όλοι οι κριτές στην ομάδα σας"
 
 #: pretalx/orga/forms/mails.py:100
 msgid "All submissions in these tracks"
-msgstr "Alle Einreichungen in diesen Tracks"
+msgstr "Όλες οι αιτήσεις της σειράς ομιλιών"
 
 #: pretalx/orga/forms/mails.py:101
 msgid "All submissions of these types"
-msgstr "Alle Einreichungen dieses Typs"
+msgstr "Όλες οι αιτήσεις αυτού του τύπου"
 
 #: pretalx/orga/forms/mails.py:104
 msgid "Recipients"
-msgstr "Empfänger"
+msgstr "Παραλήπτες"
 
 #: pretalx/orga/forms/mails.py:125
 msgid ""
 "Please note: Placeholders will not be substituted, this is an upcoming "
 "feature. Leave no placeholders in this field."
 msgstr ""
-"Achtung! Platzhalter werden momentan noch nicht ersetzt, dieses Feature ist "
-"noch in Arbeit. Bitte lass keine Platzhalter in diesem Feld."
+"Προσοχή! Μεταβλητές δεν αντικαταστούντε ακόμα. Είναι μελοντικό χρακτηριστικό."
 
 #: pretalx/orga/forms/review.py:28
 msgid "No score"
@@ -3018,15 +3017,15 @@ msgstr "Παρακαλώ εισάγετε βαθμολογία μεταξύ {sel
 
 #: pretalx/orga/forms/schedule.py:9
 msgid "Notify speakers of changes"
-msgstr "Vortragende über Änderungen informieren"
+msgstr "Ενηερώστε τους ομιλιτές για της αλλαγές"
 
 #: pretalx/orga/forms/schedule.py:20
 msgid "This schedule version was used already."
-msgstr "Dieser Versionsname wurde schon verwendet."
+msgstr "Αυτό το όνομα έκδοσης είδη χρησιμοποιείται."
 
 #: pretalx/orga/forms/submission.py:19
 msgid "Speaker email"
-msgstr "E-Mail der Vortragenden"
+msgstr "E-Mail του ομηλητή"
 
 #: pretalx/orga/forms/submission.py:21
 msgid ""
