@@ -241,11 +241,10 @@ msgstr "Feed"
 #, python-format
 msgid "No talks on %(weekday)s, %(current_day)s."
 msgstr "Καμία ομηλία την %(weekday), %(current_day)."
-Keine Vorträge an %(weekday)s, %(current_day)s."
 
 #: pretalx/agenda/templates/agenda/sneakpeek.html:8
 msgid "Welcome to our schedule sneak peek!"
-msgstr "Eine kleine Vorschau"
+msgstr "Μία πρώτη εικόνα"
 
 #: pretalx/agenda/templates/agenda/sneakpeek.html:10
 msgid ""
@@ -253,62 +252,60 @@ msgid ""
 "conference. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 msgstr ""
-"Wir haben eine Liste hervorragender Einreichungen ausgewählt, damit du dir "
-"ein Bild von unserer Veranstaltung machen kannst. Das ist nicht unser "
-"komplettes Programm, das folgt noch."
+"Προετοιμάσαμε μια λίστα καλών παρουσιάσεων ώστε να πάρεις μία ιδέα για το συνέδριό μας. "
+"Αυτό δέν είναι το τελικό μας πρόγραμμα."
 
 #: pretalx/agenda/templates/agenda/sneakpeek.html:16
 msgid ""
 "In the near future you will see a curated list of talks we'd like to show "
 "off here. Right now we are busy reviewing submissions.<br> Check back later!"
 msgstr ""
-"Hier wird demnächst eine Liste von Einreichungen erscheinen, die wir gerne "
-"präsentieren wollen. Gerade sind wir noch mit der Auswahl beschäftigt."
-"<br>Bitte versuch es später noch einmal!"
+"Εδώ θα βρείς μια επιλογή ομιλίων που θα θέλαμε να σου παρουσιάσουμε. Αυτήν την "
+"στιγμή ακόμη επιλέγουμε.</br> Επίστρεψε σύντομα!"
 
 #: pretalx/agenda/templates/agenda/speaker.html:31
 #: pretalx/agenda/templates/agenda/speaker.html:33
 #: pretalx/orga/templates/orga/speaker/form.html:58
 msgid "The speaker's profile picture"
-msgstr "Das Profilbild der Vortragenden"
+msgstr "Η εικόνα του ομιλιτή"
 
 #: pretalx/agenda/templates/agenda/speakers.html:24
 msgid "No speaker matches your search."
-msgstr "Kein Ergebnis wurde für diese Suche gefunden."
+msgstr "Δεν βρέθηκε ομηλητής για την αναζήτησή σου."
 
 #: pretalx/agenda/templates/agenda/talk.html:100
 msgid "See also:"
-msgstr "Siehe auch:"
+msgstr "Βλέπε επίσης:"
 
 #: pretalx/agenda/templates/agenda/talk.html:126
 msgid "This talk's header image"
-msgstr "Das Titelbild des Vortrags"
+msgstr "Η κύρια εικόνα της ομιλίας"
 
 #: pretalx/agenda/templates/agenda/talk.html:136
 #: pretalx/orga/templates/orga/submission/review.html:88
 #: pretalx/submission/models/feedback.py:30
 msgid "Speaker"
-msgstr "Vortragende"
+msgstr "Ομιλητές"
 
 #: pretalx/agenda/templates/agenda/talk.html:169
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:18
 #: pretalx/submission/models/submission.py:189
 msgid "Language"
-msgstr "Sprache"
+msgstr "Γλώσσα"
 
 #: pretalx/agenda/templates/agenda/talks.html:30
 msgid "No talk matches your search."
-msgstr "Kein Ergebnis wurde für diese Suche gefunden."
+msgstr "Δέν βρέθηκε ομιλία για αυτήν την αναζήτηση."
 
 #: pretalx/agenda/views/schedule.py:141
 msgid "No speakers"
-msgstr "Keine Vortragenden"
+msgstr "Κανένας ομηλιτής"
 
 #: pretalx/agenda/views/schedule.py:320
 msgid "Our schedule is not live yet, but we have this sneak peek available!"
 msgstr ""
-"Unser Ablaufplan ist noch nicht fertig, aber wir haben bis dahin diese "
-"Vorschau zusammengestellt."
+"Το πρόγραμμα δεν έχει τελειωποιηθεί ακόμα. Έδω όμως μπορείς να ρίξεις μία "
+"πρώτη ματιά"
 
 #: pretalx/agenda/views/sneakpeek.py:27
 msgid "Our sneak peek has been disabled because we have published a schedule!"
