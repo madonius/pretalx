@@ -613,15 +613,18 @@ msgstr ""
 #: pretalx/cfp/templates/cfp/event/login.html:28
 #: pretalx/cfp/templates/cfp/event/submission_user.html:18
 #: pretalx/orga/templates/orga/invitation.html:18
+#: pretalx/common/templates/common/auth.html:20
 msgid "I already have an account"
 msgstr "Έχω ήδη λογαριασμό"
 
 #: pretalx/cfp/templates/cfp/event/login.html:32
 #: pretalx/orga/templates/orga/invitation.html:22
+#: pretalx/common/templates/common/auth.html:26
 msgid "Log in"
 msgstr "Σύνδεση"
 
 #: pretalx/cfp/templates/cfp/event/login.html:35
+#: pretalx/common/templates/common/auth.html:40
 msgid "Reset password"
 msgstr "Επαναφορά κωδικού πρόσβασης"
 
@@ -633,6 +636,7 @@ msgstr "Χρειάζομαι νέο λογαριασμό"
 
 #: pretalx/cfp/templates/cfp/event/login.html:45
 #: pretalx/orga/templates/orga/invitation.html:32
+#: pretalx/common/templates/common/auth.html:48
 msgid "Register"
 msgstr "Εγγραφή"
 
@@ -1768,28 +1772,6 @@ msgstr "Du kannst hier {link_start}Markdown{link_end} schreiben."
 #: pretalx/common/phrases.py:100
 msgid "This content will be shown publicly."
 msgstr "Diese Eingabe wird öffentlich sein."
-
-#: pretalx/common/templates/common/auth.html:20
-msgid "I already have an account"
-msgstr "Ich habe schon einen Account"
-
-#: pretalx/common/templates/common/auth.html:26
-msgid "Log in"
-msgstr "Einloggen"
-
-#: pretalx/common/templates/common/auth.html:31
-#: pretalx/orga/templates/orga/settings/team_detail.html:31
-#: pretalx/orga/templates/orga/speaker/form.html:82
-msgid "Reset password"
-msgstr "Passwort zurücksetzen"
-
-#: pretalx/common/templates/common/auth.html:40
-msgid "I need a new account"
-msgstr "Ich brauche einen neuen Account"
-
-#: pretalx/common/templates/common/auth.html:48
-msgid "Register"
-msgstr "Registrieren"
 
 #: pretalx/common/templates/common/base.html:61
 msgid "This event is currently non-public. Only organisers can see it."
@@ -3037,7 +3019,7 @@ msgstr ""
 
 #: pretalx/orga/forms/submission.py:25
 msgid "Speaker name"
-msgstr "Name der Vortragenden"
+msgstr "Όνομα του ομιλιτή"
 
 #: pretalx/orga/forms/submission.py:27
 msgid "The name of the speaker that should be displayed publicly."
@@ -3608,8 +3590,9 @@ msgstr "benötigt"
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:32
 #: pretalx/submission/models/question.py:123
+#: pretalx/submission/models/question.py:103
 msgid "active"
-msgstr "aktiv"
+msgstr "ενεργό"
 
 #: pretalx/orga/templates/orga/cfp/question_view.html:61
 msgid "Move question down"
@@ -6129,10 +6112,6 @@ msgstr "προκαθορισμένη απάντηση"
 #: pretalx/submission/models/question.py:120
 msgid "position"
 msgstr "θέση"
-
-#: pretalx/submission/models/question.py:103
-msgid "active"
-msgstr "ενεργό"
 
 #: pretalx/submission/models/question.py:124
 msgid "Inactive questions will no longer be asked."
